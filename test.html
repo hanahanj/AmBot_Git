@@ -1,0 +1,33 @@
+<html>
+<head>
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+</head>
+<body>
+<script type="text/javascript"> 
+function geoTest() {
+
+    if (google.loader.ClientLocation) {
+
+        var latitude = google.loader.ClientLocation.latitude;
+        var longitude = google.loader.ClientLocation.longitude;
+        var city = google.loader.ClientLocation.address.city;
+        var country = google.loader.ClientLocation.address.country;
+        var country_code = google.loader.ClientLocation.address.country_code;
+        var region = google.loader.ClientLocation.address.region;
+
+        var text = city + ' ,' + region;
+
+    } else {
+
+        var text = '';
+
+    }
+
+    return text;
+}
+
+alert (geoTest());
+
+</script>
+</body>
+</html>
