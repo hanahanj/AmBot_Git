@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	
+	<script type="text/javascript">
+	
+
+
+	
+</script>
+    <title></title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&libraries=places"></script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	
+	<link href="css/style_directions.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/streetview_style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+    
+  </head>
+
+
+
+
+
+
+  <body>
+    <div id="container">
+    <div id="mapCanvas">&#160;</div>
+  </div>
+    </div>
+    <div id="directionsPanel">
+    	<div class="directionInputs">
+    	<div class="directionInputs">
+    		<form>
+	    		<p><label>A</label><input type="text" value="" id="dirSource" /></p>
+	    		<p><label>B</label><input type="text" value="" id="dirDestination" /></p>
+	    		<a href="#getDirections" id="getDirections">Get Directions</a>
+                <!-- <a href="#reset" id="paneReset">Reset</a> -->
+    		</form>	
+    	</div>
+    	<div id="directionSteps">
+    		<p class="msg">Direction Steps Will Render Here</p>
+    	</div>
+    	<!-- <a href="#toggleBtn" id="paneToggle" class="out">&lt;</a> -->
+    </div>
+    <script type="text/javascript" src="js/confluence_directions.js"></script> 
+	
+	
+	
+	
+  </body>
+</html>
