@@ -9,17 +9,28 @@ $(document).ready(function(){
 		var styles = [
 		{
 			stylers: [ 
-			{ hue: "#FF0000" },
-			{ saturation: 25 }
+			{ hue: "#ff0091" },
+			{ saturation: -100 }
 			]
 		},{
 			featureType: "road", 
 			elementType: "geometry",
 			stylers: [
-			{ lightness: 250 },
+			{ lightness: 100 },
 			{ visibility: "simplified" }
 			]
-		},{
+		},
+{
+			featureType: "water", 
+			elementType: "geometry",
+			stylers: [
+			{ color: "#000000" },
+			// { lightness: 250 },
+			{ visibility: "simplified" }
+			]
+		},
+
+		{
 			featureType: "road",
 			elementType: "labels",
 			stylers: [
