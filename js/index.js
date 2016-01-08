@@ -67,7 +67,7 @@ $(document).ready(function(){
 
      var markers = [
 	    // Milam
-	    ['Milam', 38.655978, -90.123811, 1, 'www.google.com'], 
+	    ['Milam', 38.655978, -90.123811, 1, 'milam.html'], 
 
 	      // Alorton  
 	      ['Alorton ', 38.595764, -90.129631, 2],
@@ -163,7 +163,7 @@ $(document).ready(function(){
 	     		map: map,
 	     		icon: image,
 	     		title: [0],
-	     		url:["milam.html"]
+	     		url:markers[i][4]
 	     		// zIndex: markers[i][3],
 	     	});
 	     	bounds.extend(marker.getPosition());
