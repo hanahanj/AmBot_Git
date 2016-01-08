@@ -163,7 +163,7 @@ $(document).ready(function(){
 	     		map: map,
 	     		icon: image,
 	     		title: [0],
-	     		url:[5]
+	     		url:["milam.html"]
 	     		// zIndex: markers[i][3],
 	     	});
 	     	bounds.extend(marker.getPosition());
@@ -286,6 +286,10 @@ $('.close').on('click touchstart', function() {
 	$('.about').animate({opacity: '0'}, 300);   
 	$('.logo').animate({opacity: '0'}, 300); 
 	$('#sitesContain').animate({opacity: '0'}, 300);
+	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"}); 
+	$('.menuFloatSites').css({"text-decoration":"none", "font-style": "normal"});
+	$('.menuFloatAbout').css({"text-decoration":"none", "font-style": "normal"}); 
+
 
 });
 

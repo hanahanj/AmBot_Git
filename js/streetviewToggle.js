@@ -139,6 +139,10 @@ $(this).animate({opacity: '0'}, 300);
 	$('.streetView').animate({opacity: '0'}, 300); 
 	$('.directions').animate({opacity: '0'}, 300);
 	$('#listItineraries').animate({opacity: '0'}, 300);
+	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
+	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"}); 
+	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});    
+	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
 
 	});
 
