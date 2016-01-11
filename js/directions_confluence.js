@@ -45,7 +45,7 @@ var fType = getUrlVars()["q"];
 			autoSrc, autoDest, pinA, pinB, 
 
 			markerA = new google.maps.MarkerImage('js/m1.png')		
-			markerB = new google.maps.MarkerImage('js/m_Nonea.png')
+			markerB = new google.maps.MarkerImage('js/m_None.png')
 
 				// Caching the Selectors		
 				$Selectors = {
@@ -124,7 +124,9 @@ var fType = getUrlVars()["q"];
      ];			
      map = new google.maps.Map($Selectors.mapCanvas, {
 
-     	center: new google.maps.LatLng(38.655978, -90.123811),	
+     
+
+     	center: new google.maps.LatLng(38.815952, -90.106004),	
      	zoom: 15,
      	styles: styles,
 
@@ -152,7 +154,7 @@ var fType = getUrlVars()["q"];
      	mapTypeId: google.maps.MapTypeId.SATELLITE
      });
 
-     var Milam_Loc = new google.maps.LatLng(38.655978, -90.123811);
+     var Milam_Loc = new google.maps.LatLng(38.815952, -90.106004);
      var imageMark1 = 'images/ABMarker4.png';
 
      var Milam_Mark = new google.maps.Marker({

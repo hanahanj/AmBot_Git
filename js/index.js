@@ -66,45 +66,41 @@ $(document).ready(function(){
      };
 
      var markers = [
-	    // Milam
-	    ['Milam', 38.655978, -90.123811, 1, 'milam.html'], 
-
-	      // Alorton  
-	      ['Alorton ', 38.595764, -90.129631, 2],
-
-	     // Alton    
-	     ['Marker3', 38.889664, -90.18045, 3],
-
-
-	     ['Marker4', 38.885131, -90.143911, 4],
-	     ['Marker5', 38.711325, -90.172261, 5],
-	     ['Marker6', 38.711325, -90.172261, 6],
-	     ['Marker7', 38.657758, -90.169039, 7],
-	     ['Marker8', 38.571008, -90.191758, 8],
-	     ['Marker9', 38.803944, -90.054722, 9],
-	     ['Marker10', 38.660444, -90.062153, 10],
-	     ['Marker11', 38.7585, -90.170575, 11],
-	     ['Marker12', 38.797708, -90.098817, 12],
-	     ['Marker13', 38.753956, -90.158042, 13],
-	     ['Marker14', 38.806817, -90.155358, 14],
-	     ['Confluence Tower', 38.815952, -90.106004, 15, "confluence.html"],
-	     ['Marker16', 38.522706, -90.210494, 16],
-	     ['Marker17', 38.364697, -90.261725, 17],
-	     ['Marker18', 38.540947, -90.232769, 18],
-	     ['Marker19', 38.625597, -90.153958, 19],
-	     ['Marker20', 8.861889, -90.115344, 20],
-	     ['Marker21', 38.661958, -90.034886, 21],
-	     ['Marker22', 38.085667, -90.158569, 22],
-	     ['Marker23', 38.163822, -90.212572, 23],
-	     ['Marker24', 38.769133, -90.0667, 24],
-	     ['Marker25', 38.621836, -90.175347, 25],
-	     ['Marker26', 38.565714, -90.135919, 26],
-	     ['Marker27', 38.649808, -90.134908, 27],
-	     ['Marker28', 38.7019, -90.151317, 28],
-	     ['Marker29', 38.688181, -90.179908, 29],
-	     ['Marker30', 38.000328, -90.079517, 30],
+	    // Detailed information for each marker, where it is located and where it lineks to
+	    ['Milam', 38.655978, -90.123811,'milam.html'],  
+	     ['Alorton ', 38.595764, -90.129631, 'insert Site'],    
+	     ['Alton', 38.889664, -90.18045, 'insert Site'],
+	     ['Alton Steel', 38.885131, -90.143911, 'insert Site'],
+	     ['Central Port', 38.711325, -90.172261, 'insert Site'],
+	     ['Field Station HQ', 38.711325, -90.172261, 'insert Site'],
+	     ['Brooklyn, IL', 38.657758, -90.169039, 'insert Site'],
+	     ['Cahokia Courhouse', 38.571008, -90.191758, 'insert Site'],
+	     ['Cahokia Creek Chanel', 38.803944, -90.054722, 'insert Site'],
+	     ['Cahokia Mounds', 38.660444, -90.062153, 'insert Site'],
+	     ['Chain of Rocks', 38.7585, -90.170575, 'insert Site'],
+	     ['Chemetco', 38.797708, -90.098817, 'insert Site'],
+	     ['Chouteau Island', 38.753956, -90.158042, 'insert Site'],
+	     ['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
+	     ['Confluence Tower', 38.815952, -90.106004, "confluence.html"],
+	     ['Dupo', 38.522706, -90.210494, 'insert Site'],
+	     ['Eagle Cliff', 38.364697, -90.261725, 'insert Site'],
+	     ['East Carondelet', 38.540947, -90.232769, 'insert Site'],
+	     ['East St. Louis', 38.625597, -90.153958, 'insert Site'],
+	     ['Envirotech', 8.861889, -90.115344, 'insert Site'],
+	     ['Fairmount Park Raceway', 38.661958, -90.034886, 'insert Site'],
+	     ['Fort Chartres', 38.085667, -90.158569, 'insert Site'],
+	     ['Fults', 38.163822, -90.212572, 'insert Site'],
+	     ['Gateway Commerce Center', 38.769133, -90.0667, 'insert Site'],
+	     ['Gateway Geyser', 38.621836, -90.175347, 'insert Site'],
+	     ['Gateway Grizzlies Ballpark', 38.565714, -90.135919, 'insert Site'],
+	     ['Gateway Motorsports Park', 38.649808, -90.134908, 'insert Site'],
+	     ['Granite City', 38.7019, -90.151317, 'insert Site'],
+	     ['Army Depot', 38.688181, -90.179908, 'insert Site'],
+	     ['Holcim', 38.000328, -90.079517, 'insert Site'],
 	     ];
 
+
+// Content is what is displayed on Hover
 	     var content = [
 	     ['<div id="bodyContent">' + '<p>Milam Landfill</p>'],
 	     ['<div id="bodyContent">' + '<p>Alorton</p>'],
@@ -163,7 +159,7 @@ $(document).ready(function(){
 	     		map: map,
 	     		icon: image,
 	     		title: [0],
-	     		url:markers[i][4]
+	     		url:markers[i][3]
 	     		// zIndex: markers[i][3],
 	     	});
 	     	bounds.extend(marker.getPosition());
