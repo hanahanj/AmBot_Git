@@ -20,7 +20,7 @@ $(document).ready(function(){
 			{ visibility: "simplified" }
 			]
 		},
-{
+		{
 			featureType: "water", 
 			elementType: "geometry",
 			stylers: [
@@ -67,104 +67,170 @@ $(document).ready(function(){
 
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
-	    ['Milam', 38.655978, -90.123811,'milam.html'],  
-	     ['Alorton ', 38.595764, -90.129631, 'insert Site'],    
-	     ['Alton', 38.889664, -90.18045, 'insert Site'],
-	     ['Alton Steel', 38.885131, -90.143911, 'insert Site'],
-	     ['Central Port', 38.711325, -90.172261, 'insert Site'],
-	     ['Field Station HQ', 38.711325, -90.172261, 'insert Site'],
-	     ['Brooklyn, IL', 38.657758, -90.169039, 'insert Site'],
-	     ['Cahokia Courhouse', 38.571008, -90.191758, 'insert Site'],
-	     ['Cahokia Creek Chanel', 38.803944, -90.054722, 'insert Site'],
-	     ['Cahokia Mounds', 38.660444, -90.062153, 'insert Site'],
-	     ['Chain of Rocks', 38.7585, -90.170575, 'insert Site'],
-	     ['Chemetco', 38.797708, -90.098817, 'insert Site'],
-	     ['Chouteau Island', 38.753956, -90.158042, 'insert Site'],
-	     ['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
-	     ['Confluence Tower', 38.815952, -90.106004, "confluence.html"],
-	     ['Dupo', 38.522706, -90.210494, 'insert Site'],
-	     ['Eagle Cliff', 38.364697, -90.261725, 'insert Site'],
-	     ['East Carondelet', 38.540947, -90.232769, 'insert Site'],
-	     ['East St. Louis', 38.625597, -90.153958, 'insert Site'],
-	     ['Envirotech', 8.861889, -90.115344, 'insert Site'],
-	     ['Fairmount Park Raceway', 38.661958, -90.034886, 'insert Site'],
-	     ['Fort Chartres', 38.085667, -90.158569, 'insert Site'],
-	     ['Fults', 38.163822, -90.212572, 'insert Site'],
-	     ['Gateway Commerce Center', 38.769133, -90.0667, 'insert Site'],
-	     ['Gateway Geyser', 38.621836, -90.175347, 'insert Site'],
-	     ['Gateway Grizzlies Ballpark', 38.565714, -90.135919, 'insert Site'],
-	     ['Gateway Motorsports Park', 38.649808, -90.134908, 'insert Site'],
-	     ['Granite City', 38.7019, -90.151317, 'insert Site'],
-	     ['Army Depot', 38.688181, -90.179908, 'insert Site'],
-	     ['Holcim', 38.000328, -90.079517, 'insert Site'],
-	     ];
+	    ['Alorton ', 38.595764, -90.129631, 'insert Site'],    
+	    ['Alton', 38.889664, -90.18045, 'insert Site'],
+	    ['Alton Steel', 38.885131, -90.143911, 'insert Site'],
+	    ['Central Port', 38.711325, -90.172261, 'insert Site'],
+	    ['Field Station HQ', 38.711325, -90.172261, 'insert Site'],
+	    ['Brooklyn, IL', 38.657758, -90.169039, 'insert Site'],
+	    ['Cahokia Courhouse', 38.571008, -90.191758, 'insert Site'],
+	    ['Cahokia Creek Chanel', 38.803944, -90.054722, 'insert Site'],
+	    ['Cahokia Mounds', 38.660444, -90.062153, 'insert Site'],
+	    ['Chain of Rocks', 38.7585, -90.170575, 'insert Site'],
+	    ['Chemetco', 38.797708, -90.098817, 'insert Site'],
+	    ['Chouteau Island', 38.753956, -90.158042, 'insert Site'],
+	    ['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
+	    ['Confluence Tower', 38.815952, -90.106004, "confluence.html"],
+	    ['Dupo', 38.522706, -90.210494, 'insert Site'],
+	    ['Eagle Cliff', 38.364697, -90.261725, 'insert Site'],
+	    ['East Carondelet', 38.540947, -90.232769, 'insert Site'],
+	    ['East St. Louis', 38.625597, -90.153958, 'insert Site'],
+	    ['Envirotech', 8.861889, -90.115344, 'insert Site'],
+	    ['Fairmount Park Raceway', 38.661958, -90.034886, 'insert Site'],
+	    ['Fort Chartres', 38.085667, -90.158569, 'insert Site'],
+	    ['Fults', 38.163822, -90.212572, 'insert Site'],
+	    ['Gateway Commerce Center', 38.769133, -90.0667, 'insert Site'],
+	    ['Gateway Geyser', 38.621836, -90.175347, 'insert Site'],
+	    ['Gateway Grizzlies Ballpark', 38.565714, -90.135919, 'insert Site'],
+	    ['Gateway Motorsports Park', 38.649808, -90.134908, 'insert Site'],
+	    ['Granite City', 38.7019, -90.151317, 'insert Site'],
+	    ['Army Depot', 38.688181, -90.179908, 'insert Site'],
+	    ['Holcim Cement Plant', 38.000328, -90.079517, 'insert Site'],
+	    ['Horseradish', 38.688242, -90.011325, 'insert Site'],
+	    ['Horseshoe Lake', 38.699222, -90.067539, 'insert Site'],
+	    ['Kaskaski River Lock and Dam', 37.984092, -89.945914, 'insert Site'],
+	    ['Kaskaskia', 37.921475, -89.913522, 'insert Site'],
+	    ['Lewis & Clark Historical Site', 38.802469, -90.102144, 'insert Site'],
+	    ['Lock & Dam #27', 38.702656, -90.1808, 'insert Site'],
+	    ['McKinley Bridge & Tri-Cities Roadside Park', 38.66825, -90.174736, 'insert Site'],
+	    ['Melvin Price Lock & Dam', 38.870622, -90.151639, 'insert Site'],
+	    ['Milam', 38.655978, -90.123811,'milam.html'],
+	    ['Missouri & Mississippi Confluence', 38.816378, -90.119692,'insert Site'],  
+	    ['Modoc Ferry', 38.009711, -90.053083,'insert Site'],  
+	    ['National Archives & Record Administration', 38.302856, -90.304133,'insert Site'], 
+	    ['National City', 38.638292, -90.148397,'insert Site'], 
+	    ['New Valmeyer', 38.308297, -90.279775,'insert Site'],  
+	    ['Old Valmeyer', 38.294528, -90.312883,'insert Site'], 
+	    ['Olin Brass Manufacturing Plant', 38.888492, -90.113567,'insert Site'], 
+	    ['Prairie Du Rocher', 38.082825, -90.096803,'insert Site'], 
+	    ['Riverlands Audubon Center', 38.863083, -90.176272,'insert Site'], 
+	    ['Rush City', 38.607606, -90.168136,'insert Site'], 
+	    ['Sauget', 38.597483, -90.176611,'insert Site'],
+	    ['Sears Mail-order Homes Neighborhood', 38.85825, -90.080472,'insert Site'],
+	    ['Site of 1993 Mississippi River Flood Levee Breach', 38.343228, -90.319942,'insert Site'],
+	    ['South Roxana Mounds', 38.829044, -90.066011,'insert Site'],
+	    ['Tri-Cities Speedway', 38.752233, -90.097022,'insert Site'],
+	    ['US Army Corp of Engineers Chain of Rocks Canal Overlook', 38.793739, -90.119214,'insert Site'],
+	    ['US Steel Plant', 38.694903, -90.128161,'insert Site'],
+	    ['USACE Levees', 38.547311, -90.187058,'insert Site'],
+	    ['Watco Railroad Mechanical Dome', 38.871994, -90.106222,'insert Site'],
+	    ['Wood River Historical Society Museum', 38.860592, -90.099431,'insert Site'],
+	    ['Wood River Power Station', 38.863922, -90.133911,'insert Site'],
+	    ['Wood River Refinery', 38.845214, -90.068736,'insert Site'],
+	    ['Wood River Refinery Museum', 38.838406, -90.074639,'insert Site'],
+	    ];
 
 
 // Content is what is displayed on Hover
-	     var content = [
-	     ['<div id="bodyContent">' + '<p>Milam Landfill</p>'],
-	     ['<div id="bodyContent">' + '<p>Alorton</p>'],
-	     ['<div id="bodyContent">' + '<p>Alton</p>'],
-	     ['<div id="bodyContent">' +'<p>Alton Steel</p>'],
-	     ['<div id="bodyContent">' + '<p>Central Port</p>'],
-	     ['<div id="bodyContent">' + '<p>Field Station HQ</p>'],
-	     ['<div id="bodyContent">' + '<p>Brooklyn, IL</p>'],
-	     ['<div id="bodyContent">' + '<p>Cahokia Courhouse</p>'],
-	     ['<div id="bodyContent">' + '<p>Cahokia Creek Chanel</p>'],
-	     ['<div id="bodyContent">' + '<p>Cahokia Mounds</p>'],
-	     ['<div id="bodyContent">' + '<p>Chain of Rocks</p>'],
-	     ['<div id="bodyContent">' + '<p>Chemetco </p>'],
-	     ['<div id="bodyContent">' + '<p>Chouteau Island</p>'],
-	     ['<div id="bodyContent">' + '<p>Columbia Bottoms</p>'],
-	     ['<div id="bodyContent">' + '<p>Confluence Tower</p>'],
-	     ['<div id="bodyContent">' + '<p>Dupo</p>'],
-	     ['<div id="bodyContent">' + '<p>Eagle Cliff</p>'],
-	     ['<div id="bodyContent">' + '<p>East Carondelet</p>'],
-	     ['<div id="bodyContent">' + '<p>East St. Louis</p>'],
-	     ['<div id="bodyContent">' + '<p>Envirotech</p>'],
-	     ['<div id="bodyContent">' + '<p>Fairmount Park Raceway</p>'],
-	     ['<div id="bodyContent">' + '<p>Fort Chartres</p>'],
-	     ['<div id="bodyContent">' + '<p>Fults</p>'],
-	     ['<div id="bodyContent">' + '<p>Gateway Commerce Center</p>'],
-	     ['<div id="bodyContent">' + '<p>Gateway Geyser</p>'],
-	     ['<div id="bodyContent">' + '<p>Gateway Grizzlies Ballpark</p>'],
-	     ['<div id="bodyContent">' + '<p> Gateway Motorsports Park</p>'],
-	     ['<div id="bodyContent">' + '<p>Granite City</p>'],
-	     ['<div id="bodyContent">' + '<p>Army Depot</p>'],
-	     ['<div id="bodyContent">' + '<p>Holcim</p>'],
-	     ];
+var content = [
+['<div id="bodyContent">' + '<p>Alorton</p>'],
+['<div id="bodyContent">' + '<p>Alton</p>'],
+['<div id="bodyContent">' +'<p>Alton Steel</p>'],
+['<div id="bodyContent">' + '<p>Central Port</p>'],
+['<div id="bodyContent">' + '<p>Field Station HQ</p>'],
+['<div id="bodyContent">' + '<p>Brooklyn</p>'],
+['<div id="bodyContent">' + '<p>Cahokia Courhouse</p>'],
+['<div id="bodyContent">' + '<p>Cahokia Creek Chanel</p>'],
+['<div id="bodyContent">' + '<p>Cahokia Mounds</p>'],
+['<div id="bodyContent">' + '<p>Chain of Rocks</p>'],
+['<div id="bodyContent">' + '<p>Chemetco </p>'],
+['<div id="bodyContent">' + '<p>Chouteau Island</p>'],
+['<div id="bodyContent">' + '<p>Columbia Bottoms</p>'],
+['<div id="bodyContent">' + '<p>Confluence Tower</p>'],
+['<div id="bodyContent">' + '<p>Dupo</p>'],
+['<div id="bodyContent">' + '<p>Eagle Cliff</p>'],
+['<div id="bodyContent">' + '<p>East Carondelet</p>'],
+['<div id="bodyContent">' + '<p>East St. Louis</p>'],
+['<div id="bodyContent">' + '<p>Envirotech</p>'],
+['<div id="bodyContent">' + '<p>Fairmount Park Raceway</p>'],
+['<div id="bodyContent">' + '<p>Fort Chartres</p>'],
+['<div id="bodyContent">' + '<p>Fults</p>'],
+['<div id="bodyContent">' + '<p>Gateway Commerce Center</p>'],
+['<div id="bodyContent">' + '<p>Gateway Geyser</p>'],
+['<div id="bodyContent">' + '<p>Gateway Grizzlies Ballpark</p>'],
+['<div id="bodyContent">' + '<p> Gateway Motorsports Park</p>'],
+['<div id="bodyContent">' + '<p>Granite City</p>'],
+['<div id="bodyContent">' + '<p>Army Depot</p>'],
+['<div id="bodyContent">' + '<p>Holcim</p>'],
+['<div id="bodyContent">' + '<p>Horseradish</p>'],
+['<div id="bodyContent">' + '<p>Horseshoe</p>'],
+['<div id="bodyContent">' + '<p>Kaskaski Lock and Dam</p>'],
+['<div id="bodyContent">' + '<p>Kaskaskia</p>'],
+['<div id="bodyContent">' + '<p>Lewis & Clark</p>'],
+['<div id="bodyContent">' + '<p>Lock & Dam #27</p>'],
+['<div id="bodyContent">' + '<p>McKinley Bridge</p>'],
+['<div id="bodyContent">' + '<p>Melvin Price</p>'],
+['<div id="bodyContent">' + '<p>Milam Landfill</p>'],
+['<div id="bodyContent">' + '<p>Confluence</p>'],
+['<div id="bodyContent">' + '<p>Modoc Ferry</p>'],
+['<div id="bodyContent">' + '<p>National Archives</p>'],
+['<div id="bodyContent">' + '<p>National City</p>'],
+['<div id="bodyContent">' + '<p>New Valmeyer</p>'],
+['<div id="bodyContent">' + '<p>Old Valmeyer</p>'],
+['<div id="bodyContent">' + '<p>Olin Brass</p>'],
+['<div id="bodyContent">' + '<p>Prairie Du Rocher</p>'],
+['<div id="bodyContent">' + '<p>Riverlands</p>'],
+['<div id="bodyContent">' + '<p>Rush City</p>'],
+['<div id="bodyContent">' + '<p>Sauget</p>'],
+['<div id="bodyContent">' + '<p>Sears Neighborhood</p>'],
+['<div id="bodyContent">' + '<p>Levee Breach</p>'],
+['<div id="bodyContent">' + '<p>South Roxana Mounds</p>'],
+['<div id="bodyContent">' + '<p>Speedway</p>'],
+['<div id="bodyContent">' + '<p>Overlook</p>'],
+['<div id="bodyContent">' + '<p>US Steel Plant</p>'],
+['<div id="bodyContent">' + '<p>USACE</p>'],
+['<div id="bodyContent">' + '<p>Watco</p>'],
+['<div id="bodyContent">' + '<p>Historical Museum</p>'],
+['<div id="bodyContent">' + '<p>Power Station</p>'],
+['<div id="bodyContent">' + '<p>Refinery</p>'],
+['<div id="bodyContent">' + '<p>Refinery Museum</p>'],
 
-	     var clusterStyles = [{
-	     	url: 'http://oi62.tinypic.com/zjbf9l.jpg',
-	     	height: 80,
-	     	width: 150,
-	     	textSize: 16,
-	     	backgroundPosition: "-4 0"
-	     }];
 
-	     var mcOptions = {
-	     	gridSize: 30,
-	     	styles: clusterStyles,
-	     	maxZoom: 15
-	     };
 
-	     var bounds = new google.maps.LatLngBounds();
-	     var infoWindow = new google.maps.InfoWindow();
-	     var gmarkers = [];
-	     var marker, i;
 
-	     for (i = 0; i < markers.length; i++) {
-	     	marker = new google.maps.Marker({
-	     		position: new google.maps.LatLng(markers[i][1], markers[i][2]),
-	     		map: map,
-	     		icon: image,
-	     		title: [0],
-	     		url:markers[i][3]
+];
+
+var clusterStyles = [{
+	url: 'http://oi62.tinypic.com/zjbf9l.jpg',
+	height: 80,
+	width: 150,
+	textSize: 16,
+	backgroundPosition: "-4 0"
+}];
+
+var mcOptions = {
+	gridSize: 30,
+	styles: clusterStyles,
+	maxZoom: 15
+};
+
+var bounds = new google.maps.LatLngBounds();
+var infoWindow = new google.maps.InfoWindow();
+var gmarkers = [];
+var marker, i;
+
+for (i = 0; i < markers.length; i++) {
+	marker = new google.maps.Marker({
+		position: new google.maps.LatLng(markers[i][1], markers[i][2]),
+		map: map,
+		icon: image,
+		title: [0],
+		url:markers[i][3]
 	     		// zIndex: markers[i][3],
 	     	});
-	     	bounds.extend(marker.getPosition());
+	bounds.extend(marker.getPosition());
 
-	     	
+
 //Infobox appear and disappear ///////////////////// 
 
 
