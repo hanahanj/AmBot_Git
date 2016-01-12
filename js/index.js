@@ -62,7 +62,7 @@ $(document).ready(function(){
      map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
 
      var image = {
-     	url: 'images/ABMarker4.png',
+     	url: 'images/ABMarker6.png',
      };
 
      var markers = [
