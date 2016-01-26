@@ -69,6 +69,11 @@ var fType = getUrlVars()["q"];
 				directionsSetup = function() {
 					directionsService = new google.maps.DirectionsService();
 					directionsDisplay = new google.maps.DirectionsRenderer({
+						polylineOptions: { 
+							strokeColor: "black",
+							strokeWeight: 10,
+							strokeOpacity: 0.8
+						},
 						suppressMarkers: true
 					});	
 					
@@ -101,24 +106,24 @@ var fType = getUrlVars()["q"];
 				mapSetup = function() {		
 
 					var styles = [
-		{
-			stylers: [ 
-			{ hue: "#ff0091" },
-			{ saturation: -100 }
-			]
-		},{
-			featureType: "road", 
-			elementType: "geometry",
-			stylers: [
-			{ lightness: 100 },
-			{ visibility: "simplified" }
-			]
-		},
-		{
-			featureType: "water", 
-			elementType: "geometry",
-			stylers: [
-			{ color: "#000000" },
+					{
+						stylers: [ 
+						{ hue: "#ff0091" },
+						{ saturation: -100 }
+						]
+					},{
+						featureType: "road", 
+						elementType: "geometry",
+						stylers: [
+						{ lightness: 100 },
+						{ visibility: "simplified" }
+						]
+					},
+					{
+						featureType: "water", 
+						elementType: "geometry",
+						stylers: [
+						{ color: "#000000" },
 			// { lightness: 250 },
 			{ visibility: "simplified" }
 			]
@@ -134,9 +139,9 @@ var fType = getUrlVars()["q"];
      }
      ];
 
-     }
-     ];			
-     map = new google.maps.Map($Selectors.mapCanvas, {
+ }
+ ];			
+ map = new google.maps.Map($Selectors.mapCanvas, {
 
      	// Update this location for Each site
 
@@ -168,21 +173,21 @@ var fType = getUrlVars()["q"];
      	mapTypeId: google.maps.MapTypeId.SATELLITE
      });
 
-     var Milam_Loc = new google.maps.LatLng( 38.829046, -90.066011);
-     var imageMark1 = 'images/ABMarker4.png';
+ var Milam_Loc = new google.maps.LatLng( 38.829046, -90.066011);
+ var imageMark1 = 'images/ABMarker4.png';
 
-     var Milam_Mark = new google.maps.Marker({
-     	position: Milam_Loc,
-     	map: map,
-     	icon: imageMark1,
+ var Milam_Mark = new google.maps.Marker({
+ 	position: Milam_Loc,
+ 	map: map,
+ 	icon: imageMark1,
 	// animation: google.maps.Animation.DROP,
 	title: 'Milam Landfill'
 });
 
 
-     autoCompleteSetup();
-     directionsSetup();
-     trafficSetup();
+ autoCompleteSetup();
+ directionsSetup();
+ trafficSetup();
 				}, // mapSetup Ends 
 				
 				directionsRender = function(source, destination) {

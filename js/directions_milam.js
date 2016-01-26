@@ -69,6 +69,11 @@ var fType = getUrlVars()["q"];
 				directionsSetup = function() {
 					directionsService = new google.maps.DirectionsService();
 					directionsDisplay = new google.maps.DirectionsRenderer({
+						polylineOptions: { 
+							strokeColor: "black",
+							strokeWeight: 10,
+							strokeOpacity: 0.8
+						},
 						suppressMarkers: true
 					});	
 					
@@ -101,24 +106,24 @@ var fType = getUrlVars()["q"];
 				mapSetup = function() {		
 
 					var styles = [
-		{
-			stylers: [ 
-			{ hue: "#ff0091" },
-			{ saturation: -100 }
-			]
-		},{
-			featureType: "road", 
-			elementType: "geometry",
-			stylers: [
-			{ lightness: 100 },
-			{ visibility: "simplified" }
-			]
-		},
-		{
-			featureType: "water", 
-			elementType: "geometry",
-			stylers: [
-			{ color: "#000000" },
+					{
+						stylers: [ 
+						{ hue: "#ff0091" },
+						{ saturation: -100 }
+						]
+					},{
+						featureType: "road", 
+						elementType: "geometry",
+						stylers: [
+						{ lightness: 100 },
+						{ visibility: "simplified" }
+						]
+					},
+					{
+						featureType: "water", 
+						elementType: "geometry",
+						stylers: [
+						{ color: "#000000" },
 			// { lightness: 250 },
 			{ visibility: "simplified" }
 			]
@@ -138,33 +143,33 @@ var fType = getUrlVars()["q"];
 
      		// Update this location for Each site
 
-     	center: new google.maps.LatLng(38.655978, -90.123811),	
-     	zoom: 15,
-     	styles: styles,
+     		center: new google.maps.LatLng(38.655978, -90.123811),	
+     		zoom: 15,
+     		styles: styles,
 
-     	mapTypeControl: true,
-     	mapTypeControlOptions: {
-     		mapTypeIds: [google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.TERRAIN],
-     		position: google.maps.ControlPosition.TOP_RIGHT
-     	},
+     		mapTypeControl: true,
+     		mapTypeControlOptions: {
+     			mapTypeIds: [google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.TERRAIN],
+     			position: google.maps.ControlPosition.TOP_RIGHT
+     		},
 
-     	panControl: true,
-     	panControlOptions: {
-     		position: google.maps.ControlPosition.RIGHT_TOP
-     	},
+     		panControl: true,
+     		panControlOptions: {
+     			position: google.maps.ControlPosition.RIGHT_TOP
+     		},
 
-     	zoomControl: true,
-     	zoomControlOptions: {
-     		style: google.maps.ZoomControlStyle.LARGE,
-     		position: google.maps.ControlPosition.BOTTOM_TOP
-     	},
+     		zoomControl: true,
+     		zoomControlOptions: {
+     			style: google.maps.ZoomControlStyle.LARGE,
+     			position: google.maps.ControlPosition.BOTTOM_TOP
+     		},
 
-     	scaleControl: true,
-     	streetViewControl: true, 
-     	overviewMapControl: true,
+     		scaleControl: true,
+     		streetViewControl: true, 
+     		overviewMapControl: true,
 
-     	mapTypeId: google.maps.MapTypeId.SATELLITE
-     });
+     		mapTypeId: google.maps.MapTypeId.SATELLITE
+     	});
 
      var Milam_Loc = new google.maps.LatLng(38.655978, -90.123811);
      var imageMark1 = 'images/ABMarker4.png';

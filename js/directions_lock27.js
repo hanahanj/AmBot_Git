@@ -69,6 +69,11 @@ var fType = getUrlVars()["q"];
 				directionsSetup = function() {
 					directionsService = new google.maps.DirectionsService();
 					directionsDisplay = new google.maps.DirectionsRenderer({
+						polylineOptions: { 
+							strokeColor: "black",
+							strokeWeight: 10,
+							strokeOpacity: 0.8
+						},
 						suppressMarkers: true
 					});	
 					
