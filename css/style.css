@@ -104,6 +104,11 @@ p{
 	opacity:0;
 }
 
+.home{
+	position:absolute;
+	z-index: 2000;
+}
+
 .bar1{
 	position:absolute;
 	width:100%;
