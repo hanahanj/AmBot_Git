@@ -67,12 +67,12 @@ $(document).ready(function(){
 
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
-	    ['Alorton ', 38.595764, -90.129631, 'insert Site'],    
+	    ['Alorton ', 38.595764, -90.129631, 'alorton.html'],    
 	    ['Alton', 38.889664, -90.18045, 'insert Site'],
 	    ['Alton Steel', 38.885131, -90.143911, 'insert Site'],
 	    ['Central Port', 38.711325, -90.172261, 'insert Site'],
 	    ['Field Station HQ', 38.711325, -90.172261, 'insert Site'],
-	    ['Brooklyn, IL', 38.657758, -90.169039, 'insert Site'],
+	    ['Brooklyn, IL', 38.657758, -90.169039, 'brooklyn.html'],
 	    ['Cahokia Courhouse', 38.571008, -90.191758, 'insert Site'],
 	    ['Cahokia Creek Chanel', 38.803944, -90.054722, 'insert Site'],
 	    ['Cahokia Mounds', 38.660444, -90.062153, 'insert Site'],
@@ -86,7 +86,7 @@ $(document).ready(function(){
 	    ['East Carondelet', 38.540947, -90.232769, 'insert Site'],
 	    ['East St. Louis', 38.625597, -90.153958, 'insert Site'],
 	    ['Envirotech', 8.861889, -90.115344, 'insert Site'],
-	    ['Fairmount Park Raceway', 38.661958, -90.034886, 'insert Site'],
+	    ['Fairmount Park Raceway', 38.661958, -90.034886, 'fairmountParkRaceway.html'],
 	    ['Fort Chartres', 38.085667, -90.158569, 'insert Site'],
 	    ['Fults', 38.163822, -90.212572, 'insert Site'],
 	    ['Gateway Commerce Center', 38.769133, -90.0667, 'insert Site'],
@@ -96,8 +96,8 @@ $(document).ready(function(){
 	    ['Granite City', 38.7019, -90.151317, 'insert Site'],
 	    ['Army Depot', 38.688181, -90.179908, 'insert Site'],
 	    ['Holcim Cement Plant', 38.000328, -90.079517, 'insert Site'],
-	    ['Horseradish', 38.688242, -90.011325, 'insert Site'],
-	    ['Horseshoe Lake', 38.699222, -90.067539, 'insert Site'],
+	    ['Horseradish', 38.688242, -90.011325, 'collinsville.html'],
+	    ['Horseshoe Lake', 38.699222, -90.067539, 'horseshoeLake.html'],
 	    ['Kaskaski River Lock and Dam', 37.984092, -89.945914, 'insert Site'],
 	    ['Kaskaskia', 37.921475, -89.913522, 'insert Site'],
 	    ['Lewis & Clark Historical Site', 38.802469, -90.102144, 'insert Site'],
@@ -108,14 +108,14 @@ $(document).ready(function(){
 	    ['Missouri & Mississippi Confluence', 38.816378, -90.119692,'insert Site'],  
 	    ['Modoc Ferry', 38.009711, -90.053083,'insert Site'],  
 	    ['National Archives & Record Administration', 38.302856, -90.304133,'insert Site'], 
-	    ['National City', 38.638292, -90.148397,'insert Site'], 
+	    ['National City', 38.638292, -90.148397,'nationalCity.html'], 
 	    ['New Valmeyer', 38.308297, -90.279775,'insert Site'],  
 	    ['Old Valmeyer', 38.294528, -90.312883,'insert Site'], 
 	    ['Olin Brass Manufacturing Plant', 38.888492, -90.113567,'insert Site'], 
 	    ['Prairie Du Rocher', 38.082825, -90.096803,'insert Site'], 
 	    ['Riverlands Audubon Center', 38.863083, -90.176272,'insert Site'], 
 	    ['Rush City', 38.607606, -90.168136,'insert Site'], 
-	    ['Sauget', 38.597483, -90.176611,'insert Site'],
+	    ['Sauget', 38.597483, -90.176611,'sauget.html'],
 	    ['Sears Mail-order Homes Neighborhood', 38.85825, -90.080472,'insert Site'],
 	    ['Site of 1993 Mississippi River Flood Levee Breach', 38.343228, -90.319942,'insert Site'],
 	    ['South Roxana Mounds', 38.829044, -90.066011,'southRoxana.html'],
@@ -354,9 +354,6 @@ $('.close').on('click touchstart', function() {
 
 
 });
-
-
-
 
 
 
