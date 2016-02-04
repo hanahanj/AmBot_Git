@@ -80,28 +80,7 @@ var fType = getUrlVars()["q"];
 					directionsDisplay.setPanel($Selectors.dirSteps[0]);											
 				}, // direstionsSetup Ends
 				
-				trafficSetup = function() {					
-					// Creating a Custom Control and appending it to the map
-					var controlDiv = document.createElement('div'), 
-					controlUI = document.createElement('div'), 
-					trafficLayer = new google.maps.TrafficLayer();
 
-					jQuery(controlDiv).addClass('gmap-control-container').addClass('gmnoprint');
-					jQuery(controlUI).text('Traffic').addClass('gmap-control');
-					jQuery(controlDiv).append(controlUI);				
-
-					// Traffic Btn Click Event	  
-					google.maps.event.addDomListener(controlUI, 'click', function() {
-						if (typeof trafficLayer.getMap() == 'undefined' || trafficLayer.getMap() === null) {
-							jQuery(controlUI).addClass('gmap-control-active');
-							trafficLayer.setMap(map);
-						} else {
-							trafficLayer.setMap(null);
-							jQuery(controlUI).removeClass('gmap-control-active');
-						}
-					});							  
-					map.controls[google.maps.ControlPosition.TOP_RIGHT].push(controlDiv);								
-				}, // trafficSetup Ends
 				
 				mapSetup = function() {		
 
