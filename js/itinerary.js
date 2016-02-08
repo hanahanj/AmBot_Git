@@ -36,32 +36,33 @@ $('.menuFloatAbout').mouseleave('click touchstart', function() {
 });
 
 
-
+// Hover state so can still scroll vertically 
 
 $('#des1').mouseover(function() {
 	$(this).animate({top: '0%', left: "-22%", height: "500px", width: "145%", }, 300);
-  
-   $('.streetView').animate({opacity: '1', "z-index": 100}, 800);        
+	$('#titleImage').animate({opacity: '0', "z-index": 100}, 800);     
+  	$('.streetView').animate({opacity: '1'}, 800);        
 });
 
 
 $('#des1').mouseleave('click touchstart', function() {
 	$(this).animate({top: '0%', left: "0%",width: "100%", }, 300);
-	$('.streetView').animate({opacity: '0'}, 800); 
+	$('#titleImage').animate({opacity: '1', "z-index": 100}, 800);
+	$('.streetView').animate({opacity: '0', "z-index":0}, 800); 
 });
 
-
-$('#des2').mouseover(function() {
-	$(this).animate({top: '0%', left: "-22%", height: "500px", width: "145%", }, 300);
-  
-   $('.streetView').animate({opacity: '1', "z-index": 100}, 800);        
+$('#des1').mousedown('click touchstart', function() {
+	$('#titleImage').animate({"z-index": 0}, 100);
+	$('.streetView').animate({"z-index": 100}, 100);
 });
 
-
-$('#des2').mouseleave('click touchstart', function() {
-	$(this).animate({top: '0%', left: "0%",width: "100%", }, 300);
-	$('.streetView').animate({opacity: '0'}, 800); 
+$('#des1').mouseup('click touchstart', function() {
+	$('#titleImage').animate({"z-index": 100}, 100);
+	$('.streetView').animate({"z-index": 0}, 100);
 });
+
+// End Hover State Action
+
 
 
 
@@ -74,6 +75,8 @@ $(this).animate({opacity: '0'}, 300);
 	$('#sitesContain').animate({opacity: '0'}, 300);
 
 	});
+
+
 
 
 
