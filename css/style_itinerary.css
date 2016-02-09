@@ -100,7 +100,7 @@
 
 .site_Title{
   position:absolute;
-  top:7%;
+  top:12%;
   left:7%;
   z-index: -10;
   opacity:1;
@@ -114,6 +114,7 @@
  font-style: italic;
   line-height: .8em;
   margin:0;
+  padding-top: 20px;
 
 }
 
