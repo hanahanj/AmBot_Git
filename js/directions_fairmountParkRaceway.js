@@ -44,8 +44,8 @@ var fType = getUrlVars()["q"];
 			directionsService, directionsDisplay, 
 			autoSrc, autoDest, pinA, pinB, 
 
-			markerA = new google.maps.MarkerImage('js/m1.png')		
-			markerB = new google.maps.MarkerImage('js/m_None.png')
+			markerA = new google.maps.MarkerImage('m1.png')		
+			markerB = new google.maps.MarkerImage('m_None.png')
 
 				// Caching the Selectors		
 				$Selectors = {
