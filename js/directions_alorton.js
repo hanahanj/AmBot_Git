@@ -88,19 +88,7 @@ var fType = getUrlVars()["q"];
 
 					jQuery(controlDiv).addClass('gmap-control-container').addClass('gmnoprint');
 					jQuery(controlUI).text('Traffic').addClass('gmap-control');
-					jQuery(controlDiv).append(controlUI);				
-
-					// Traffic Btn Click Event	  
-					google.maps.event.addDomListener(controlUI, 'click', function() {
-						if (typeof trafficLayer.getMap() == 'undefined' || trafficLayer.getMap() === null) {
-							jQuery(controlUI).addClass('gmap-control-active');
-							trafficLayer.setMap(map);
-						} else {
-							trafficLayer.setMap(null);
-							jQuery(controlUI).removeClass('gmap-control-active');
-						}
-					});							  
-					map.controls[google.maps.ControlPosition.TOP_RIGHT].push(controlDiv);								
+					jQuery(controlDiv).append(controlUI);												
 				}, // trafficSetup Ends
 				
 				mapSetup = function() {		

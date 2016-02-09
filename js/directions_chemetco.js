@@ -79,6 +79,17 @@ var fType = getUrlVars()["q"];
 					
 					directionsDisplay.setPanel($Selectors.dirSteps[0]);											
 				}, // direstionsSetup Ends
+
+				trafficSetup = function() {					
+					// Creating a Custom Control and appending it to the map
+					var controlDiv = document.createElement('div'), 
+					controlUI = document.createElement('div'), 
+					trafficLayer = new google.maps.TrafficLayer();
+
+					jQuery(controlDiv).addClass('gmap-control-container').addClass('gmnoprint');
+					jQuery(controlUI).text('Traffic').addClass('gmap-control');
+					jQuery(controlDiv).append(controlUI);												
+				}, // trafficSetup Ends
 				
 				
 				mapSetup = function() {		
