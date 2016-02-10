@@ -22,6 +22,9 @@ function geoTest() {
     return text;
 }
 
+
+
+
 function getUrlVars() {
 	var vars = {};
 	var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,    
@@ -161,7 +164,7 @@ var fType = getUrlVars()["q"];
      	});
 
      var Milam_Loc = new google.maps.LatLng(38.655978, -90.123811);
-    var imageMark1 = '../images/ABMarker4.png';
+     var imageMark1 = '../images/ABMarker4.png';
 
      var Milam_Mark = new google.maps.Marker({
      	position: Milam_Loc,
