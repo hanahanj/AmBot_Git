@@ -84,7 +84,7 @@ $(document).ready(function(){
 	    ['Confluence Tower', 38.815952, -90.106004, "confluenceTower.html"],
 	    ['Dupo', 38.522706, -90.210494, 'dupo.html'],
 	    ['Eagle Cliff', 38.364697, -90.261725, 'eaglecliffCemetery.html'],
-	    ['East Carondelet', 38.540947, -90.232769, 'eastCarondelet.html'],
+	    ['East Carondelet', 38.540949, -90.232768, 'eastCarondelet.html'],
 	    ['East St. Louis', 38.625597, -90.153958, 'insert Site'],
 	    ['Envirotech', 8.861889, -90.115344, 'insert Site'],
 	    ['Fairmount Park Raceway', 38.661958, -90.034886, 'fairmountParkRaceway.html'],
@@ -101,6 +101,7 @@ $(document).ready(function(){
 	    ['Horseshoe Lake', 38.699222, -90.067539, 'horseshoeLake.html'],
 	    ['Kaskaski River Lock and Dam', 37.984092, -89.945914, 'insert Site'],
 	    ['Kaskaskia', 37.921475, -89.913522, 'kaskaskia.html'],
+	    ['Kidd Lake', 38.144126, -90.170092, 'kaskaskia.html'],
 	    ['Laclede Steel',  38.885131, -90.143912, 'lacledeSteel.html'],
 	    ['Lewis & Clark Historical Site', 38.802469, -90.102144, 'insert Site'],
 	    ['Lock & Dam #27', 38.702656, -90.1808, 'lock27.html'],
@@ -116,6 +117,8 @@ $(document).ready(function(){
 	    ['Old Valmeyer', 38.294528, -90.312883,'insert Site'], 
 	    ['Olin Brass',  38.888360, -90.113417,'brass.html'],
 	    ['Olin Brass Manufacturing Plant', 38.888492, -90.113567,'insert Site'], 
+	    ['Pulcher', 38.495846, -90.231493,'insert Site'], 
+	    ['Prairie Du Pont Creek', 38.551607, -90.201470,'insert Site'], 
 	    ['Prairie Du Rocher', 38.082825, -90.096803,'insert Site'], 
 	    ['Riverlands Audubon Center', 38.863083, -90.176272,'insert Site'], 
 	    ['Rush City', 38.607606, -90.168136,'insert Site'], 
@@ -133,6 +136,7 @@ $(document).ready(function(){
 	    ['Wood River Power Station', 38.863922, -90.133911,'insert Site'],
 	    ['Wood River Refinery', 38.845214, -90.068736,'insert Site'],
 	    ['Wood River Refinery Museum',  38.838406, -90.074638,'refineryMuseum.html'],
+	    ['1993 Levee Breach', 38.340653, -90.321088,'refineryMuseum.html'],
 	    ];
 
 
