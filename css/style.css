@@ -31,6 +31,22 @@ h1{
 	letter-spacing: .05em;
 	text-transform: uppercase;
 	margin:0;
+	display:inline;
+	margin-left: 10px;
+
+}
+
+.menuSites h1{
+	font-family: "Interstate-CompressedBlack";
+	font-size: 30px;
+	text-align: right;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	margin:0;
+	display:inline;
+	margin-left: 10px;
+
+
 
 }
 
@@ -46,7 +62,7 @@ h2{
 }
 
 a{
-text-decoration: underline;
+text-decoration: none;
   font-style: normal;
   color:#000000;
 }
@@ -218,18 +234,37 @@ p{
 /*menu*//*//////////////////////////////////////////*/
 
 
-.menu div h1{
-	font-size: 30px;
-	position: fixed;
-	bottom: 1.2%;
+.menu {
+	z-index: -10;
+	position:fixed;
+	left: 110px;
+    top: 75px;
+	opacity:0;
+	width:700px;
+	    
+
 }
 
+.menu div:hover{
+	font-style: italic;
+}
+
+.menuSites{
+		position:absolute;
+		bottom:5px;
+		right:50px;
+		width:500px;
+		display:inline-block;
+}
+
+
+
 .menuFloatDescription{
-	position: fixed;
-	/*bottom: 150px;*/
-	right: 38.2%;
+	position: relative;
 	height: auto;
+	margin-left: 20px;
 	z-index: 2000;
+	display:inline;
 	/*-ms-transform: rotate(270deg);*/ /* IE 9 */
 	/*-webkit-transform: rotate(270deg);*/ /* Chrome, Safari, Opera */
 	/*transform: rotate(270deg);*/
@@ -237,10 +272,10 @@ p{
 }
 
 .menuFloatStreetview{
-	position: fixed;
-	right: 27.5%;
+	position: relative;
 	height: auto;
 	z-index: 2000;
+	display:inline;
 	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
 	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
 	/*transform: rotate(180deg);*/
@@ -249,11 +284,11 @@ p{
 
 
 .menuFloatVisit{
-	position: fixed;
-/*	top: 0%;*/
-	right: 19.5%;
+	position: relative;
 	height: auto;
 	z-index: 2000;
+	display:inline;
+	margin-left: 20px;
 	/*	-ms-transform: rotate(0deg);*/ /* IE 9 */
 	/*-webkit-transform: rotate(0deg); *//* Chrome, Safari, Opera */
 	/*transform: rotate(0deg);*/
@@ -261,10 +296,11 @@ p{
 }
 
 .menuFloatInt{
-	position: fixed;
-	right: 14.5%;
+	position: relative;
 	height: auto;
 	z-index: 20;
+	display:inline;
+	margin-left: 20px;
 	/*-ms-transform: rotate(90deg);*/ /* IE 9 */
 	/*-webkit-transform: rotate(90deg);*/ /* Chrome, Safari, Opera */
 	/*transform: rotate(90deg);*/
@@ -274,11 +310,12 @@ p{
 
 
 .menuFloatSites{
-	position: fixed;
+	position: relative;
 	bottom: 0%;
 	left: 10%;
 	height: auto;
 	z-index: 20;
+	margin-left: 20px;
 	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
 	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
 	/*transform: rotate(180deg);*/
@@ -286,14 +323,12 @@ p{
 }
 
 .menuFloatAbout{
-	position: fixed;
+	position: relative;
 	top: 0;
 	right: 30%;
 	height: auto;
 	z-index: 2000;
-	-ms-transform: rotate(0deg); /* IE 9 */
-	-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
-	transform: rotate(0deg);
+	margin-left: 20px;
 
 }
 

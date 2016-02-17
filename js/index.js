@@ -68,15 +68,17 @@ $(document).ready(function(){
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
 	    ['Alorton ', 38.595764, -90.129631, 'alorton.html'],    
-	    ['Alton', 38.889664, -90.18045, 'insert Site'],
+	    ['Alton', 38.889664, -90.18045, 'alton.html'],
 	    ['Alton Steel', 38.885131, -90.143911, 'insert Site'],
-	    ['Field Station HQ', 38.711325, -90.172261, 'insert Site'],
+	    ['Central Port',  38.711324, -90.172260, 'americasCentralPort.html'],
+	    ['Field Station HQ', 38.711325, -90.172261, 'insert Site'],  
 	    ['Brooklyn, IL', 38.657758, -90.169039, 'brooklyn.html'],
+	    ['Cahokia Courthouse', 38.571008, -90.191758, 'insert Site'],
 	    ['Cahokia Canal Pump Station', 38.637083, -90.171982, 'pumpStation.html'],
-	    ['Cahokia Courhouse', 38.571008, -90.191758, 'insert Site'],
+	    
 	    ['Cahokia Creek Chanel', 38.803944, -90.054722, 'insert Site'],
 	    ['Cahokia Mounds', 38.660444, -90.062153, 'insert Site'],
-	    ['Central Port',  38.711324, -90.172260, 'americasCentralPort.html'],
+	   
 	    ['Chain of Rocks', 38.7585, -90.170575, 'insert Site'],
 	    ['Chemetco', 38.797708, -90.098817, 'chemetco.html'],
 	    ['Chouteau Island', 38.753956, -90.158042, 'insert Site'],
@@ -364,6 +366,23 @@ $('.close').on('click touchstart', function() {
 
 
 });
+
+
+$('.home').mouseover('click touchstart', function() {
+	$('#mapContainer').animate({height: '82.5%', width: "100%", top: '17.5%', }), 300;
+	$(".menu").animate({opacity: '1'}, 800);  
+
+});
+
+$('.menu').mouseleave('click touchstart', function() {
+	$('#mapContainer').animate({top: '0%', left: "0%", height: '100%', width: "100%", }, 300);
+	$(".menu").animate({opacity: '0'}, 800);  
+	
+
+});
+
+
+
 
 
 

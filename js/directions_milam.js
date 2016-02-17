@@ -1,28 +1,47 @@
+// Old geolocation code, not accurate
+// function geoTest() {
 
-function geoTest() {
+// 	if (google.loader.ClientLocation) {
 
-	if (google.loader.ClientLocation) {
+// 		var latitude = google.loader.ClientLocation.latitude;
+// 		var longitude = google.loader.ClientLocation.longitude;
+// 		var city = google.loader.ClientLocation.address.city;
+// 		var country = google.loader.ClientLocation.address.country;
+// 		var country_code = google.loader.ClientLocation.address.country_code;
+// 		var region = google.loader.ClientLocation.address.region;
 
-		var latitude = google.loader.ClientLocation.latitude;
-		var longitude = google.loader.ClientLocation.longitude;
-		var city = google.loader.ClientLocation.address.city;
-		var country = google.loader.ClientLocation.address.country;
-		var country_code = google.loader.ClientLocation.address.country_code;
-		var region = google.loader.ClientLocation.address.region;
+//         //var text = latitude + ' ,' + longitude;
+//         var text = city + ' ,' + region;
 
-        //var text = latitude + ' ,' + longitude;
-        var text = city + ' ,' + region;
+//     } else {
 
-    } else {
+//     	var text = '';
 
-    	var text = '';
+//     }
 
+//     return text;
+// }
+
+
+
+// New attempts at geolocation
+
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x = "Geolocation is not supported by this browser.";
     }
-
-    return text;
 }
 
+function showPosition(position) {
+    x = position.coords.latitude + ", " + position.coords.longitude;
+alert(x);	
+}
 
+// New geolocation attempt ends
 
 
 function getUrlVars() {
@@ -268,7 +287,7 @@ var fType = getUrlVars()["q"];
 					var newStr = fType.split("+").join(" ");
 
 					document.getElementById("dirDestination").value = newStr;
-					document.getElementById("dirSource").value = geoTest();
+					document.getElementById("dirSource").value = getLocation();
 
 
 				return this; // Refers to: mapDemo.Directions
