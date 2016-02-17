@@ -333,7 +333,7 @@ p{
 }
 
 .archiveTitle{
-	position: fixed;
+	position: relative;
 	top: 0%;
 	left: 10%;
 	height: auto;
@@ -367,7 +367,11 @@ p{
 }
 
 
-
+.archiveContain{
+	position: absolute;
+    width: 100%;
+    top: 6%;
+}
 
 #sitesContain{
 	position: absolute;

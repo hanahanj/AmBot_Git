@@ -22,6 +22,22 @@ $('#site_NationalCity').mouseleave(function() {
     $( "#title_NationalCity").css({"opacity": "0"});          
 });
 
+$('.home').mouseover('click touchstart', function() {
+	$('.archiveContain').animate({height: '77%', width: "100%", top: '17.5%', }), 300;
+	$('.site_Title').animate({top: '20%',}), 300;
+	$(".menu").animate({opacity: '1'}, 800);  
+	$(".close").animate({opacity: '1'}, 800);  
+
+
+});
+
+$('.close').on('click touchstart', function() { 
+	$('.archiveContain').animate({top: '6%', width: "100%", }, 300);
+	$(this).animate({opacity: '0'}, 300);  
+	$(".menu").animate({opacity: '0'}, 300);
+
+});
+
 
 
 

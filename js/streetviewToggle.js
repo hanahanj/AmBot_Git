@@ -147,23 +147,25 @@ $('.close').on('click touchstart', function() {
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"}); 
 	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});    
 	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
+	$('.site_Title').animate({top: '12%',}), 300;
 
 });
 
 $('.home').mouseover('click touchstart', function() {
-	$('#bgContainer').animate({height: '82.5%', width: "100%", top: '17.5%', }), 300;
+	$('#bgContainer').animate({height: '77%', width: "88%", top: '17.5%', }), 300;
 	$('.site_Title').animate({top: '20%',}), 300;
 	$(".menu").animate({opacity: '1'}, 800);  
+	$(".close").animate({opacity: '1'}, 800);  
 
 
 });
 
-$('.menu').mouseleave('click touchstart', function() {
-	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
-	$(".menu").animate({opacity: '0'}, 800);  
-	$('.site_Title').animate({top: '12%',}), 300;
+// $('.menu').mouseleave('click touchstart', function() {
+// 	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
+// 	$(".menu").animate({opacity: '0'}, 800);  
+// 	$('.site_Title').animate({top: '12%',}), 300;
 
-});
+// });
 
 
 
