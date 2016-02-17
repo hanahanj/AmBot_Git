@@ -74,14 +74,18 @@ $(document).ready(function(){
 	    ['Field Station HQ', 38.711325, -90.172261, 'insert Site'],  
 	    ['Brooklyn, IL', 38.657758, -90.169039, 'brooklyn.html'],
 	    ['Cahokia Courthouse', 38.571008, -90.191758, 'insert Site'],
-	    ['Cahokia Canal Pump Station', 38.637083, -90.171982, 'pumpStation.html'],
-	    
 	    ['Cahokia Creek Chanel', 38.803944, -90.054722, 'insert Site'],
 	    ['Cahokia Mounds', 38.660444, -90.062153, 'insert Site'],
-	   
 	    ['Chain of Rocks', 38.7585, -90.170575, 'insert Site'],
 	    ['Chemetco', 38.797708, -90.098817, 'chemetco.html'],
 	    ['Chouteau Island', 38.753956, -90.158042, 'insert Site'],
+
+	    ['Cahokia Canal Pump Station', 38.637083, -90.171982, 'pumpStation.html'],
+	    
+	   
+	   
+	    
+	    
 	    ['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
 	    ['Confluence Tower', 38.815952, -90.106004, "confluenceTower.html"],
 	    ['Dupo', 38.522706, -90.210494, 'dupo.html'],
