@@ -26,11 +26,11 @@
 
 // New attempts at geolocation
 
-var x = document.getElementById("demo");
+var x = navigator.geolocation.getCurrentPosition(showPosition);
 
 function getLocation() {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
+        x = navigator.geolocation.getCurrentPosition(showPosition);
     } else { 
         x = "Geolocation is not supported by this browser.";
     }
@@ -38,7 +38,8 @@ function getLocation() {
 
 function showPosition(position) {
     x = position.coords.latitude + ", " + position.coords.longitude;
-return(x);	
+alert(x);
+return x;	
 }
 
 // New geolocation attempt ends
@@ -287,7 +288,7 @@ var fType = getUrlVars()["q"];
 					var newStr = fType.split("+").join(" ");
 
 					document.getElementById("dirDestination").value = newStr;
-					document.getElementById("dirSource").value = getLocation();
+					document.getElementById("dirSource").value = x;
 
 
 				return this; // Refers to: mapDemo.Directions
