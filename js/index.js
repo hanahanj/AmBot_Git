@@ -136,7 +136,6 @@ $(document).ready(function(){
 	    ['Wood River Refinery', 38.845214, -90.068736,'insert Site'],
 	    ['Wood River Refinery Museum',  38.838406, -90.074638,'refineryMuseum.html'],
 	    ['1993 Levee Breach', 38.340653, -90.321088,'refineryMuseum.html'],
-
 	    ['Cahokia Canal Pump Station', 38.637083, -90.171982, 'pumpStation.html'],
 	    ];
 
@@ -176,9 +175,11 @@ var content = [
 ['<div id="bodyContent">' + '<p>Horseshoe</p>'],
 ['<div id="bodyContent">' + '<p>Kaskaski</p>'],
 ['<div id="bodyContent">' + '<p>Kaskaskia</p>'],
+['<div id="bodyContent">' + '<p>Kidd</p>'],
 ['<div id="bodyContent">' + '<p>Laclede Steel</p>'],
 ['<div id="bodyContent">' + '<p>Lewis & Clark</p>'],
 ['<div id="bodyContent">' + '<p>Lock & Dam #27</p>'],
+['<div id="bodyContent">' + '<p>Lowland Forests</p>'],
 ['<div id="bodyContent">' + '<p>McKinley Bridge</p>'],
 ['<div id="bodyContent">' + '<p>Melvin Price</p>'],
 ['<div id="bodyContent">' + '<p>Landfill</p>'],
@@ -189,7 +190,10 @@ var content = [
 ['<div id="bodyContent">' + '<p>New Valmeyer</p>'],
 ['<div id="bodyContent">' + '<p>Old Valmeyer</p>'],
 ['<div id="bodyContent">' + '<p>Olin Brass</p>'],
-['<div id="bodyContent">' + '<p>Prairie Du Rocher</p>'],
+['<div id="bodyContent">' + '<p>//</p>'],
+['<div id="bodyContent">' + '<p>Pulcher</p>'],
+['<div id="bodyContent">' + '<p>Prairie Du Pont</p>'],
+['<div id="bodyContent">' + '<p>//</p>'],
 ['<div id="bodyContent">' + '<p>Riverlands</p>'],
 ['<div id="bodyContent">' + '<p>Rush City</p>'],
 ['<div id="bodyContent">' + '<p>Sauget</p>'],
@@ -201,14 +205,13 @@ var content = [
 ['<div id="bodyContent">' + '<p>US Steel</p>'],
 ['<div id="bodyContent">' + '<p>USACE</p>'],
 ['<div id="bodyContent">' + '<p>Watco</p>'],
+['<div id="bodyContent">' + '<p>Railroad Museum</p>'],
 ['<div id="bodyContent">' + '<p>Historical Museum</p>'],
 ['<div id="bodyContent">' + '<p>Power Station</p>'],
 ['<div id="bodyContent">' + '<p>Refinery</p>'],
 ['<div id="bodyContent">' + '<p>Refinery Museum</p>'],
-
-
-
-
+['<div id="bodyContent">' + '<p>Breach</p>'],
+['<div id="bodyContent">' + '<p>Pump Station</p>'],
 ];
 
 var clusterStyles = [{
