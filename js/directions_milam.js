@@ -38,7 +38,7 @@ function getLocation() {
 
 function showPosition(position) {
     x = position.coords.latitude + ", " + position.coords.longitude;
-alert(x);	
+return(x);	
 }
 
 // New geolocation attempt ends
