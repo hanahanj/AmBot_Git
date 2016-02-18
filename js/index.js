@@ -79,15 +79,8 @@ $(document).ready(function(){
 	    ['Chain of Rocks', 38.7585, -90.170575, 'insert Site'],
 	    ['Chemetco', 38.797708, -90.098817, 'chemetco.html'],
 	    ['Chouteau Island', 38.753956, -90.158042, 'insert Site'],
-
-	    ['Cahokia Canal Pump Station', 38.637083, -90.171982, 'pumpStation.html'],
-	    
-	   
-	   
-	    
-	    
-	    ['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
-	    ['Confluence Tower', 38.815952, -90.106004, "confluenceTower.html"],
+		['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
+	    ['Confluence Tower', 38.815952, -90.106004, "confluenceTower.html"],  
 	    ['Dupo', 38.522706, -90.210494, 'dupo.html'],
 	    ['Eagle Cliff', 38.364697, -90.261725, 'eaglecliffCemetery.html'],
 	    ['East Carondelet', 38.540949, -90.232768, 'eastCarondelet.html'],
@@ -143,6 +136,8 @@ $(document).ready(function(){
 	    ['Wood River Refinery', 38.845214, -90.068736,'insert Site'],
 	    ['Wood River Refinery Museum',  38.838406, -90.074638,'refineryMuseum.html'],
 	    ['1993 Levee Breach', 38.340653, -90.321088,'refineryMuseum.html'],
+
+	    ['Cahokia Canal Pump Station', 38.637083, -90.171982, 'pumpStation.html'],
 	    ];
 
 
