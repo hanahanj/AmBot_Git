@@ -224,7 +224,7 @@ p{
 
 
 .menu {
-	z-index: 100;
+	z-index: -10;
 	position: fixed;
 	width: 101%;
 	height: 17%;
