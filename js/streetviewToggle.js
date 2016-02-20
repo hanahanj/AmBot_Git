@@ -82,7 +82,7 @@ $('.menuFloatStreetview').on('click touchstart', function() {
 
 $('.menuFloatDescription').on('click touchstart', function() { 
 	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
-	$('#bgContainer').animate({opacity: '.5'}, 300);  
+	// $('#bgContainer').animate({opacity: '.5'}, 300);  
 	$('.site_Title').animate({opacity: '1'}, 800); 
 	$('.siteText').animate({opacity: '1'}, 800);
 	$('.siteText').css({"z-index": '10'});
@@ -101,7 +101,7 @@ $('.menuFloatDescription').on('click touchstart', function() {
 
 $('.menuFloatInt').on('click touchstart', function() { 
 $('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300); 
-	$('#bgContainer').animate({opacity: '.5'}, 300); 
+	// $('#bgContainer').animate({opacity: '.5'}, 300); 
 	$('#listItineraries').animate({opacity: '1'}, 800);  
 	$('#listItineraries').css({"z-index": '10'});
 	$('.siteText').animate({opacity: '0'}, 300);  
