@@ -100,7 +100,7 @@ $('.menuFloatDescription').on('click touchstart', function() {
 });
 
 $('.menuFloatInt').on('click touchstart', function() { 
-$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300); 
+	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300); 
 	$('#bgContainer').animate({opacity: '.5'}, 300); 
 	$('#listItineraries').animate({opacity: '1'}, 800);  
 	$('#listItineraries').css({"z-index": '10'});
@@ -159,12 +159,14 @@ $('.home').mouseover('click touchstart', function() {
 	$(".menu").animate({opacity: '.9'}, 300);  
 	$('.site_Title').animate({top: '20%',}), 300;
 	$('.siteText').animate({top: '40%', height: '53%'}), 300;
+	$('.menu').css({"z-index": '100'}); 
 
 
 });
 
 $('.menu').mouseleave('click touchstart', function() {
-	$(".menu").animate({opacity: '0'}, 300);  
+	$(".menu").animate({opacity: '0'}, 300); 
+	$('.menu').css({"z-index": '-10'});   
 	$('.site_Title').animate({top: '12%',}), 1600;
 	$('.siteText').animate({top: '30%', height: '64%'}), 1600;
 
