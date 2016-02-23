@@ -71,6 +71,10 @@ a:hover{
 	font-style: italic;
 }
 
+.sitesGrid a:hover{
+	font-style: normal;
+}
+
 h2 a{
 	color:black;
 }
@@ -388,13 +392,23 @@ p{
 
 .archiveSitetitle{
 	position:absolute;
-	top:53%;
+	top:59%;
 	width:300px;
 	text-align: center;
 	margin-top: -12.5%;
 	color:#ffffff;
 	opacity: 0;
 }
+.archiveSitetitle h4{
+	font-family: "Interstate-CondensedBold";
+	text-transform: uppercase;
+	font-size: 36px;
+	/*letter-spacing: .05em;*/
+	line-height: .8em;
+	margin:0;
+
+}
+
 
 .site{
 	display: inline-block;
