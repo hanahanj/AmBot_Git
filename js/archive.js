@@ -285,20 +285,34 @@ $("#site_southRoxana").mouseleave(function(){
 
 
 $('.home').mouseover('click touchstart', function() {
-	$('.archiveContain').animate({height: '77%', width: "100%", top: '17.5%', }), 300;
-	$('.site_Title').animate({top: '20%',}), 300;
-	$(".menu").animate({opacity: '1'}, 800);  
-	$(".close").animate({opacity: '1'}, 800);  
-
-
+    // $('#mapContainer').animate({height: '82.5%', width: "100%", top: '17.5%', }), 300;
+    $(".menu").animate({opacity: '.9'}, 300); 
+    $('.menu').css({"z-index": '100'}); 
 });
 
-$('.close').on('click touchstart', function() { 
-	$('.archiveContain').animate({top: '6%', width: "100%", }, 300);
-	$(this).animate({opacity: '0'}, 300);  
-	$(".menu").animate({opacity: '0'}, 300);
-
+$('.menu').mouseleave('click touchstart', function() {
+    // $('#mapContainer').animate({top: '0%', left: "0%", height: '100%', width: "100%", }, 300);
+    $(".menu").animate({opacity: '0'}, 800); 
+    $('.menu').css({"z-index": '-10'});  
 });
+
+// code below changed on Feb 23, 2016 by Bohao. This probably will be needed in the future
+
+// $('.home').mouseover('click touchstart', function() {
+// 	$('.archiveContain').animate({height: '77%', width: "100%", top: '17.5%', }), 300;
+// 	$('.site_Title').animate({top: '20%',}), 300;
+// 	$(".menu").animate({opacity: '1'}, 800);  
+// 	$(".close").animate({opacity: '1'}, 800);  
+
+
+// });
+
+// $('.close').on('click touchstart', function() { 
+// 	$('.archiveContain').animate({top: '6%', width: "100%", }, 300);
+// 	$(this).animate({opacity: '0'}, 300);  
+// 	$(".menu").animate({opacity: '0'}, 300);
+
+// });
 
 
 
