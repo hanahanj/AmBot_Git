@@ -381,31 +381,30 @@ p{
 .itineraryContain{
 	position: absolute;
 	width: 100%;
-	top: 6%;
+	top: 17%;
 }
 #itinerarySitesContain{
 	
-	position: absolute;
-	/*top: 7%;
-	left: 20%;*/
-	width: 100%;
-	z-index: -10;
+	position: relative;
+	top: 10%;
+	left: 20%;
+	width: 75%;
+	
 }
 #itinerarySitesContain ul li{
 	font-family: "Interstate-Bold";
-	/*text-transform: uppercase;*/
 	font-size: 48px;
-	/*letter-spacing: .05em;*/
 	line-height: .8em;
 	margin:35px;
-	text-align: center;
+	text-align: left;
 }
+
 
 /*===========Archive Page========*/
 .archiveContain{
 	position: absolute;
 	width: 100%;
-	top: 6%;
+	top: 17%;
 }
 
 #sitesContain{
