@@ -163,20 +163,20 @@ var fType = getUrlVars()["q"];
 
 // TOGGLE BETWEEN MAP TYPES
 
-     
 
-     $('#getDirections').click(function() {
-     	map.setMapTypeId(google.maps.MapTypeId.TERRAIN);         
-     });
 
-      $('.close').click(function() {
-     	map.setMapTypeId(google.maps.MapTypeId.SATELLITE);         
-     });
+$('#getDirections').click(function() {
+	map.setMapTypeId(google.maps.MapTypeId.TERRAIN);         
+});
+
+$('.close').click(function() {
+	map.setMapTypeId(google.maps.MapTypeId.SATELLITE);         
+});
 
 
 $('.menuFloatVisit').click(function() {
-     	map.setMapTypeId(google.maps.MapTypeId.SATELLITE);         
-     });
+	map.setMapTypeId(google.maps.MapTypeId.SATELLITE);         
+});
      	// Update this location for Each site
 
      	var Milam_Loc = new google.maps.LatLng(   38.641784, -90.149812);
