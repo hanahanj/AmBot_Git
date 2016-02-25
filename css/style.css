@@ -374,6 +374,7 @@ p{
 	position: relative;
 	top: 0%;
 	left: 10%;
+	width:10%;
 	height: auto;
 	z-index: 20;
 	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
@@ -393,11 +394,26 @@ p{
 	width: 75%;
 	
 }
+
 #itinerarySitesContain ul li{
 	font-family: "Interstate-Bold";
 	font-size: 48px;
 	line-height: .8em;
-	margin:35px;
+	margin:50px;
+	text-align: left;
+}
+#itinerarySitesContain ul li h1{
+	font-family: "Interstate-Bold";
+	font-size: 48px;
+	line-height: 1em;
+	text-align: left;
+}
+
+#itinerarySitesContain ul li h2{
+	font-family: "Interstate-Bold";
+	font-size: 24px;
+	line-height: .8em;
+	margin:10px;
 	text-align: left;
 }
 
