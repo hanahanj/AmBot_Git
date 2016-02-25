@@ -172,6 +172,16 @@ $('.menu').mouseleave('click touchstart', function() {
 
 });
 
+// Trying to get directions iframe to reload when clicked so it returns to satellite.... not working currently
+
+$('.close').click(function() {
+	document.getElementById('.directions').location.reload(true);       
+});
+
+
+$('.menuFloatVisit').click(function() {
+	document.getElementById('.directions').location.reload(true);    
+});
 
 
 

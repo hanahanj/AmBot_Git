@@ -91,29 +91,29 @@ var fType = getUrlVars()["q"];
 					jQuery(controlDiv).append(controlUI);												
 				}, // trafficSetup Ends
 				
-			
+
 				
 				mapSetup = function() {		
 
 					var styles = [
-		{
-			stylers: [ 
-			{ hue: "#ff0091" },
-			{ saturation: -100 }
-			]
-		},{
-			featureType: "road", 
-			elementType: "geometry",
-			stylers: [
-			{ lightness: 100 },
-			{ visibility: "simplified" }
-			]
-		},
-		{
-			featureType: "water", 
-			elementType: "geometry",
-			stylers: [
-			{ color: "#000000" },
+					{
+						stylers: [ 
+						{ hue: "#ff0091" },
+						{ saturation: -100 }
+						]
+					},{
+						featureType: "road", 
+						elementType: "geometry",
+						stylers: [
+						{ lightness: 100 },
+						{ visibility: "simplified" }
+						]
+					},
+					{
+						featureType: "water", 
+						elementType: "geometry",
+						stylers: [
+						{ color: "#000000" },
 			// { lightness: 250 },
 			{ visibility: "simplified" }
 			]
@@ -128,7 +128,7 @@ var fType = getUrlVars()["q"];
          ]
      }
      ];
-	
+
      map = new google.maps.Map($Selectors.mapCanvas, {
 
      	// Update this location for Each site
@@ -161,23 +161,39 @@ var fType = getUrlVars()["q"];
      	mapTypeId: google.maps.MapTypeId.SATELLITE
      });
 
+// TOGGLE BETWEEN MAP TYPES
+
+     
+
+     $('#getDirections').click(function() {
+     	map.setMapTypeId(google.maps.MapTypeId.TERRAIN);         
+     });
+
+      $('.close').click(function() {
+     	map.setMapTypeId(google.maps.MapTypeId.SATELLITE);         
+     });
+
+
+$('.menuFloatVisit').click(function() {
+     	map.setMapTypeId(google.maps.MapTypeId.SATELLITE);         
+     });
      	// Update this location for Each site
 
-     var Milam_Loc = new google.maps.LatLng(   38.641784, -90.149812);
-    var imageMark1 = '../images/ABMarker4.png';
+     	var Milam_Loc = new google.maps.LatLng(   38.641784, -90.149812);
+     	var imageMark1 = '../images/ABMarker4.png';
 
-     var Milam_Mark = new google.maps.Marker({
-     	position: Milam_Loc,
-     	map: map,
-     	icon: imageMark1,
+     	var Milam_Mark = new google.maps.Marker({
+     		position: Milam_Loc,
+     		map: map,
+     		icon: imageMark1,
 	// animation: google.maps.Animation.DROP,
 	title: 'Milam Landfill'
 });
 
 
-     autoCompleteSetup();
-     directionsSetup();
-     trafficSetup();
+     	autoCompleteSetup();
+     	directionsSetup();
+     	trafficSetup();
 				}, // mapSetup Ends 
 				
 				directionsRender = function(source, destination) {
@@ -278,3 +294,6 @@ var fType = getUrlVars()["q"];
 		return new _Directions(); // Creating a new object of _Directions rather than a funtion
 	}()); // mapDemo.Directions Ends
 })(window.mapDemo = window.mapDemo || {}, jQuery);
+
+
+
