@@ -1,0 +1,260 @@
+
+/*iphone 5*/
+@media screen and (max-width: 320px) {
+
+}
+
+/*iphone 6*/
+@media screen and (max-width: 375px ) and (min-width: 321px ){
+	body {
+		background-color: lightgreen;
+	}
+
+	@font-face {
+		font-family: "Interstate-Bold";
+		src: url('fonts/INTBD.ttf');
+		font-weight: 100;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Interstate-CompressedBlack";
+		src: url('fonts/INTBLCM_.ttf');
+		font-weight: 100;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Interstate-CondensedBold";
+		src: url('fonts/INTBDCN_.ttf');
+		font-weight: 100;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+	}
+
+	h1{
+		font-family: "Interstate-CompressedBlack";
+		font-size: 48px;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+		margin:0;
+		display:inline;
+		margin-left: 10px;
+
+	}
+
+
+	h2{
+		font-family: "Interstate-CompressedBlack";
+		text-transform: uppercase;
+		font-size: 80px;
+		letter-spacing: .05em;
+		line-height: .8em;
+		margin:0;
+
+	}
+
+	a{
+		text-decoration: none;
+		font-style: normal;
+		color:#000000;
+	}
+
+	a:hover{
+		font-style: italic;
+	}
+
+	.sitesGrid a:hover{
+		font-style: normal;
+	}
+
+	h2 a{
+		color:black;
+	}
+
+	h3{
+		font-family: "Interstate-Bold";
+		font-size: 24px;
+		/*text-transform: uppercase;*/
+	}
+
+
+	h4{
+		font-family: "Interstate-CondensedBold";
+		text-transform: uppercase;
+		font-size: 50px;
+		/*letter-spacing: .05em;*/
+		line-height: .8em;
+		margin:0;
+
+	}
+
+	.about p{
+		font-family: "Interstate-Bold";
+		font-size: 14px;
+		color:#000000;
+
+	}
+
+	p{
+		margin:0;
+		padding:0px;
+	}
+
+
+	.archiveTitle{
+		position: relative;
+		top: -15%;
+		left: 10%;
+		height: auto;
+		z-index: 20;
+		/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+		/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+		/*transform: rotate(180deg);*/
+	}
+
+
+	/*===========Archive Page========*/
+	.archiveContain{
+		position: absolute;
+		width: 100%;
+		top: 14%;
+	}
+
+	#sitesContain{
+		position: absolute;
+		top: 82%;
+		left: 20%;
+		width: 70%;
+		opacity:0;
+		z-index: -10;
+	}
+
+	#archiveSitesContain{
+		position: absolute;
+		top: 10%;
+		left: 1%;
+		width: 70%;
+		z-index: -10;
+	}
+
+	.archiveSitetitle{
+		position:absolute;
+		top:59%;
+		width:300px;
+		text-align: center;
+		margin-top: -12.5%;
+		color:#ffffff;
+		opacity: 0;
+	}
+	.archiveSitetitle h4{
+		font-family: "Interstate-CondensedBold";
+		text-transform: uppercase;
+		font-size: 36px;
+		/*letter-spacing: .05em;*/
+		line-height: .8em;
+		margin:0;
+
+	}
+
+
+	.site{
+		display: inline-block;
+		position: relative;
+		width: 23%;
+		height: auto;
+		margin: 10px;
+		float:left;
+	}
+
+	.sitesGrid{
+		display: inline;
+		position: relative;
+		width: 298px;
+		height: auto;
+		margin: 10px;
+		float:left;
+	}
+
+	.site img{
+		position:relative;
+		width:100%;
+		height:auto;
+	}
+
+	.sitesGrid img{
+		position:relative;
+		width:100%;
+		height:auto;
+	}
+
+
+	.about{
+		position: absolute;
+		top: 11%;
+		left: 600px;
+		width: 500px;
+		z-index: -10;
+		opacity:0;
+	}
+
+	.menu {
+		z-index: -10;
+		position: fixed;
+		width: 101%;
+		height: 10%;
+		opacity: 0;
+		margin:-10px;
+		background-color: white;
+	}
+
+	.menuLinks{
+		position:relative;
+		top:75px;
+		left:90px;
+		opacity:1;
+	}   
+
+	ul{
+		padding: 0;
+		list-style: none;
+		text-align: right;
+	}
+
+	ul li ul{
+		text-align: right;
+	}
+}
+
+/*iphone 6+*/
+@media screen and (max-width: 414px) and (min-width: 376px) {
+
+}
+
+/*iphone ipad*/
+@media screen and (max-width: 768px) and (min-width: 414px) {
+
+}
+
+/*macbook pro/air 13 inches (comparing with the phone, the laptop screen flips from portrait to landscape)*/
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+
+}
+
+/*macbook pro/air 15 inches ((comparing with the phone, the laptop screen flips from portrait to landscape)*/
+	@media screen and (max-width: 1440px) and (min-width: 1281px) {
+
+	}
+
+	/*anything mega and huge*/
+	@media screen and (min-width: 1441px) {
+
+	}
+
+
+
