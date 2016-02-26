@@ -1,13 +1,25 @@
 
-/*iphone 5*/
-@media screen and (max-width: 320px) {
+/*iphone ipad*/
+/*@media screen and (max-width: 768px) and (min-width: 400px){
+	body{
+		background-color: lightgreen;
+	}
+}*/
+
+/*macbook pro/air 13 inches (comparing with the phone, the laptop screen flips from portrait to landscape)*/
+/*@media screen and (max-width: 1280px) and (min-width: 769px) {
+
+	}*/
+
+	/*macbook pro/air 15 inches ((comparing with the phone, the laptop screen flips from portrait to landscape)*/
+/*@media screen and (max-width: 1440px) and (min-width: 1281px) {
 
 }
-
-/*iphone 6*/
-@media screen and (max-width: 375px ) and (min-width: 321px ){
-	body {
-		background-color: lightgreen;
+*/
+/*anything mega and huge*/
+@media screen and (max-width: 980px) {
+	body{
+		background-color: none;
 	}
 
 	@font-face {
@@ -42,9 +54,24 @@
 		font-size: 48px;
 		letter-spacing: .05em;
 		text-transform: uppercase;
+		display:inline;
+		margin:0;
+		margin-top: -20px;
+		margin-left: 10px;
+
+	}
+
+	.menuSites h1{
+		font-family: "Interstate-CompressedBlack";
+		font-size: 30px;
+		text-align: right;
+		letter-spacing: .05em;
+		text-transform: uppercase;
 		margin:0;
 		display:inline;
 		margin-left: 10px;
+
+
 
 	}
 
@@ -106,155 +133,428 @@
 		padding:0px;
 	}
 
+/*a{
+	text-decoration: none;
+	font-style: italic;
+	color:#000000;
+	}*/
 
-	.archiveTitle{
-		position: relative;
-		top: -15%;
-		left: 10%;
-		height: auto;
-		z-index: 20;
-		/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-		/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-		/*transform: rotate(180deg);*/
-	}
-
-
-	/*===========Archive Page========*/
-	.archiveContain{
-		position: absolute;
-		width: 100%;
-		top: 14%;
-	}
-
-	#sitesContain{
-		position: absolute;
-		top: 82%;
-		left: 20%;
-		width: 70%;
+	.close{
+		position:fixed;
+		top:6%;
+		right:6%;
+		width:50px;
+		height:50px;
+		z-index: 2000;
 		opacity:0;
-		z-index: -10;
 	}
 
-	#archiveSitesContain{
-		position: absolute;
-		top: 10%;
-		left: 1%;
-		width: 70%;
-		z-index: -10;
+	.home{
+		position:fixed;
+		left: 4%;
+		top: 3%;
+		z-index: 2000;
 	}
 
-	.archiveSitetitle{
+	.bar1{
 		position:absolute;
-		top:59%;
-		width:300px;
-		text-align: center;
-		margin-top: -12.5%;
-		color:#ffffff;
-		opacity: 0;
-	}
-	.archiveSitetitle h4{
-		font-family: "Interstate-CondensedBold";
-		text-transform: uppercase;
-		font-size: 36px;
-		/*letter-spacing: .05em;*/
-		line-height: .8em;
-		margin:0;
-
-	}
-
-
-	.site{
-		display: inline-block;
-		position: relative;
-		width: 23%;
-		height: auto;
-		margin: 10px;
-		float:left;
-	}
-
-	.sitesGrid{
-		display: inline;
-		position: relative;
-		width: 298px;
-		height: auto;
-		margin: 10px;
-		float:left;
-	}
-
-	.site img{
-		position:relative;
 		width:100%;
-		height:auto;
+		height:10px;
+		margin-left: 25px;
+		z-index: 200;
+		background-color: #000000;
+		-ms-transform: rotate(45deg); /* IE 9 */
+		-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+		transform: rotate(45deg);
 	}
 
-	.sitesGrid img{
-		position:relative;
+	.bar2{
+		position:absolute;
 		width:100%;
-		height:auto;
+		height:10px;
+		z-index: 200;
+		margin-left:25px;
+		background-color: #000000;
+		-ms-transform: rotate(-45deg); /* IE 9 */
+		-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+		transform: rotate(-45deg);
 	}
 
+	#mapContainer {
+		position:fixed;
+		width:100%;
+		height:100%;
+		top:	0%;
+		left: 0%
+	}
 
-	.about{
+	#contentContainer {
+		position:fixed;
+		width:100%;
+		height:100%;
+		margin: -10px;
+		padding: 0px;
+	}
+	#mapCanvas {
 		position: absolute;
-		top: 11%;
-		left: 600px;
-		width: 500px;
-		z-index: -10;
-		opacity:0;
-	}
-
-	.menu {
-		z-index: -10;
-		position: fixed;
-		width: 101%;
-		height: 10%;
-		opacity: 0;
-		margin:-10px;
-		background-color: white;
-	}
-
-	.menuLinks{
-		position:relative;
-		top:75px;
-		left:90px;
-		opacity:1;
-	}   
-
-	ul{
-		padding: 0;
-		list-style: none;
-		text-align: right;
-	}
-
-	ul li ul{
-		text-align: right;
-	}
+	/*top:	6%;
+	left: 6%;*/
+	height: 100%;
+	width: 100%;
 }
 
-/*iphone 6+*/
-@media screen and (max-width: 414px) and (min-width: 376px) {
+#infowindow {
+	position: absolute;
+	left: 0;
+	top: 37%;
+	height: 155px;
+	width: 100%;
+	overflow: auto;
+	z-index: 200;
 
 }
 
-/*iphone ipad*/
-@media screen and (max-width: 768px) and (min-width: 414px) {
+#bodyContent{
+	font-size: 150px;
+	font-family: "Interstate-CompressedBlack";
+	color: white;
+	text-transform: uppercase;
+	opacity:1;
+	text-align: center;
+	text-shadow: 1px 1px 5px #444444;
 
 }
 
-/*macbook pro/air 13 inches (comparing with the phone, the laptop screen flips from portrait to landscape)*/
-@media screen and (max-width: 1280px) and (min-width: 769px) {
+
+
+
+
+#logo{
+	position: relative;
+	width: 80%;
+	height: auto;
 
 }
 
-/*macbook pro/air 15 inches ((comparing with the phone, the laptop screen flips from portrait to landscape)*/
-	@media screen and (max-width: 1440px) and (min-width: 1281px) {
+.logo{
+	position:fixed;
+	top:7%;
+	left:7%;
+	z-index: -10;
+	width:500px;
+	height:auto;
+	opacity: 0;
+	
 
-	}
+}
 
-	/*anything mega and huge*/
-	@media screen and (min-width: 1441px) {
 
-	}
+
+/*menu*//*//////////////////////////////////////////*/
+
+
+.menu {
+	z-index: -10;
+	position: fixed;
+	width: 101%;
+	height: 8.5%;
+	opacity: 0;
+	margin:-10px;
+	background-color: white;
+}
+
+.menuLinks{
+	position:relative;
+	top:75px;
+	left:120px;
+	opacity:1;
+}   
+
+
+.menu div:hover{
+	font-style: italic;
+}
+
+.menuSites{
+	position:absolute;
+	bottom:5px;
+	right:50px;
+	width:500px;
+	display:inline-block;
+}
+
+
+
+.menuFloatDescription{
+	position: relative;
+	height: auto;
+	margin-left: 20px;
+	z-index: 2000;
+	display:inline;
+	/*-ms-transform: rotate(270deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(270deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(270deg);*/
+
+}
+
+.menuFloatStreetview{
+	position: relative;
+	height: auto;
+	z-index: 2000;
+	display:inline;
+	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(180deg);*/
+
+}
+
+
+.menuFloatVisit{
+	position: relative;
+	height: auto;
+	z-index: 2000;
+	display:inline;
+	margin-left: 20px;
+	/*	-ms-transform: rotate(0deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(0deg); *//* Chrome, Safari, Opera */
+	/*transform: rotate(0deg);*/
+
+}
+
+.menuFloatInt{
+	position: relative;
+	height: auto;
+	z-index: 20;
+	display:inline;
+	margin-left: 20px;
+	/*-ms-transform: rotate(90deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(90deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(90deg);*/
+
+}
+
+
+
+.menuFloatSites{
+	position: relative;
+	bottom: 0%;
+	left: 10%;
+	height: auto;
+	z-index: 20;
+	margin-left: 20px;
+	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(180deg);*/
+
+}
+
+.menuFloatAbout{
+	position: relative;
+	top: 0;
+	right: 30%;
+	height: auto;
+	z-index: 2000;
+	margin-left: 20px;
+
+}
+
+.archiveTitle{
+	position: relative;
+	top: 0%;
+	left: 10%;
+	height: auto;
+	z-index: 20;
+	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(180deg);*/
+
+}
+
+
+#listItineraries{
+	position: fixed;
+	bottom: 16%;
+	right: 105px;
+	z-index: -10;
+	opacity:0;
+	color:#c0c0c0;
+}
+
+#listItineraries h3 a{
+	text-decoration: none;
+	font-style: normal;
+	color:#000000;
+}
+
+#listItineraries h3 a:hover{
+	text-decoration: none;
+	font-style: italic;
+	color:#000000;
+}
+
+
+/*===========Itinerary Page========*/
+.itineraryTitle{
+	position: relative;
+	top: 0%;
+	left: 10%;
+	width:10%;
+	height: auto;
+	z-index: 20;
+	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(180deg);*/
+}
+.itineraryContain{
+	position: absolute;
+	width: 100%;
+	top: 17%;
+}
+#itinerarySitesContain{
+	
+	position: relative;
+	top: 10%;
+	left: 20%;
+	width: 75%;
+	
+}
+
+#itinerarySitesContain ul li{
+	font-family: "Interstate-Bold";
+	font-size: 48px;
+	line-height: .8em;
+	margin:50px;
+	text-align: left;
+}
+#itinerarySitesContain ul li h1{
+	font-family: "Interstate-Bold";
+	font-size: 48px;
+	line-height: 1em;
+	text-align: left;
+}
+
+#itinerarySitesContain ul li h2{
+	font-family: "Interstate-Bold";
+	font-size: 24px;
+	line-height: .8em;
+	margin:10px;
+	text-align: left;
+}
+
+.itineraryMap{
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	opacity:0;
+	z-index: -10;
+	
+	
+}
+
+.itineraryMap iframe{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+
+
+/*===========Archive Page========*/
+.archiveContain{
+	position: absolute;
+	width: 100%;
+	top: 10%;
+}
+
+#sitesContain{
+	position: absolute;
+	top: 82%;
+	left: 20%;
+	width: 70%;
+	opacity:0;
+	z-index: -10;
+}
+
+#archiveSitesContain{
+	position: absolute;
+	top: 50%;
+	left: 8.7%;
+	width: 70%;
+	z-index: -10;
+}
+
+.archiveSitetitle{
+	position:absolute;
+	top:59%;
+	width:300px;
+	text-align: center;
+	margin-top: -12.5%;
+	color:#ffffff;
+	opacity: 0;
+}
+.archiveSitetitle h4{
+	font-family: "Interstate-CondensedBold";
+	text-transform: uppercase;
+	font-size: 36px;
+	/*letter-spacing: .05em;*/
+	line-height: .8em;
+	margin:0;
+
+}
+
+
+.site{
+	display: inline-block;
+	position: relative;
+	width: 23%;
+	height: auto;
+	margin: 10px;
+	float:left;
+}
+
+.sitesGrid{
+	display: inline;
+	position: relative;
+	width: 870px;
+	height: auto;
+	margin: 23px;
+	float:left;
+}
+
+.site img{
+	position:relative;
+	width:100%;
+	height:auto;
+}
+
+.sitesGrid img{
+	position:relative;
+	width:100%;
+	height:auto;
+}
+
+
+.about{
+	position: absolute;
+	top: 11%;
+	left: 600px;
+	width: 500px;
+	z-index: -10;
+	opacity:0;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+ul li ul{
+	text-align: right;
+}
+
+}
 
 
 
