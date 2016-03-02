@@ -13,10 +13,25 @@ $(document).ready(function(){
 });
 
 	$('#IT1').mouseover('click touchstart', function() {  
-		$('.itineraryMap').animate({opacity: '1'}, 100); 
+		$('.itineraryMap').animate({opacity: '1'}, 300); 
 	});
 	$('#IT1').mouseleave('click touchstart', function() {  
 		$('.itineraryMap').animate({opacity: '0'}, 300); 
+	});
+
+
+	$('#IT2').mouseover('click touchstart', function() {  
+		$('.itineraryMap2').animate({opacity: '1'}, 300); 
+	});
+	$('#IT2').mouseleave('click touchstart', function() {  
+		$('.itineraryMap2').animate({opacity: '0'}, 300); 
+	});
+
+	$('#IT3').mouseover('click touchstart', function() {  
+		$('.itineraryMap2').animate({opacity: '1'}, 300); 
+	});
+	$('#IT3').mouseleave('click touchstart', function() {  
+		$('.itineraryMap2').animate({opacity: '0'}, 300); 
 	});
 
 
