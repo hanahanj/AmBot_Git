@@ -4,9 +4,9 @@
 	body{
 		background-color: lightgreen;
 	}
-}*/
+	}*/
 
-/*macbook pro/air 13 inches (comparing with the phone, the laptop screen flips from portrait to landscape)*/
+	/*macbook pro/air 13 inches (comparing with the phone, the laptop screen flips from portrait to landscape)*/
 /*@media screen and (max-width: 1280px) and (min-width: 769px) {
 
 	}*/
@@ -17,7 +17,8 @@
 }
 */
 /*anything mega and huge*/
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 750px) {
 	body{
 		background-color: none;
 	}
@@ -70,9 +71,6 @@
 		margin:0;
 		display:inline;
 		margin-left: 10px;
-
-
-
 	}
 
 
@@ -149,13 +147,6 @@
 		opacity:0;
 	}
 
-	.home{
-		position:fixed;
-		left: 4%;
-		top: 3%;
-		z-index: 2000;
-	}
-
 	.bar1{
 		position:absolute;
 		width:100%;
@@ -225,10 +216,6 @@
 
 }
 
-
-
-
-
 #logo{
 	position: relative;
 	width: 80%;
@@ -248,28 +235,37 @@
 
 }
 
+/*home*//*//////////////////////////////////////////*/
+
+.home{
+	position:fixed;
+	left: 4%;
+	top: 29px;
+	z-index: 2000;
+}
 
 
 /*menu*//*//////////////////////////////////////////*/
 
-
 .menu {
 	z-index: -10;
 	position: fixed;
-	width: 101%;
-	height: 8.5%;
+	width: 100%;
+	height: 10px;
 	opacity: 0;
-	margin:-10px;
 	background-color: white;
 }
 
 .menuLinks{
 	position:relative;
-	top:75px;
-	left:120px;
+	top:55px;
+	left:15%;
 	opacity:1;
 }   
 
+.menuLinks h1{
+	font-size: 1.8rem;
+}
 
 .menu div:hover{
 	font-style: italic;
@@ -292,7 +288,7 @@
 	z-index: 2000;
 	display:inline;
 	/*-ms-transform: rotate(270deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(270deg);*/ /* Chrome, Safari, Opera */
+	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
 	/*transform: rotate(270deg);*/
 
 }
@@ -355,18 +351,6 @@
 	height: auto;
 	z-index: 2000;
 	margin-left: 20px;
-
-}
-
-.archiveTitle{
-	position: relative;
-	top: 0%;
-	left: 10%;
-	height: auto;
-	z-index: 20;
-	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(180deg);*/
 
 }
 
@@ -464,7 +448,23 @@
 .archiveContain{
 	position: absolute;
 	width: 100%;
-	top: 10%;
+	top: 100px;
+}
+
+.archiveTitle{
+	position: relative;
+	top: 0%;
+	left: 2%;
+	margin-bottom: 3%;
+	height: auto;
+	z-index: 20;
+	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(180deg);*/
+}
+
+.archiveTitle h1{
+	font-size: 2.6rem;
 }
 
 #sitesContain{
@@ -479,30 +479,27 @@
 #archiveSitesContain{
 	position: absolute;
 	top: 50%;
-	left: 8.7%;
-	width: 70%;
+	left: 0%;
+	width: 92%;
 	z-index: -10;
 }
 
 .archiveSitetitle{
-	position:absolute;
-	top:59%;
-	width:300px;
+	position: absolute;
+	top: 60%;
+	width: 100%;
 	text-align: center;
 	margin-top: -12.5%;
-	color:#ffffff;
+	color: #ffffff;
 	opacity: 0;
 }
 .archiveSitetitle h4{
 	font-family: "Interstate-CondensedBold";
 	text-transform: uppercase;
-	font-size: 36px;
+	font-size: 2rem;
 	/*letter-spacing: .05em;*/
 	line-height: .8em;
-	margin:0;
-
 }
-
 
 .site{
 	display: inline-block;
@@ -516,9 +513,11 @@
 .sitesGrid{
 	display: inline;
 	position: relative;
-	width: 870px;
+	width: 100%;
 	height: auto;
-	margin: 23px;
+	margin-top: 4%;
+	margin-left: 4%;
+	margin-right: 4%;
 	float:left;
 }
 
