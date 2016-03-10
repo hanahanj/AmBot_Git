@@ -95,7 +95,7 @@
   position: absolute;
   top: 30%;
   left: 7%;
-  width: 60%;
+  width: 40%;
   height: 64%;
   border-left: none;
   padding-left: 10px;
@@ -106,7 +106,7 @@
 
 .siteText p{
 	font-family: "Interstate-Bold";
-	font-size: 32px;
+	font-size: 20px;
     /*letter-spacing: .05em;*/
     line-height: 1.4em;
 	margin:0;

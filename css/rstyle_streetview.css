@@ -84,12 +84,18 @@
 		position:fixed;
 		top:105px;
 		left:9%;
-		width: 600px;
+		width: 200px;
 		/*z-index: -10;*/
 		opacity:1;
 
 	}
 
+	.site_Title h2{
+		font-size: 50px;
+		line-height: 100%;
+		letter-spacing: 0px;
+	}
+	
 	.siteText{
 		z-index: -10;
 		margin: 0;

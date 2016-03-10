@@ -3,115 +3,115 @@
 	}
 
 
-@font-face {
-	font-family: "Interstate-Bold";
-	src: url('fonts/INTBD.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
+	@font-face {
+		font-family: "Interstate-Bold";
+		src: url('fonts/INTBD.ttf');
+		font-weight: 100;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+	}
 
-@font-face {
-	font-family: "Interstate-CompressedBlack";
-	src: url('fonts/INTBLCM_.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
+	@font-face {
+		font-family: "Interstate-CompressedBlack";
+		src: url('fonts/INTBLCM_.ttf');
+		font-weight: 100;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+	}
 
-@font-face {
-	font-family: "Interstate-CondensedBold";
-	src: url('fonts/INTBDCN_.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
+	@font-face {
+		font-family: "Interstate-CondensedBold";
+		src: url('fonts/INTBDCN_.ttf');
+		font-weight: 100;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+	}
 
-h1{
-	font-family: "Interstate-CompressedBlack";
-	font-size: 48px;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	margin:0;
-	display:inline;
-	margin-left: 10px;
+	h1{
+		font-family: "Interstate-CompressedBlack";
+		font-size: 48px;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+		margin:0;
+		display:inline;
+		margin-left: 10px;
 
-}
+	}
 
-.menuSites h1{
-	font-family: "Interstate-CompressedBlack";
-	font-size: 30px;
-	text-align: right;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	margin:0;
-	display:inline;
-	margin-left: 10px;
-
-
-
-}
+	.menuSites h1{
+		font-family: "Interstate-CompressedBlack";
+		font-size: 30px;
+		text-align: right;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+		margin:0;
+		display:inline;
+		margin-left: 10px;
 
 
-h2{
-	font-family: "Interstate-CompressedBlack";
-	text-transform: uppercase;
-	font-size: 80px;
-	letter-spacing: .05em;
-	line-height: .8em;
-	margin:0;
 
-}
-
-a{
-	text-decoration: none;
-	font-style: normal;
-	color:#000000;
-}
-
-a:hover{
-	font-style: italic;
-}
-
-.sitesGrid a:hover{
-	font-style: normal;
-}
-
-h2 a{
-	color:black;
-}
-
-h3{
-	font-family: "Interstate-Bold";
-	font-size: 24px;
-	/*text-transform: uppercase;*/
-}
+	}
 
 
-h4{
-	font-family: "Interstate-CondensedBold";
-	text-transform: uppercase;
-	font-size: 50px;
-	/*letter-spacing: .05em;*/
-	line-height: .8em;
-	margin:0;
+	h2{
+		font-family: "Interstate-CompressedBlack";
+		text-transform: uppercase;
+		font-size: 80px;
+		letter-spacing: .05em;
+		line-height: .8em;
+		margin:0;
 
-}
+	}
 
-.about p{
-	font-family: "Interstate-Bold";
-	font-size: 14px;
-	color:#000000;
+	a{
+		text-decoration: none;
+		font-style: normal;
+		color:#000000;
+	}
 
-}
+	a:hover{
+		font-style: italic;
+	}
 
-p{
-	margin:0;
-	padding:0px;
-}
+	.sitesGrid a:hover{
+		font-style: normal;
+	}
+
+	h2 a{
+		color:black;
+	}
+
+	h3{
+		font-family: "Interstate-Bold";
+		font-size: 24px;
+		/*text-transform: uppercase;*/
+	}
+
+
+	h4{
+		font-family: "Interstate-CondensedBold";
+		text-transform: uppercase;
+		font-size: 50px;
+		/*letter-spacing: .05em;*/
+		line-height: .8em;
+		margin:0;
+
+	}
+
+	.about p{
+		font-family: "Interstate-Bold";
+		font-size: 14px;
+		color:#000000;
+
+	}
+
+	p{
+		margin:0;
+		padding:0px;
+	}
 
 /*a{
 	text-decoration: none;
@@ -257,8 +257,8 @@ p{
 .menuSites{
 	position:absolute;
 	bottom:5px;
-	right:50px;
-	width:500px;
+	right:6%;
+	width:370px;
 	display:inline-block;
 }
 
