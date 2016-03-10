@@ -62,22 +62,11 @@
 
 	}
 
-	.menuSites h1{
-		font-family: "Interstate-CompressedBlack";
-		font-size: 30px;
-		text-align: right;
-		letter-spacing: .05em;
-		text-transform: uppercase;
-		margin:0;
-		display:inline;
-		margin-left: 10px;
-	}
-
 
 	h2{
 		font-family: "Interstate-CompressedBlack";
 		text-transform: uppercase;
-		font-size: 80px;
+		font-size: 50px;
 		letter-spacing: .05em;
 		line-height: .8em;
 		margin:0;
@@ -239,7 +228,7 @@
 
 .home{
 	position:fixed;
-	left: 4%;
+	left: 5%;
 	top: 29px;
 	z-index: 2000;
 }
@@ -273,13 +262,22 @@
 
 .menuSites{
 	position:absolute;
-	bottom:5px;
-	right:50px;
-	width:500px;
+	bottom: 8px;
+	right: 0px;
+	width: 294px;
 	display:inline-block;
 }
 
-
+.menuSites h1{
+	font-family: "Interstate-CompressedBlack";
+	font-size: 1.3rem;
+	text-align: right;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	margin:0;
+	display:inline;
+	margin-left: 10px;
+}
 
 .menuFloatDescription{
 	position: relative;
@@ -355,13 +353,18 @@
 }
 
 
+
 #listItineraries{
 	position: fixed;
-	bottom: 16%;
-	right: 105px;
+	bottom: 10%;
+	right: 12%;
 	z-index: -10;
 	opacity:0;
 	color:#c0c0c0;
+}
+
+#listItineraries h3{
+	font-size: 1.1rem;
 }
 
 #listItineraries h3 a{
@@ -375,7 +378,6 @@
 	font-style: italic;
 	color:#000000;
 }
-
 
 /*===========Itinerary Page========*/
 .itineraryTitle{
