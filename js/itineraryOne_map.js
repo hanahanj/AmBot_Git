@@ -41,7 +41,7 @@ $(document).ready(function(){
      ];
 
      var map_options = {
-     	center: new google.maps.LatLng(38.59923, -90.0957),
+     	center: new google.maps.LatLng(38.59923, -90.09554),
      	mapTypeId: google.maps.MapTypeId.TERRAIN,
      	zoom: 13,
      	panControl: false,

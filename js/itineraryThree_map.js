@@ -41,7 +41,7 @@ $(document).ready(function(){
      ];
 
      var map_options = {
-     	center: new google.maps.LatLng(38.59923, -90.0957),
+     	center: new google.maps.LatLng(38.16523, -90.20565),
      	mapTypeId: google.maps.MapTypeId.TERRAIN,
      	zoom: 13,
      	panControl: false,
@@ -68,10 +68,13 @@ $(document).ready(function(){
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
 	    
-	    ['East St. Louis', 38.59923, -90.09554, 'insert Site'],
-	    ['Point 2', 38.60982, -90.15608, 'insert Site'],
-	    ['Sunken Garden', 38.62529, -90.14097, 'insert Site'],
-	    ['Jones Park', 38.62505, -90.12196, 'insert Site'],
+	    ['Prairie Du Rocher', 38.08491, -90.09711, 'insert Site'],
+	    ['Fort Chartres', 38.08827, -90.15958, 'insert Site'],
+	    ['St. Phillipe', 38.12226, -90.20865, 'insert Site'],
+	    ['Le Grande Passe', 38.16523, -90.20565, 'insert Site'],
+	    ['Fults Hill Prairie', 38.15581, -90.18976, 'insert Site'],
+	    ['Kidd Lake', 38.14481, -90.16857, 'insert Site'],
+	    ['Bluffs', 38.1201, -90.13097, 'insert Site'],
 	   
 	    
 	    ];
