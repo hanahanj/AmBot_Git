@@ -84,7 +84,7 @@
 		position:fixed;
 		top:105px;
 		left:9%;
-		width: 200px;
+		width: 240px;
 		/*z-index: -10;*/
 		opacity:1;
 
@@ -101,10 +101,10 @@
 		margin: 0;
 		padding: 0;
 		position: absolute;
-		top: 30%;
+		top: 35%;
 		left: 7%;
 		width: 80%;
-		height: 64%;
+		height: 58%;
 		border-left: none;
 		padding-left: 10px;
 		overflow:scroll;
