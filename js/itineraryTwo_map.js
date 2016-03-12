@@ -41,9 +41,9 @@ $(document).ready(function(){
      ];
 
      var map_options = {
-     	center: new google.maps.LatLng(38.59923, -90.0957),
+     	center: new google.maps.LatLng(38.7051, -90.16234),
      	mapTypeId: google.maps.MapTypeId.TERRAIN,
-     	zoom: 13,
+     	zoom: 11,
      	panControl: false,
      	zoomControl: true,
      	scaleControl: true,
@@ -68,10 +68,20 @@ $(document).ready(function(){
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
 	    
-	    ['East St. Louis', 38.59923, -90.09554, 'insert Site'],
-	    ['Point 2', 38.60982, -90.15608, 'insert Site'],
-	    ['Sunken Garden', 38.62529, -90.14097, 'insert Site'],
-	    ['Jones Park', 38.62505, -90.12196, 'insert Site'],
+	    ['WoodRiver PP', 38.86878, -90.1326, 'insert Site'],
+	    ['Roxana Mound', 38.85366, -90.07574, 'insert Site'],
+	    ['Chemetco', 38.80113, -90.09743, 'insert Site'],
+	    ['American Steel', 38.7051, -90.16234, 'insert Site'],
+	    ['Venice', 38.67539, -90.17586, 'insert Site'],
+	    ['Milam', 38.65625, -90.12934, 'insert Site'],
+	    ['Sam Chucallo', 38.64385, -90.11559, 'insert Site'],
+	    ['Powell Mound', 38.65342, -90.09604, 'insert Site'],
+	    ['Cahokia', 38.65682, -90.06231, 'insert Site'],
+	    ['Alorton', 38.60379, -90.12042, 'insert Site'],
+	    ['Sauget', 38.60805, -90.18028, 'insert Site'],
+	    ['Mulch', 38.58463, -90.19097, 'insert Site'],
+	    ['Pulcher', 38.49603, -90.23869, 'insert Site'],
+
 	   
 	    
 	    ];
