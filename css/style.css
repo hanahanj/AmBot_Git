@@ -193,8 +193,8 @@
 
 }
 
-#bodyContent{
-	font-size: 50px;
+#bodyContent p{
+	font-size: 150px;
 	font-family: "Interstate-CompressedBlack";
 	color: white;
 	text-transform: uppercase;
