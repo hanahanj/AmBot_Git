@@ -188,12 +188,13 @@
 	top: 37%;
 	height: 155px;
 	width: 100%;
-	overflow: auto;
+	overflow: none;
 	z-index: 200;
 
 }
 
 #bodyContent p{
+	
 	font-size: 150px;
 	font-family: "Interstate-CompressedBlack";
 	color: white;
