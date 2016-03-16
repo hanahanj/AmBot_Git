@@ -30,6 +30,16 @@
 		font-style: normal;
 	}
 
+	@font-face {
+  font-family: "Interstate-Reg";
+  src: url('fonts/INTREG.otf');
+  font-weight: 100;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+}
+
+
 	h1{
 		font-family: "Interstate-CompressedBlack";
 		font-size: 48px;
