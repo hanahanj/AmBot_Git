@@ -30,6 +30,16 @@
 		font-style: normal;
 	}
 
+	@font-face {
+  font-family: "Interstate-Reg";
+  src: url('fonts/INTREG.otf');
+  font-weight: 100;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+}
+
+
 	h1{
 		font-family: "Interstate-CompressedBlack";
 		font-size: 48px;
@@ -41,6 +51,25 @@
 
 	}
 
+	.site_Title h1{
+		font-family: "Interstate-Bold";
+    font-size: 48px;
+    line-height: 1em;
+    text-align: left;
+
+	}
+
+	.site_Title h2{
+	font-family: "Interstate-Bold";
+    font-size: 24px;
+    line-height: .8em;
+    margin: 10px;
+    text-align: left;
+
+
+	}
+
+	
 	.menuSites h1{
 		font-family: "Interstate-CompressedBlack";
 		font-size: 30px;
@@ -188,13 +217,14 @@
 	top: 37%;
 	height: 155px;
 	width: 100%;
-	overflow: auto;
+	overflow: none;
 	z-index: 200;
 
 }
 
-#bodyContent{
-	font-size: 50px;
+#bodyContent p{
+	
+	font-size: 150px;
 	font-family: "Interstate-CompressedBlack";
 	color: white;
 	text-transform: uppercase;
@@ -439,6 +469,24 @@
 }
 
 .itineraryMap iframe{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.itineraryMap_solo{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 70%;
+	opacity:1;
+	z-index: -100;
+	
+	
+}
+
+.itineraryMap_solo iframe{
 	position:absolute;
 	width:100%;
 	height:100%;

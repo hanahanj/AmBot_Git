@@ -161,7 +161,7 @@ $('.close').on('click touchstart', function() {
 $('.home').mouseover('click touchstart', function() {
 	$(".menu").animate({opacity: '.9'}, 300);  
 	$('.site_Title').animate({top: '20%',}), 300;
-	$('.siteText').animate({top: '40%', height: '53%'}), 300;
+	$('.siteText').animate({top: '45%', height: '53%'}), 300;
 	$('.menu').css({"z-index": '100'}); 
 
 
@@ -171,7 +171,7 @@ $('.menu').mouseleave('click touchstart', function() {
 	$(".menu").animate({opacity: '0'}, 300); 
 	$('.menu').css({"z-index": '-10'});   
 	$('.site_Title').animate({top: '12%',}), 1600;
-	$('.siteText').animate({top: '30%', height: '64%'}), 1600;
+	$('.siteText').animate({top: '35%', height: '64%'}), 1600;
 
 });
 
