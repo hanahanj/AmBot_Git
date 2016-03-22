@@ -31,13 +31,13 @@
 	}
 
 	@font-face {
-  font-family: "Interstate-Reg";
-  src: url('fonts/INTREG.otf');
-  font-weight: 100;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-}
+		font-family: "Interstate-Reg";
+		src: url('fonts/INTREG.otf');
+		font-weight: 100;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		font-style: normal;
+	}
 
 
 	h1{
@@ -53,18 +53,18 @@
 
 	.site_Title h1{
 		font-family: "Interstate-Bold";
-    font-size: 48px;
-    line-height: 1em;
-    text-align: left;
+		font-size: 48px;
+		line-height: 1em;
+		text-align: left;
 
 	}
 
 	.site_Title h2{
-	font-family: "Interstate-Bold";
-    font-size: 24px;
-    line-height: .8em;
-    margin: 10px;
-    text-align: left;
+		font-family: "Interstate-Bold";
+		font-size: 24px;
+		line-height: .8em;
+		margin: 10px;
+		text-align: left;
 
 
 	}
@@ -147,6 +147,7 @@
 	font-style: italic;
 	color:#000000;
 	}*/
+
 
 	.close{
 		position:fixed;
@@ -393,7 +394,7 @@
 }
 
 #listItineraries h3 {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 #listItineraries h3 a{

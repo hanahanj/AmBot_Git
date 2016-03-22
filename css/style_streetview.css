@@ -16,6 +16,31 @@
 	font-style: normal;
 }
 
+.splashDescription{
+	background-color: grey;
+	position: fixed;
+	width:88%;
+	height:88%;
+	top:6%;
+	left:6%;
+	overflow: hidden;
+	opacity: 0.8;
+}
+
+.splashDescription p{
+	padding: 50px;
+	opacity: 1;
+}
+
+.splashClose{
+	position:fixed;
+	top:6%;
+	right:6%;
+	width:50px;
+	height:50px;
+	z-index: 2000;
+	opacity:1;
+}
 
 #bgContainer {
 	position:fixed;
@@ -35,10 +60,10 @@
 
 #titleImage{
 	position: relative;
-    width: 100%;
-    height: 100%;
-    overflow:hidden;
-    overflow-y:hidden;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+	overflow-y:hidden;
 
 }
 
@@ -52,23 +77,23 @@
 
 
 .streetView {
-    position: absolute;
-    top: 0%;
-    width: 100%;
-    height: 100%;
-    opacity:0;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	opacity:0;
 
-   
+
 }
 
 .directions {
-    position: absolute;
-    top: 0%;
-    width: 100%;
-    height: 100%;
-    opacity:0;
-   
-   
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	opacity:0;
+
+
 }
 
 .directions iframe{
@@ -96,24 +121,24 @@
 .siteText{
 	z-index: -10;
 	margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 35%;
-  left: 7%;
-  width: 30%;
-  height: 64%;
-  border-left: none;
-  padding-left: 10px;
-  overflow:scroll;
-  opacity:0;
+	padding: 0;
+	position: absolute;
+	top: 35%;
+	left: 7%;
+	width: 30%;
+	height: 64%;
+	border-left: none;
+	padding-left: 10px;
+	overflow:scroll;
+	opacity:0;
 
 }
 
 .siteText p{
 	font-family: "Interstate-Bold";
 	font-size: 20px;
-    /*letter-spacing: .05em;*/
-    line-height: 1.4em;
+	/*letter-spacing: .05em;*/
+	line-height: 1.4em;
 	margin:0;
 
 }
@@ -124,8 +149,8 @@ p{
 
 	font-family: "Interstate-Bold";
 	font-size: 18px;
-    /*letter-spacing: .05em;*/
-    line-height: 1.4em;
+	/*letter-spacing: .05em;*/
+	line-height: 1.4em;
 	margin:0;
 
 }
@@ -133,13 +158,13 @@ p{
 a{
 	text-decoration: none; 
 	color:black;
-   
+
 }
 
 a:visited{
 	text-decoration: none; 
 	color:black;
-   
+
 }
 
 

@@ -365,8 +365,11 @@ $('.close').on('click touchstart', function() {
 	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"}); 
 	$('.menuFloatSites').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatAbout').css({"text-decoration":"none", "font-style": "normal"}); 
+});
 
-
+$('.splashClose').on('click touchstart', function() {
+ 	$(this).animate({opacity: '0'}, 300);
+ 	$('.splashDescription').animate({opacity: '0'}, 300);
 });
 
 
