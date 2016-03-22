@@ -62,6 +62,7 @@ $('.menuFloatStreetview').on('click touchstart', function() {
 	$('#bgContainer').animate({top: '6%', left: "0%", height: '88%', width: "100%", }, 300);
 	$('#bgContainer').animate({opacity: '1'}, 300); 
 	$('.streetView').animate({opacity: '1'}, 800); 
+	$('#listItineraries').animate({opacity: '0'}, 300);
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});
@@ -153,7 +154,7 @@ $('.close').on('click touchstart', function() {
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"}); 
 	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});    
 	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
-	$('.site_Title').animate({top: '12%',}), 300;
+	//$('.site_Title').animate({top: '12%',}), 300;
 
 });
 
