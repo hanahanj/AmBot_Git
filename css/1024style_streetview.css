@@ -18,6 +18,37 @@
 }
 
 
+.splashDescription{
+	background-color: grey;
+	position: fixed;
+	width: 82%;
+	height: 82%;
+	top: 13%;
+	left: 8%;
+	overflow: hidden;
+	opacity: 0.8;
+	overflow: scroll;
+}
+
+.splashDescription p{
+	font-size: 16px;
+	padding: 13px;
+	opacity: 1;
+}
+
+.splashClose{
+	position:fixed;
+	top:6%;
+	right:6%;
+	width:50px;
+	height:50px;
+	z-index: 2000;
+	opacity:1;
+	top: 12%;
+    right: 10%;
+
+}
+
 #bgContainer {
 	position:fixed;
 	width:88%;
@@ -143,6 +174,8 @@ a:visited{
 	color:black;
 
 }
+
+
 
 
 
