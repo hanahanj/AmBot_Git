@@ -79,7 +79,7 @@ $(document).ready(function(){
 	    ['Chain of Rocks', 38.7585, -90.170575, 'insert Site'],
 	    ['Chemetco', 38.797708, -90.098817, 'chemetco.html'],
 	    ['Chouteau Island', 38.753956, -90.158042, 'insert Site'],
-		['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
+	    ['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
 	    ['Confluence Tower', 38.815952, -90.106004, "confluenceTower.html"],  
 	    ['Dupo', 38.522706, -90.210494, 'dupo.html'],
 	    ['Eagle Cliff', 38.364697, -90.261725, 'eaglecliffCemetery.html'],
@@ -368,8 +368,9 @@ $('.close').on('click touchstart', function() {
 });
 
 $('.splashClose').on('click touchstart', function() {
- 	$(this).animate({opacity: '0'}, 300);
- 	$('.splashDescription').animate({opacity: '0'}, 300);
+	$(this).animate({opacity: '0'}, 300);
+	$('.splashDescription').animate({opacity: '0'}, 300);
+	$('.splashDescription').css({"z-index": '-10'}, 300);  
 });
 
 
@@ -384,6 +385,8 @@ $('.menu').mouseleave('click touchstart', function() {
 	$(".menu").animate({opacity: '0'}, 800); 
 	$('.menu').css({"z-index": '-10'});  
 });
+
+
 
 
 

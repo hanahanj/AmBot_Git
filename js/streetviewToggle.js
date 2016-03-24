@@ -64,6 +64,7 @@ $('.menuFloatStreetview').on('click touchstart', function() {
 	$('.streetView').animate({opacity: '1'}, 800); 
 	$('#listItineraries').animate({opacity: '0'}, 300);
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
+	$('.siteText').animate({opacity: '0'}, 300);  
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
@@ -161,7 +162,7 @@ $('.close').on('click touchstart', function() {
 $('.home').mouseover('click touchstart', function() {
 	$(".menu").animate({opacity: '.9'}, 300);  
 	$('.site_Title').animate({top: '20%',}), 300;
-	$('.siteText').animate({top: '45%', height: '53%'}), 300;
+	//$('.siteText').animate({top: '45%', height: '53%'}), 300;
 	$('.menu').css({"z-index": '100'}); 
 
 
@@ -171,7 +172,7 @@ $('.menu').mouseleave('click touchstart', function() {
 	$(".menu").animate({opacity: '0'}, 300); 
 	$('.menu').css({"z-index": '-10'});   
 	$('.site_Title').animate({top: '12%',}), 1600;
-	$('.siteText').animate({top: '35%', height: '64%'}), 1600;
+	//$('.siteText').animate({top: '35%', height: '64%'}), 1600;
 
 });
 
