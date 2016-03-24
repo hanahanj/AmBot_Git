@@ -448,6 +448,7 @@
 	font-size: 48px;
 	line-height: 1em;
 	text-align: left;
+	display: inline-block;
 }
 
 #itinerarySitesContain ul li h2{
