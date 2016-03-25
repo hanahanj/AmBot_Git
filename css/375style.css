@@ -1,6 +1,4 @@
 
-
-@media screen and (max-width: 750px) {
 	body{
 		background-color: none;
 	}
@@ -249,7 +247,7 @@
 	position:absolute;
 	bottom: 5px;
 	right: 0px;
-	width: 354px;
+	width: 334px;
 	display:inline-block;
 }
 
@@ -341,7 +339,7 @@
 
 #listItineraries{
 	position: fixed;
-	bottom: 30px;
+	bottom: 35px;
 	right: 10%;
 	z-index: -10;
 	opacity:0;
@@ -349,7 +347,7 @@
 }
 
 #listItineraries h3{
-	font-size: 1.07rem;
+	font-size: 1.25rem;
 }
 
 #listItineraries h3 a{
@@ -545,8 +543,5 @@ ul{
 ul li ul{
 	text-align: right;
 }
-
-}
-
 
 

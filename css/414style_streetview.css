@@ -121,7 +121,7 @@
 }
 
 .site_Title h2{
-	font-size: 50px;
+	font-size: 4.5rem;
 	line-height: 100%;
 	letter-spacing: 0px;
 }
@@ -144,7 +144,7 @@
 
 .siteText p{
 	font-family: "Interstate-Bold";
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	/*letter-spacing: .05em;*/
 	line-height: 1.4em;
 	margin:0;

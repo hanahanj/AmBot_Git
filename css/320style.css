@@ -1,6 +1,4 @@
 
-
-@media screen and (max-width: 750px) {
 	body{
 		background-color: none;
 	}
@@ -215,7 +213,7 @@
 }
 
 .home img{
-	width: 55px;
+	width: 50px;
 }
 
 
@@ -232,13 +230,13 @@
 
 .menuLinks{
 	position:relative;
-	top:48px;
-	left:17%;
+	top:52px;
+	left:16%;
 	opacity:1;
 }   
 
 .menuLinks h1{
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 }
 
 .menu div:hover{
@@ -247,15 +245,15 @@
 
 .menuSites{
 	position:absolute;
-	bottom: 5px;
+	bottom: 6px;
 	right: 0px;
-	width: 354px;
+	width: 291px;
 	display:inline-block;
 }
 
 .menuSites h1{
 	font-family: "Interstate-CompressedBlack";
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	text-align: right;
 	letter-spacing: .05em;
 	text-transform: uppercase;
@@ -349,7 +347,7 @@
 }
 
 #listItineraries h3{
-	font-size: 1.07rem;
+	font-size: 1.05rem;
 }
 
 #listItineraries h3 a{
@@ -546,7 +544,6 @@ ul li ul{
 	text-align: right;
 }
 
-}
 
 
 
