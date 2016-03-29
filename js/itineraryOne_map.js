@@ -59,7 +59,7 @@ $(document).ready(function(){
 
      map = new google.maps.Map(document.getElementById("mapCanvas"), map_options);
 
-     map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
+     map.setMapTypeId(google.maps.MapTypeId.TERRAIN);
 
      var image = {
      	url: '../images/ABMarker6.png',
