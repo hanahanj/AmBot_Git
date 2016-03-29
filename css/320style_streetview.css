@@ -18,6 +18,37 @@
 }
 
 
+.splashDescription{
+	background-color: grey;
+	position: fixed;
+	width: 82%;
+	height: 82%;
+	top: 13%;
+	left: 8%;
+	overflow: hidden;
+	opacity: 0.8;
+	overflow: scroll;
+}
+
+.splashDescription p{
+	font-size: 16px;
+	padding: 13px;
+	opacity: 1;
+}
+
+.splashClose{
+	position:fixed;
+	top:6%;
+	right:6%;
+	width:50px;
+	height:50px;
+	z-index: 2000;
+	opacity:1;
+	top: 12%;
+    right: 10%;
+
+}
+
 #bgContainer {
 	position:fixed;
 	width:88%;
@@ -83,7 +114,7 @@
 	position:fixed;
 	top:105px;
 	left:9%;
-	width: 200px;
+	width: 260px;
 	/*z-index: -10;*/
 	opacity:1;
 
@@ -103,7 +134,7 @@
 	top: 35%;
 	left: 7%;
 	width: 80%;
-	height: 64%;
+	height: 58%;
 	border-left: none;
 	padding-left: 10px;
 	overflow:scroll;
@@ -113,9 +144,9 @@
 
 .siteText p{
 	font-family: "Interstate-Bold";
-	font-size: 1.1rem;
+	font-size: 0.97rem;
 	/*letter-spacing: .05em;*/
-	line-height: 1.4em;
+	line-height: 1.35em;
 	margin:0;
 
 }
@@ -143,6 +174,7 @@ a:visited{
 	color:black;
 
 }
+
 
 
 

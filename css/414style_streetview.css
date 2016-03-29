@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: "Interstate-Bold";
 	src: url('fonts/INTBD.ttf');
@@ -16,20 +17,22 @@
 	font-style: normal;
 }
 
+
 .splashDescription{
 	background-color: grey;
 	position: fixed;
-	width:88%;
-	height:88%;
-	top:6%;
-	left:6%;
+	width: 82%;
+	height: 82%;
+	top: 13%;
+	left: 8%;
 	overflow: hidden;
 	opacity: 0.8;
 	overflow: scroll;
 }
 
 .splashDescription p{
-	padding: 50px;
+	font-size: 16px;
+	padding: 13px;
 	opacity: 1;
 }
 
@@ -41,6 +44,9 @@
 	height:50px;
 	z-index: 2000;
 	opacity:1;
+	top: 12%;
+    right: 10%;
+
 }
 
 #bgContainer {
@@ -70,8 +76,8 @@
 
 #titleImage img{
 	position:relative;
-	height:auto;
-	width:100%;
+	height:100%;
+	width:auto;
 	overflow:hidden;
 
 }
@@ -106,15 +112,16 @@
 
 .site_Title{
 	position:fixed;
-	top:12%;
-	left:7%;
-	width: 700px;
+	top:105px;
+	left:9%;
+	width: 260px;
 	/*z-index: -10;*/
 	opacity:1;
+
 }
 
 .site_Title h2{
-	font-size: 90px;
+	font-size: 4.5rem;
 	line-height: 100%;
 	letter-spacing: 0px;
 }
@@ -124,10 +131,10 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	bottom: 7%;
+	top: 35%;
 	left: 7%;
-	width: 40%;
-	height: 60%;
+	width: 80%;
+	height: 58%;
 	border-left: none;
 	padding-left: 10px;
 	overflow:scroll;
@@ -137,7 +144,7 @@
 
 .siteText p{
 	font-family: "Interstate-Bold";
-	font-size: 20px;
+	font-size: 1.2rem;
 	/*letter-spacing: .05em;*/
 	line-height: 1.4em;
 	margin:0;
