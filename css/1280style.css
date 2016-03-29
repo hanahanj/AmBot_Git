@@ -1,103 +1,103 @@
 
-	body{
-		background-color: none;
-	}
+body{
+	background-color: none;
+}
 
-	@font-face {
-		font-family: "Interstate-Bold";
-		src: url('fonts/INTBD.ttf');
-		font-weight: 100;
-		font-style: normal;
-		-webkit-font-smoothing: antialiased;
-		font-style: normal;
-	}
+@font-face {
+	font-family: "Interstate-Bold";
+	src: url('fonts/INTBD.ttf');
+	font-weight: 100;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+}
 
-	@font-face {
-		font-family: "Interstate-CompressedBlack";
-		src: url('fonts/INTBLCM_.ttf');
-		font-weight: 100;
-		font-style: normal;
-		-webkit-font-smoothing: antialiased;
-		font-style: normal;
-	}
+@font-face {
+	font-family: "Interstate-CompressedBlack";
+	src: url('fonts/INTBLCM_.ttf');
+	font-weight: 100;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+}
 
-	@font-face {
-		font-family: "Interstate-CondensedBold";
-		src: url('fonts/INTBDCN_.ttf');
-		font-weight: 100;
-		font-style: normal;
-		-webkit-font-smoothing: antialiased;
-		font-style: normal;
-	}
+@font-face {
+	font-family: "Interstate-CondensedBold";
+	src: url('fonts/INTBDCN_.ttf');
+	font-weight: 100;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+}
 
-	h1{
-		font-family: "Interstate-CompressedBlack";
-		font-size: 48px;
-		letter-spacing: .05em;
-		text-transform: uppercase;
-		display:inline;
-		margin:0;
-		margin-top: -20px;
-		margin-left: 10px;
+h1{
+	font-family: "Interstate-CompressedBlack";
+	font-size: 48px;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	display:inline;
+	margin:0;
+	margin-top: -20px;
+	margin-left: 10px;
 
-	}
-
-
-	h2{
-		font-family: "Interstate-CompressedBlack";
-		text-transform: uppercase;
-		font-size: 50px;
-		letter-spacing: .05em;
-		line-height: .8em;
-		margin:0;
-	}
-
-	a{
-		text-decoration: none;
-		font-style: normal;
-		color:#000000;
-	}
-
-	a:hover{
-		font-style: italic;
-	}
-
-	.sitesGrid a:hover{
-		font-style: normal;
-	}
-
-	h2 a{
-		color:black;
-	}
-
-	h3{
-		font-family: "Interstate-Bold";
-		font-size: 24px;
-		/*text-transform: uppercase;*/
-	}
+}
 
 
-	h4{
-		font-family: "Interstate-CondensedBold";
-		text-transform: uppercase;
-		font-size: 50px;
-		/*letter-spacing: .05em;*/
-		line-height: .8em;
-		margin:0;
+h2{
+	font-family: "Interstate-CompressedBlack";
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: .05em;
+	line-height: .8em;
+	margin:0;
+}
 
-	}
+a{
+	text-decoration: none;
+	font-style: normal;
+	color:#000000;
+}
 
-	.about p{
-		font-family: "Interstate-Bold";
-		font-size: 14px;
-		color:#000000;
+a:hover{
+	font-style: italic;
+}
 
-	}
+.sitesGrid a:hover{
+	font-style: normal;
+}
 
-	p{
-		margin:0;
-		padding:0px;
-	}
+h2 a{
+	color:black;
+}
+
+h3{
+	font-family: "Interstate-Bold";
+	font-size: 24px;
+	/*text-transform: uppercase;*/
+}
+
+
+h4{
+	font-family: "Interstate-CondensedBold";
+	text-transform: uppercase;
+	font-size: 50px;
+	/*letter-spacing: .05em;*/
+	line-height: .8em;
+	margin:0;
+
+}
+
+.about p{
+	font-family: "Interstate-Bold";
+	font-size: 14px;
+	color:#000000;
+
+}
+
+p{
+	margin:0;
+	padding:0px;
+}
 
 /*a{
 	text-decoration: none;
@@ -231,12 +231,12 @@
 .menuLinks{
 	position:relative;
 	top:48px;
-	left:17%;
+	left:8%;
 	opacity:1;
 }   
 
 .menuLinks h1{
-	font-size: 1.6rem;
+	font-size: 2.5rem;
 }
 
 .menu div:hover{
@@ -246,14 +246,14 @@
 .menuSites{
 	position:absolute;
 	bottom: 5px;
-	right: 0px;
-	width: 354px;
+	left: 6%;
+	width: 88%;
 	display:inline-block;
 }
 
 .menuSites h1{
 	font-family: "Interstate-CompressedBlack";
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	text-align: right;
 	letter-spacing: .05em;
 	text-transform: uppercase;
@@ -264,6 +264,7 @@
 
 .menuFloatDescription{
 	position: relative;
+	left: 58%;
 	height: auto;
 	margin-left: 20px;
 	z-index: 2000;
@@ -276,6 +277,7 @@
 
 .menuFloatStreetview{
 	position: relative;
+	left: 58%;
 	height: auto;
 	z-index: 2000;
 	display:inline;
@@ -288,6 +290,7 @@
 
 .menuFloatVisit{
 	position: relative;
+	left: 58%;
 	height: auto;
 	z-index: 2000;
 	display:inline;
@@ -300,6 +303,7 @@
 
 .menuFloatInt{
 	position: relative;
+	left: 58%;
 	height: auto;
 	z-index: 20;
 	display:inline;
@@ -339,7 +343,7 @@
 
 #listItineraries{
 	position: fixed;
-	bottom: 30px;
+	bottom: 50px;
 	right: 10%;
 	z-index: -10;
 	opacity:0;
@@ -347,7 +351,7 @@
 }
 
 #listItineraries h3{
-	font-size: 1.07rem;
+	font-size: 1.77rem;
 }
 
 #listItineraries h3 a{
@@ -395,7 +399,7 @@
 
 #itinerarySitesContain ul li{
 	font-family: "Interstate-Bold";
-/*	font-size: 40px;*/
+	/*	font-size: 40px;*/
 	line-height: .8em;
 	margin:50px;
 	text-align: left;

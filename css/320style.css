@@ -245,25 +245,26 @@
 
 .menuSites{
 	position:absolute;
-	bottom: 6px;
-	right: 0px;
-	width: 291px;
+	bottom: 5px;
+	left: 6%;
+	width: 88%;
 	display:inline-block;
 }
 
 .menuSites h1{
 	font-family: "Interstate-CompressedBlack";
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	text-align: right;
 	letter-spacing: .05em;
 	text-transform: uppercase;
 	margin:0;
 	display:inline;
-	margin-left: 10px;
+	margin-left: 7px;
 }
 
 .menuFloatDescription{
 	position: relative;
+	left: 14%;
 	height: auto;
 	margin-left: 20px;
 	z-index: 2000;
@@ -276,6 +277,7 @@
 
 .menuFloatStreetview{
 	position: relative;
+	left: 14%;
 	height: auto;
 	z-index: 2000;
 	display:inline;
@@ -288,6 +290,7 @@
 
 .menuFloatVisit{
 	position: relative;
+	left: 14%;
 	height: auto;
 	z-index: 2000;
 	display:inline;
@@ -300,6 +303,7 @@
 
 .menuFloatInt{
 	position: relative;
+	left: 14%;
 	height: auto;
 	z-index: 20;
 	display:inline;

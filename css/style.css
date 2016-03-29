@@ -69,21 +69,6 @@
 
 	}
 
-	
-	.menuSites h1{
-		font-family: "Interstate-CompressedBlack";
-		font-size: 30px;
-		text-align: right;
-		letter-spacing: .05em;
-		text-transform: uppercase;
-		margin:0;
-		display:inline;
-		margin-left: 10px;
-
-
-
-	}
-
 
 	h2{
 		font-family: "Interstate-CompressedBlack";
@@ -291,12 +276,21 @@
 .menuSites{
 	position:absolute;
 	bottom:5px;
-	right:6%;
-	width:370px;
+	left:68.5%;
+	width:88%;
 	display:inline-block;
 }
 
-
+.menuSites h1{
+	font-family: "Interstate-CompressedBlack";
+	font-size: 30px;
+	text-align: right;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	margin:0;
+	display:inline;
+	margin-left: 10px;
+}
 
 .menuFloatDescription{
 	position: relative;

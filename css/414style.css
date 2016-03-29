@@ -244,9 +244,9 @@
 
 .menuSites{
 	position:absolute;
-	bottom: 5px;
-	right: 0px;
-	width: 384px;
+	bottom:5px;
+	left:6%;
+	width:88%;
 	display:inline-block;
 }
 
@@ -263,6 +263,7 @@
 
 .menuFloatDescription{
 	position: relative;
+	left: 2%;
 	height: auto;
 	margin-left: 20px;
 	z-index: 2000;
@@ -275,6 +276,7 @@
 
 .menuFloatStreetview{
 	position: relative;
+	left: 2%;
 	height: auto;
 	z-index: 2000;
 	display:inline;
@@ -287,6 +289,7 @@
 
 .menuFloatVisit{
 	position: relative;
+	left: 2%;
 	height: auto;
 	z-index: 2000;
 	display:inline;
@@ -299,6 +302,7 @@
 
 .menuFloatInt{
 	position: relative;
+	left: 2%;
 	height: auto;
 	z-index: 20;
 	display:inline;

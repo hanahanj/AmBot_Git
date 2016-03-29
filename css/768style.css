@@ -245,25 +245,26 @@ p{
 
 .menuSites{
 	position:absolute;
-	bottom: 5px;
-	right: 0px;
-	width: 354px;
+	bottom:5px;
+	left:6%;
+	width:88%;
 	display:inline-block;
 }
 
 .menuSites h1{
 	font-family: "Interstate-CompressedBlack";
-	font-size: 1.5rem;
+	font-size: 2.8rem;
 	text-align: right;
 	letter-spacing: .05em;
 	text-transform: uppercase;
 	margin:0;
 	display:inline;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .menuFloatDescription{
 	position: relative;
+	left:19.5%;
 	height: auto;
 	margin-left: 20px;
 	z-index: 2000;
@@ -276,6 +277,7 @@ p{
 
 .menuFloatStreetview{
 	position: relative;
+	left:19.5%;
 	height: auto;
 	z-index: 2000;
 	display:inline;
@@ -288,6 +290,7 @@ p{
 
 .menuFloatVisit{
 	position: relative;
+	left:19.5%;
 	height: auto;
 	z-index: 2000;
 	display:inline;
@@ -300,6 +303,7 @@ p{
 
 .menuFloatInt{
 	position: relative;
+	left:19.5%;
 	height: auto;
 	z-index: 20;
 	display:inline;
@@ -339,7 +343,7 @@ p{
 
 #listItineraries{
 	position: fixed;
-	bottom: 30px;
+	bottom: 50px;
 	right: 10%;
 	z-index: -10;
 	opacity:0;
@@ -347,7 +351,7 @@ p{
 }
 
 #listItineraries h3{
-	font-size: 1.07rem;
+	font-size: 2rem;
 }
 
 #listItineraries h3 a{

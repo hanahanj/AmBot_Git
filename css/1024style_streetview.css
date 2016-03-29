@@ -121,7 +121,7 @@
 }
 
 .site_Title h2{
-	font-size: 50px;
+	font-size: 6rem;
 	line-height: 100%;
 	letter-spacing: 0px;
 }
@@ -133,7 +133,7 @@
 	position: absolute;
 	top: 35%;
 	left: 7%;
-	width: 80%;
+	width: 50%;
 	height: 58%;
 	border-left: none;
 	padding-left: 10px;
