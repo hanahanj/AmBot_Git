@@ -339,8 +339,6 @@ $('.menuFloatSites').on('click touchstart', function() {
 	$('.menuFloatAbout').css({"text-decoration":"none", "font-style": "normal"});     
 });
 
-
-
 $('.menuFloatAbout').on('click touchstart', function() {
 	$('#mapContainer').animate({height: '75%', width: "100%", top: '25.5%', }), 300;
 	$('#listItineraries').animate({opacity: '0'}, 300);

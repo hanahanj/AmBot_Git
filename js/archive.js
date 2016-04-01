@@ -286,14 +286,15 @@ $("#site_southRoxana").mouseleave(function(){
 
 $('.home').mouseover('click touchstart', function() {
     // $('#mapContainer').animate({height: '82.5%', width: "100%", top: '17.5%', }), 300;
-    $(".menu").animate({opacity: '.9'}, 150); 
-    $('.menu').css({"z-index": '100'}); 
+    $(".menuLinks ").animate({opacity: '.9'}, 150); 
+    $('.menuLinks ').css({"z-index": '100'});
+    //$(".menuLinks #int").animate({opacity: '.9'}, 150); 
+    //$('.menuLinks #int').css({"z-index": '100'});  
 });
 
-$('.menu').mouseleave('click touchstart', function() {
-    // $('#mapContainer').animate({top: '0%', left: "0%", height: '100%', width: "100%", }, 300);
-    $(".menu").animate({opacity: '0'}, 500); 
-    $('.menu').css({"z-index": '-10'});  
+$('.menuLinks').mouseleave('click touchstart', function() {
+    $(this).animate({opacity: '0'}, 500); 
+    $(this).css({"z-index": '-10'});  
 });
 
 // code below changed on Feb 23, 2016 by Bohao. This probably will be needed in the future

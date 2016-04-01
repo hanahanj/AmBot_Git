@@ -259,6 +259,13 @@
 }
 
 .menuLinks{
+	z-index: -10;
+	position: fixed;
+	width: 101%;
+	height: 17%;
+	opacity: 0;
+	margin:-10px;
+	background-color: white;
 	position:relative;
 	top:75px;
 	left:100px;
@@ -267,6 +274,30 @@
 
 .menuLinks h1{
 	font-size: 3rem;
+} 
+
+.menuArchive #archive{
+	z-index: -10;
+	position: fixed;
+	width: 101%;
+	height: 17%;
+	margin:-10px;
+	position:relative;
+	top:75px;
+	left:100px;
+	opacity:1;
+}
+
+.menuLinks #about{
+	opacity: 0;
+} 
+
+.menuLinks #archive{
+	opacity: 1;
+} 
+
+.menuLinks #int{
+	opacity: 0;
 } 
 
 .menu div:hover{
