@@ -79,17 +79,6 @@ var fType = getUrlVars()["q"];
 					
 					directionsDisplay.setPanel($Selectors.dirSteps[0]);											
 				}, // direstionsSetup Ends
-
-				trafficSetup = function() {					
-					// Creating a Custom Control and appending it to the map
-					var controlDiv = document.createElement('div'), 
-					controlUI = document.createElement('div'), 
-					trafficLayer = new google.maps.TrafficLayer();
-
-					jQuery(controlDiv).addClass('gmap-control-container').addClass('gmnoprint');
-					jQuery(controlUI).text('Traffic').addClass('gmap-control');
-					jQuery(controlDiv).append(controlUI);												
-				}, // trafficSetup Ends
 				
 				
 				
@@ -137,26 +126,7 @@ var fType = getUrlVars()["q"];
      	zoom: 20,
      	styles: styles,
 
-     	mapTypeControl: true,
-     	mapTypeControlOptions: {
-     		mapTypeIds: [google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.TERRAIN],
-     		position: google.maps.ControlPosition.TOP_RIGHT
-     	},
-
-     	panControl: true,
-     	panControlOptions: {
-     		position: google.maps.ControlPosition.RIGHT_TOP
-     	},
-
-     	zoomControl: true,
-     	zoomControlOptions: {
-     		style: google.maps.ZoomControlStyle.LARGE,
-     		position: google.maps.ControlPosition.BOTTOM_TOP
-     	},
-
-     	scaleControl: true,
-     	streetViewControl: true, 
-     	overviewMapControl: true,
+     	 disableDefaultUI: true,
 
      	mapTypeId: google.maps.MapTypeId.SATELLITE
      });

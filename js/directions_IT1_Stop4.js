@@ -137,26 +137,7 @@ var fType = getUrlVars()["q"];
      	zoom: 20,
      	styles: styles,
 
-     	mapTypeControl: true,
-     	mapTypeControlOptions: {
-     		mapTypeIds: [google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.TERRAIN],
-     		position: google.maps.ControlPosition.TOP_RIGHT
-     	},
-
-     	panControl: true,
-     	panControlOptions: {
-     		position: google.maps.ControlPosition.RIGHT_TOP
-     	},
-
-     	zoomControl: true,
-     	zoomControlOptions: {
-     		style: google.maps.ZoomControlStyle.LARGE,
-     		position: google.maps.ControlPosition.BOTTOM_TOP
-     	},
-
-     	scaleControl: true,
-     	streetViewControl: true, 
-     	overviewMapControl: true,
+     	 disableDefaultUI: true,
 
      	mapTypeId: google.maps.MapTypeId.SATELLITE
      });

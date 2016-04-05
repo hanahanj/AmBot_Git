@@ -80,40 +80,30 @@ var fType = getUrlVars()["q"];
 					directionsDisplay.setPanel($Selectors.dirSteps[0]);											
 				}, // direstionsSetup Ends
 
-				trafficSetup = function() {					
-					// Creating a Custom Control and appending it to the map
-					var controlDiv = document.createElement('div'), 
-					controlUI = document.createElement('div'), 
-					trafficLayer = new google.maps.TrafficLayer();
-
-					jQuery(controlDiv).addClass('gmap-control-container').addClass('gmnoprint');
-					jQuery(controlUI).text('Traffic').addClass('gmap-control');
-					jQuery(controlDiv).append(controlUI);												
-				}, // trafficSetup Ends
 				
 				
 				
 				mapSetup = function() {		
 
 					var styles = [
-		{
-			stylers: [ 
-			{ hue: "#ff0091" },
-			{ saturation: -100 }
-			]
-		},{
-			featureType: "road", 
-			elementType: "geometry",
-			stylers: [
-			{ lightness: 100 },
-			{ visibility: "simplified" }
-			]
-		},
-		{
-			featureType: "water", 
-			elementType: "geometry",
-			stylers: [
-			{ color: "#000000" },
+					{
+						stylers: [ 
+						{ hue: "#ff0091" },
+						{ saturation: -100 }
+						]
+					},{
+						featureType: "road", 
+						elementType: "geometry",
+						stylers: [
+						{ lightness: 100 },
+						{ visibility: "simplified" }
+						]
+					},
+					{
+						featureType: "water", 
+						elementType: "geometry",
+						stylers: [
+						{ color: "#000000" },
 			// { lightness: 250 },
 			{ visibility: "simplified" }
 			]
@@ -128,7 +118,7 @@ var fType = getUrlVars()["q"];
          ]
      }
      ];
-	
+     
      map = new google.maps.Map($Selectors.mapCanvas, {
 
      	// Update this location for Each site
@@ -137,47 +127,28 @@ var fType = getUrlVars()["q"];
      	zoom: 20,
      	styles: styles,
 
-     	mapTypeControl: true,
-     	mapTypeControlOptions: {
-     		mapTypeIds: [google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.TERRAIN],
-     		position: google.maps.ControlPosition.TOP_RIGHT
-     	},
-
-     	panControl: true,
-     	panControlOptions: {
-     		position: google.maps.ControlPosition.RIGHT_TOP
-     	},
-
-     	zoomControl: true,
-     	zoomControlOptions: {
-     		style: google.maps.ZoomControlStyle.LARGE,
-     		position: google.maps.ControlPosition.BOTTOM_TOP
-     	},
-
-     	scaleControl: true,
-     	streetViewControl: true, 
-     	overviewMapControl: true,
+     	disableDefaultUI: true,
 
      	mapTypeId: google.maps.MapTypeId.SATELLITE
      });
 
      	// Update this location for Each site
 
-     var Milam_Loc = new google.maps.LatLng( 38.60982, -90.15608);
-    var imageMark1 = '../images/ABMarker4.png';
+     	var Milam_Loc = new google.maps.LatLng( 38.60982, -90.15608);
+     	var imageMark1 = '../images/ABMarker4.png';
 
-     var Milam_Mark = new google.maps.Marker({
-     	position: Milam_Loc,
-     	map: map,
-     	icon: imageMark1,
+     	var Milam_Mark = new google.maps.Marker({
+     		position: Milam_Loc,
+     		map: map,
+     		icon: imageMark1,
 	// animation: google.maps.Animation.DROP,
 	title: 'Milam Landfill'
 });
 
 
-     autoCompleteSetup();
-     directionsSetup();
-     trafficSetup();
+     	autoCompleteSetup();
+     	directionsSetup();
+     	trafficSetup();
 				}, // mapSetup Ends 
 				
 				directionsRender = function(source, destination) {
