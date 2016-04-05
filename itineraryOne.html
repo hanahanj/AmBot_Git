@@ -22,6 +22,7 @@
 	
 	<link rel="stylesheet" href="css/style_itinerary.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type"content="text/html;charset=UTF-8">
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="js/itinerary.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -53,43 +54,61 @@
 			</div>
 		</div>
 
-		<div class="site_Title">
-			<h1>Parks and Recreation in East St. Louis</h1>
-			<h2>Andrew J. Theising</h2>
-
-		</div>
+		
 		<div class="itineraryMap_solo" >
-			<iframe src="itineraries/itineraryOne_map.html"></iframe>
+			<div class = "overlay"></div>
+			<div class = "map">
+				<iframe src="itineraries/itineraryOne_map.html"></iframe>
+			</div>
+
 		</div>
 
 		<div id="allContainer">
 
+			<div class="site_Title">
+				<h1>Parks and Recreation in East St. Louis</h1>
+				<h2>Andrew J. Theising</h2>
+
+			</div>
+
 			<div class = "itinerary_siteText" id="leftAlign">
 
-				<p>This itinerary will explore Parks and Recreation in East St. Louis, specifically by directing you to four locations in the greater East St. Louis area and sharing parts of their geographical and social histories.   The State of Illinois authorized the creation of special taxing districts statewide for purposes of parks, forest preservation, and scenic byway protection as early as 1893.
-				</p>
 				<p>
-					The legislation evolved over time, and by 1911, a state level park commission was created that spawned considerable park development across Illinois.
-				</p>
-				<p>
-					While this action seems like one noble cause among many during the Progressive Era, it had political overtones.  Illinois has an individualistic political culture, according to Daniel Elazar, and this culture adds a corrupting “marketplace” what’s-in-it-for-me dimension to all of its politics.  It was the goal of many Progressive Era reformers to break up big-city power by creating boards and commissions.  However, in individualistic places like Illinois, it pushed the public’s business out of public view and these various boards and commissions became political pawns for patronage and corruption.  The Park District, the Levee and Sanitation District, the School District, and the Health District all became sources of political influence and proving grounds for city hall aspirants.  This is not to say that these districts did not do their jobs, and sometimes do them well.  In a famous bit of patronage, the Park District was pressured to give a job to Melvin Price, who would go on to be a long-term congressman from the area.  Price was hired as a lifeguard even though he could not swim.  Leaders defended their decision later by saying he was assigned to watch the kiddie pool, which did not require the ability to swim!
-				</p>
-				<p>
-					Public parks played an important societal role at the turn of the last century.  Parks reflected a general value of nature and the respite a natural setting could give to residents.  Parks were a great equalizer, as they were open to all incomes and backgrounds (though, as we will learn later, parks were segregated too).  Industrial suburbs like East St. Louis saw the park system as a place of respite for factory workers and their families.
-				</p>
-				<p>
-					The East St. Louis Park District was created in 1908.  It consisted of some or all of three townships (townships are the political subdivisions of counties):  East St. Louis Township (which was the city proper of East St. Louis), Canteen Township (the area north of East St. Louis, which includes the communities of National City and Washington Park), and Centreville Township (which includes the cities of Centreville, Monsanto/Sauget, and Cahokia).  You will be taken to four parks across the district.  Each park will be described by the geographic story of that particular parcel of land, the personal story of someone associated with the park, and the neighborhood story of the surrounding places.
+					This itinerary will explore Parks and Recreation in East St. Louis, specifically by directing you to four locations in the greater East St. Louis area and sharing parts of their geographical and social histories.   The State of Illinois authorized the creation of special taxing districts statewide for purposes of parks, forest preservation, and scenic byway protection as early as 1893.<sup>1</sup> The legislation evolved over time, and by 1911, a state level park commission was created that spawned considerable park development across Illinois.
 				</p>
 			</div>
 
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop0_001.jpg" >
+				<div class="IMGcaption">
+					<p>
+						1920 East St. Louis Comprehensive Plan. Showing proposed park system. From Harland Bartholomew, City Plan for East St. Louis; 1920.
+					</p>
+				</div>
+			</div>
 
-			<div class = "destinationTitle">
-				<h3>
-					Frank Holten State Park (Centreville Township)
-				</h3>
-				<h4>
-					5753 Lake Drive<br>East St. Louis, IL 62203
-				</h4>
+			<div class = "itinerary_siteText" id="leftAlign">
+				<p>
+					While this action seems like one noble cause among many during the Progressive Era, it had political overtones.  Illinois has an individualistic political culture, according to Daniel Elazar, and this culture adds a corrupting “marketplace” dimension to all of its politics.<sup>2</sup> It was the goal of many Progressive Era reformers to break up big-city power by creating boards and commissions.  However, in individualistic places like Illinois, it pushed the public’s business out of public view and these various boards and commissions became political pawns for patronage and corruption.  The Park District, the Levee and Sanitation District, the School District, and the Health District all became sources of political influence and proving grounds for city hall aspirants.  This is not to say that these districts did not do their jobs, and sometimes do them well.
+				</p>
+				<p>
+					Public parks played an important societal role at the turn of the last century.  Parks reflected a general value of nature and the respite a natural setting could give to residents.  Parks were a great equalizer, as they were open to all incomes and backgrounds (though, as we will learn later, parks were segregated too).  
+				</p>
+			</div>
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop0_002.jpg" >
+				<div class="IMGcaption">
+					<p>
+						East. St. Louis Plan showing neighborhood Park distribution and population. Note existing vs. proposed parks. From Harland Bartholomew, City Plan for East St. Louis; 1920.
+					</p>
+				</div>
+			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
+
+				<p>
+					The East St. Louis Park District was created in 1908.  It consisted of some or all of three townships (townships are the political subdivisions of counties):  East St. Louis Township (which was the city proper of East St. Louis), Canteen Township (the area north of East St. Louis, which includes the communities of National City and Washington Park), and Centreville Township (which includes the cities of Centreville, Monsanto/Sauget, and Cahokia).<sup>3</sup> You will be taken to four parks across the district.  Each park will be described by the geographic story of that particular parcel of land, the personal story of someone associated with the park, and the neighborhood story of the surrounding places.
+				</p>
 			</div>
 
 			<div class="desContainer" id="des1" >
@@ -100,9 +119,30 @@
 					</div> -->
 
 					<div class="directions">
-						<iframe src="directions/directions_IT1_Stop1.html?q=38.59923,-90.09554"></iframe>
+						<div class = "overlay"></div>
+						<div class = "map">
+							<iframe src="directions/directions_IT1_Stop1.html?q=38.59923,-90.09554"></iframe>
+						</div>
 					</div>
 				</div>	
+			</div>
+
+			<div class = "destinationTitle">
+				<h3>
+					Frank Holten State Park
+				</h3>
+				<h4>
+					5753 Lake Drive<br>East St. Louis, IL 62203
+				</h4>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop1_001.jpg" >
+				<div class="IMGcaption">
+					<p>
+						1931 map showing topography of marshes and lakes in Frank Holten Park—designated here as “Lake Park”. From “French Village, ILL” USGS 7.5 minute map.
+					</p>
+				</div>
 			</div>
 
 
@@ -110,22 +150,62 @@
 				<!-- <h4>Geography</h4> -->
 
 				<p>
-					This gigantic expanse, covering over 1,000 acres, has gone by three different names.  It was first acquired by the East St. Louis Park District in 1932 and called “Lake Park.”  At the time, it was the third largest municipal park in the United States.The Park District could not sustain the large park, and park improvements proved difficult.  In 1941, after a front-page story of the park appeared in the St. Louis Globe-Democrat, a complaint was made to President Roosevelt that the park was nothing more than a sign of East St. Louis corruption.  By 1964, Lake Park was turned over to the State of Illinois.  The State renamed the park using the geographic area’s historic name Grand Marais (French for “large swamp” or “great marsh,” and often mispronounced “muh-RYE-ess,” leading to the frequent misspelling “Marias”).  The park was renamed Frank Holten State Park on May 1, 1967 after Representative Holten passed away. 
-				</p>
-
-				<p>
-					One of the grandest events held here was the annual Lady of the Lakes Pageant.  Each October, a local beauty is chosen to lead this autumn festival, which included a ball at the Ainad Masonic Temple and performances on a lakeside stage.  An orchestra and choral groups performed, as did dancers.  Actors performed skits representing the history of Illinois.  Upwards of 10,000 people attended.  
-				</p>
-
-				<p>
-					There are over 200 acres of water and five miles of shoreline.  There was an attempt to build a swimming pool in 1938, but the concrete cracked and the pool was deemed unfeasible and never opened.  Some say that pool was never opened since African Americans were demanding access to the new facility. 
+					This gigantic expanse, covering over 1,000 acres, has gone by three different names.  It was first acquired by the East St. Louis Park District in 1932 and called “Lake Park.”  At the time, it was the third largest municipal park in the United States. (Nunes, 1998, 68)  The Park District could not sustain the large park, and park improvements proved difficult.  In 1941, after a front-page story of the park appeared in the St. Louis Globe-Democrat, a complaint was made to President Roosevelt that the park was nothing more than a sign of East St. Louis corruption.  By 1964, Lake Park was turned over to the State of Illinois.  The State renamed the park using the geographic area’s historic name Grand Marais (French for “large swamp” or “great marsh,” and often mispronounced “muh-RYE-ess,” leading to the frequent misspelling “Marias”).  The park was renamed Frank Holten State Park on May 1, 1967 after Representative Holten passed away.<sup>4</sup> 
 				</p>
 			</div>
 
 			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
+				<img src="images/IT1/IT1_stop1_002.jpg" >
 				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
+					<p>
+						Entrance to what was then “Lake Park,” probably about 1940.  ESL Parks often used live flower plantings to spell out names of parks, as shown here.  The site bore the name Lake Park from 1932 to 1964.  from the Andrew Theising Research Collection, Bowen Archives, SIUE
+					</p>
+				</div>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop1_003.jpg" >
+				<div class="IMGcaption">
+					<p>
+					</p>
+				</div>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop1_004.jpg" >
+				<div class="IMGcaption">
+					<p>
+					</p>
+				</div>
+			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
+				<p>
+					One of the grandest events held here was the annual Lady of the Lakes Pageant.  Each October, a local beauty is chosen to lead this autumn festival, which included a ball at the Ainad Masonic Temple and performances on a lakeside stage.  An orchestra and choral groups performed, as did dancers.  Actors performed skits representing the history of Illinois.  Upwards of 10,000 people attended.<sup>5</sup>  
+				</p>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop1_005.jpg" >
+				<div class="IMGcaption">
+					<p>
+						Dining Room during the “Grand Marais” years (1964-1967), from the Andrew Theising Research Collection, Bowen Archives, SIUE
+					</p>
+				</div>
+			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
+				<p>
+					There are over 200 acres of water and five miles of shoreline.  There was an attempt to build a swimming pool in 1938, but the concrete cracked and the pool was deemed unfeasible and never opened.  Some say that pool was never opened since African Americans were demanding access to the new facility.<sup>6</sup>   
+				</p>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop1_006.jpg" >
+				<div class="IMGcaption">
+					<p>
+						State Representative Frank Holten, 1927.  from the 1927 Illinois Blue Book,  Andrew Theising Research Collection, Bowen Archives, SIUE
+					</p>
 				</div>
 			</div>
 
@@ -133,31 +213,47 @@
 				<!-- <h1>Person</h1> -->
 
 				<p>
-					Frank Holten was the longest serving elected official in the history of the Illinois legislature.  He was first elected in 1916 and served until his death (at age 98) in 1966.  He was defeated in 1942 for only one term (by his Republican brother-in-law) and returned to office in 1944.  He was in the beverage business professionally and belonged to the Musicians Union, which he helped create, as a violinist.  He was an early voice for labor unions when there were few others in state government.  He supported the eight-hour work day and pushed for women’s right to serve on juries in Illinois.   He had only a sixth-grade education but was described as having a “winning personality” and a “knack for showmanship.” 
+					Frank Holten was the longest serving elected official in the history of the Illinois legislature.  He was first elected in 1916 and served until his death (at age 98) in 1966.  He was defeated in 1942 for only one term (by his Republican brother-in-law) and returned to office in 1944.<sup>7</sup>  He was in the coffee and tea business professionally, and belonged to the Musicians Union as a violinist, which he helped create.  He was an early voice for labor unions, when there were few others in state government.  He supported the eight-hour work day and pushed for women’s right to serve on juries in Illinois.   He had only a sixth-grade education, but had a “winning personality” and a “knack for showmanship.”<sup>8</sup>
+
 				</p>
 
 				<p>
-					He owned the Old Home Tea and Coffee Company and was quick to offer complimentary refreshments for church events.  His eight-piece band, formed in 1898, participated in public parades, performed at the Fairmont Race Track, and played at private parties.  He was remembered as never making rash promises, but saying “tell me what you want” and “I’ll try to get it for you.”   
+					He owned the Old Home Tea and Coffee Company and was quick to offer complimentary refreshments for church events.  His eight-piece band, formed in 1898, participated in public parades, performed at the Fairmont Race Track, and played at private parties.  He was remembered as never making rash promises, but saying “tell me what you want” and “I’ll try to get it for you.”<sup>9</sup>    
 				</p>
 
 				<p>
-					On his 95th birthday, President John F. Kennedy sent him a telegram, which said, “your nearly fifty years as a member of the Illinois House of Representatives is testimony to the high esteem in which you are held by the people of Illinois.” 
+					On his 95th birthday, President John F. Kennedy sent him a telegram, which said, “your nearly fifty years as a member of the Illinois House of Representatives is testimony to the high esteem  in which you are held by the people of Illinois.”<sup>10</sup> 
 				</p>
 			</div>
 
 			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
+				<img src="images/IT1/IT1_stop1_007.jpg" >
 				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
+					<p>
+						Google Earth screenshot showing the northern lakes of Holten Park (right) and the cleared dirt of the old Alcoa site (left). Pollutants from the factory site were dumped into the nearest lake.
+					</p>
 				</div>
 			</div>
+
 
 			<div class = "itinerary_siteText" id="leftAlign">
 				<!-- <h1>Neighborhood</h1> -->
 
-				<p>This property is adjacent to the old Alcoa site, where Alcoa’s Aluminum Ore Company division operated.  The entrance of the site was off Missouri Avenue. The buildings are long gone.  Directly across the street from the Alcoa site was the Alton and Southern Railroad, which was Alcoa’s railroad for hauling its products and fuel.  Aluminum Ore was the largest employer in the area.  There was a large refinery here for bauxite ore and a factory that made aluminum kitchenware.  
-
+				<p>
+					This property is adjacent to the old Alcoa site, where Alcoa’s Aluminum Ore Company division operated.  The entrance of the site was off Missouri Avenue. The buildings are long gone.  Directly across the street from the Alcoa site was the Alton and Southern Railroad, which was Alcoa’s railroad for hauling its products and fuel.  Aluminum Ore was the largest employer in the area.  There was a large refinery here for bauxite ore and a factory that made aluminum kitchenware.   
 				</p>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop1_008.jpg" >
+				<div class="IMGcaption">
+					<p>
+						The Aluminum Ore Company, a division of Alcoa, about 1910.  from the Andrew Theising Research Collection, Bowen Archives, SIUE
+					</p>
+				</div>
+			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
 
 				<p>
 					This area is outside of the East St. Louis city limits.  This was a strategy of many industries—locate around East St. Louis but not in it.  East St. Louis had a large population and needed to tax for the services required by that population—schools, parks, public health, etc.  By locating outside the city limits, large factories could tap the labor pool without having to finance city operations.  The profit margins at these factories were very low, and the wages were low.  Corruption was common.  The plant site is in the city of Alorton, which is derived from the words ALuminum ORe TOwN.  Sadly, the cities of East St. Louis and Alorton struggle with corruption to this day.
@@ -165,19 +261,29 @@
 				</p>
 
 				<p>
-					The Aluminum Ore plant was at the root of a tragic historical event.  The 1917 Race Riot (probably the bloodiest riot in the United States).  Labor unions were for whites, and white workers went on strike over wages.  African Americans were recruited from Southern cities to come north and work at the factory.  Having lived the sharecropping life, these workers were thrilled to earn a fraction of the wages being pursued by the strikers and they had no idea the conditions under which they were arriving.  On July 2, 1917, inflammatory speeches were made at a great meeting in the Labor Temple on Collinsville Avenue.  White workers poured out of the building and marched in military formation down Collinsville Avenue to Broadway, where innocent blacks were accosted.  Whole neighborhoods were burned and there were many lynchings.  The official death toll was 39 blacks and nine whites, but the real toll was probably over 100.
+					The Aluminum Ore plant was at the root of a tragic historical event.  The 1917 Race Riot (probably the bloodiest riot in the United States).  Labor unions were for whites, and white workers went on strike over wages.  African Americans were recruited from Southern cities to come north and work at the factory.  Having lived the sharecropping life, these workers were thrilled to earn a fraction of the wages being pursued by the strikers and they had no idea the conditions under which they were arriving.  On July 2, 1917, inflammatory speeches were made at a great meeting in the Labor Temple on Collinsville Avenue.  White workers poured out of the building and marched in military formation down Collinsville Avenue to Broadway, where innocent blacks were accosted.  Whole neighborhoods were burned and there were many lynchings.  The official death toll was 39 blacks and nine whites, but the real toll was probably over 100.<sup>11</sup>
 				</p>
 
 				<p>
-					The plant began to downsize in the late 1950s, and was closed in the early 1960s.  Unfortunately, years of bauxite refining at the Aluminum Ore plant took an environmental toll on Holten Park.  According to the EPA, Alcoa dumped refining waste materials into the lakes at various points during the 20th century—likely beginning before it became a park.  Dikes attempted to hold the waste were breached.  In 2014, Alcoa began clean-up of the site under EPA supervision.
+					The plant began to downsize in the late 1950s, and was closed in the early 1960s.  Unfortunately, years of bauxite refining at the Aluminum Ore plant took an environmental toll on Holten Park.  According to the EPA, Alcoa dumped refining waste materials into the lakes at various points during the 20th century—likely beginning before it became a park.  Dikes attempted to hold the waste were breached.  In 2014, Alcoa began clean-up of the site under EPA supervision.<sup>12</sup>
 				</p>
 			</div>
 
-			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
-				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
-				</div>
+
+			<div class="desContainer" id="des2" >
+				<div id = "titleImage">
+					<!-- <div class ="overlay">
+						<div id="overlayBG">
+						</div>
+					</div> -->
+
+					<div class="directions">
+						<div class = "overlay"></div>
+						<div class = "map">
+							<iframe src="directions/directions_IT1_Stop2.html?q=38.60982,-90.15608"></iframe>
+						</div>
+					</div>
+				</div>	
 			</div>
 
 			<div class = "destinationTitle">
@@ -190,32 +296,32 @@
 			</div>
 
 
-			<div class="desContainer" id="des2" >
-				<div id = "titleImage">
-					<!-- <div class ="overlay">
-						<div id="overlayBG">
-						</div>
-					</div> -->
-
-					<div class="directions">
-						<iframe src="directions/directions_IT1_Stop2.html?q=38.60982,-90.15608"></iframe>
-					</div>
-				</div>	
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop2_001.jpg">
+				<div class="IMGcaption">
+					<p>1954 (revised 1993) map showing urban context of Lincoln Park. From “Cahokia, ILL.–MO.” USGS 7.5 minute map.</p>
+				</div>
 			</div>
 
 			<div class = "itinerary_siteText" id="leftAlign">
 				<!-- <h1>Geography</h1> -->
 
 				<p>
-					Lincoln Park is a simple park covering two city blocks in East St. Louis’s South End neighborhood.  This park was designed to serve the African American community.  It has walkways lined with catalpa trees, which flower beautifully in the spring.  It is located between 15th and 17th Streets (now M. R. Lemons Blvd.), and between Piggott and Market Avenues—just one block south of Bond Avenue.  The park features a playground, picnic areas, shaded walkways, and a community center.  Piggott Avenue is named for James Piggott, a Revolutionary War officer who established the first ferry service between St. Louis (then Spanish Territory) and what is now East St. Louis back in 1792.  He was a territorial judge based out of the ancient city of Cahokia, established in 1699. 
-
+					Lincoln Park is a simple park covering two city blocks in East St. Louis’s South End neighborhood.  This park was designed to serve the African American community.  It has walkways lined with catalpa trees, which flower beautifully in the spring.  It is located between 15th and 17th Streets (now M. R. Lemons Blvd.), and between Piggott and Market Avenues—just one block south of Bond Avenue.  The park features a playground, picnic areas, shaded walkways, and a community center.  Piggott Avenue is named for James Piggott, a Revolutionary War officer who established the first ferry service between St. Louis (then Spanish Territory) and what is now East St. Louis back in 1792.  He was a territorial judge based out of the ancient city of Cahokia, established in 1699.
 				</p>
 			</div>
 
 			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
+				<img src="images/IT1/IT1_stop2_002.jpg">
 				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
+					<p>A young East St. Louis boy riding a toy car, circa 1920.  Digital image from the  collection of Reginald Petty.  SIUE Institute for Urban Research</p>
+				</div>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop2_003.jpg">
+				<div class="IMGcaption">
+					<p>Buckminster Fuller pictured here in front of his dome on the Edwardsville campus. From SIUE.edu </p>
 				</div>
 			</div>
 
@@ -224,16 +330,15 @@
 				<!-- <h1>Person</h1> -->
 
 				<p>
-					Richard Buckminster (Bucky) Fuller (1895-1983) was an architect, inventor, and futurist.  In 1971, this world-renowned architect came to East St. Louis with a vision.  He sought to re-envision city living by incorporating a massive mile-diameter geodesic dome over part of Centreville Township at the request of city leaders.  Fuller was a faculty member at Southern Illinois University’s Carbondale campus from 1955 to 1970.   He described his urban dome as a “quarter-sphere transparent umbrella” mounted high above the city, with room for 125,000 residents below.  In Lincoln Park, he built this prototype to illustrate his invention, geodesic dome construction.  The dome presently serves as a community center called The Mary Brown Center, operated by the Lessie Bates Davis Neighborhood House, a local service nonprofit.  It has a gymnasium, a computer center, and access to social services and recreation programs.
+					Richard Buckminster (Bucky) Fuller (1895-1983) was an architect, inventor, and futurist.  In 1971, this world-renowned architect came to East St. Louis with a vision.  He sought to re-envision city living by incorporating a massive mile-diameter geodesic dome over part of Centreville Township at the request of city leaders.  Fuller was a faculty member at Southern Illinois University’s Carbondale campus from 1955 to 1970.   He described his urban dome as a “quarter-sphere transparent umbrella” mounted high above the city, with room for 125,000 residents below.<sup>13</sup>  In Lincoln Park, he built this prototype to illustrate his invention, geodesic dome construction.  The dome presently serves as a community center called The Mary Brown Center, operated by the Lessie Bates Davis Neighborhood House, a local service nonprofit.  It has a gymnasium, a computer center, and access to social services and recreation programs.<sup>14</sup>
 
 				</p>
-
 			</div>
 
 			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
+				<img src="images/IT1/IT1_stop2_004.jpg">
 				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
+					<p>Detail from a page of advertisements from the old East St. Louis Citizen, including the South End Food Shoppe.  Reginald Petty Research Collection, Bowen Archives, SIUE.</p>
 				</div>
 			</div>
 
@@ -242,7 +347,7 @@
 				<!-- <h1>Neighborhood</h1> -->
 
 				<p>
-					South End was the place for African Americans, and Bond Avenue was their main street.  Segregation was illegal in Illinois, but certainly existed throughout Southern Illinois—which behaved more like neighboring Missouri than upstate Chicagoland.
+					South End was the place for African Americans, and Bond Avenue was their main street.  Segregation was illegal in Illinois, but certainly existed throughout Southern Illinois—which behaved more like neighboring Missouri than upstate Chicagoland.  
 				</p>
 
 				<p>
@@ -251,11 +356,22 @@
 
 			</div>
 
-			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
-				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
-				</div>
+			
+
+			<div class="desContainer" id="des1" >
+				<div id = "titleImage">
+					<!-- <div class ="overlay">
+						<div id="overlayBG">
+						</div>
+					</div> -->
+
+					<div class="directions">
+						<div class = "overlay"></div>
+						<div class = "map">
+							<iframe src="directions/directions_IT1_Stop3.html?q=38.62529,-90.14097"></iframe>
+						</div>
+					</div>
+				</div>	
 			</div>
 
 			<div class = "destinationTitle">
@@ -268,31 +384,40 @@
 			</div>
 
 
-			<div class="desContainer" id="des1" >
-				<div id = "titleImage">
-					<!-- <div class ="overlay">
-						<div id="overlayBG">
-						</div>
-					</div> -->
-
-					<div class="directions">
-						<iframe src="directions/directions_IT1_Stop3.html?q=38.62529,-90.14097"></iframe>
-					</div>
-				</div>	
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop3_001.jpg">
+				<div class="IMGcaption">
+					<p>Sunken Garden occupies Block 9 of Wolf’s Subdivision and the small yellow triangular remainder of the Resubdivided Block 5.</p>
+				</div>
 			</div>
 
 			<div class = "itinerary_siteText" id="leftAlign">
 				<!-- <h1>Geography</h1> -->
 
 				<p>
-					This small park is in a depressed area that is about five feet below grade located in the pocket formed by the intersecting streets of Summit and Pennsylvania Avenues.  Another prominent street beginning at this intersecting point is Washington Place to the southwest.  This entire neighborhood was part of Wolf Farm.  Phillip Wolf decided to sell off his farm and develop it into high-end homes, beginning in 1901.  The “Sunken Garden” is sometimes referred to as “Olivette Park” (named for Olivette Wolf), which is also the name given to the neighborhood.  It was a vacant lot that had been used for summer events through 1912, when the city decided to improve the space and add a drinking fountain.  Over the years, the small park became known for its lavish landscaping. Most of stately trees that ringed the park are gone.  The sloping sides of the park were planted with beautiful flowers and park benches allowed people to rest and enjoy the space passively.  Play equipment was added in later years.
+					This small park is in a depressed area that is about five feet below grade located in the pocket formed by the intersecting streets of Summit and Pennsylvania Avenues.  Another prominent street beginning at this intersecting point is Washington Place to the southwest.  This entire neighborhood was part of Wolf Farm.  Phillip Wolf decided to sell off his farm and develop it into high-end homes, beginning in 1901.  
 				</p>
 			</div>
 
 			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
+				<img src="images/IT1/IT1_stop3_002.jpg">
 				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
+					<p>Postcard of the Sunken Garden, with flower beds in the center, circa 1930.    Andrew Theising Research Collection, Bowen  Archives, SIUE</p>
+				</div>
+			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
+				<!-- <h1>Geography</h1> -->
+
+				<p>
+					The “Sunken Garden” is sometimes referred to as “Olivette Park” (named for Olivette Wolf), which is also the name given to the neighborhood.  It was a vacant lot that had been used for summer events through 1912, when the city decided to improve the space and add a drinking fountain.  Over the years, the small park became known for its lavish landscaping.  Most of stately trees that ringed the park are gone.  The sloping sides of the park were planted with beautiful flowers and park benches allowed people to rest and enjoy the space passively.  Play equipment was added in later years.  
+				</p>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop3_003.jpg">
+				<div class="IMGcaption">
+					<p>M. M. Stephens, whose mansion stood at 1010 Pennsylvania Avenue in Olivette Park.  Andrew Theising Research Collection, Bowen Archives, SIUE.</p>
 				</div>
 			</div>
 
@@ -302,36 +427,75 @@
 				<p>
 					Malbern Monroe Stephens was an innkeeper, a politician, a capitalist, and (at one time) the wealthiest man in East St. Louis.  He had two presences in this neighborhood.  The Stephens House hotel was located at what would be the intersection of 5th Street and Summit Avenue.  (The building stood until 2014.)  Stephens then built his grand mansion in 1903 at 1010 Pennsylvania Avenue (no longer standing).  He was a member of the First Methodist Church, which used to stand on 11th Street between Pennsylvania and Summit.  (The church tower of this old building has been rebuilt as the castle on the back lot of the City Museum.) 
 				</p>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop3_004.jpg">
+				<div class="IMGcaption">
+					<p>Postcard showing M. M. Stephens as mayor, along with the new city hall building.  It opened in 1900 after the old one was destroyed in the 1896 tornado.  Andrew Theising Research Collection, Bowen Archives, SIUE.</p>
+				</div>
+			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
 
 				<p>
-					Stephens was the greatest mayor East St. Louis has ever known.  He served 22 non-consecutive years as mayor between 1887 and 1927.  (Theising, 2003, 83)  He was a reformer who pushed through major public improvements, including raising the streets of downtown out of the floodplain.  (You still can see today how the streets of downtown are 12-15 feet higher than the lots.)  The corruption that defined East St. Louis politics in the 1860s and 1870s disappeared under his first stint as mayor.  Population grew and industry (like Alcoa) flocked to the city on his watch.  He was defeated by political machine interests in 1903, and the corruption returned.   
+					Stephens was the greatest mayor East St. Louis has ever known.  He served 22 non-consecutive years as mayor between 1887 and 1927.  (Theising, 2003, 83)  He was a reformer who pushed through major public improvements, including raising the streets of downtown out of the floodplain.  (You still can see today how the streets of downtown are 12-15 feet higher than the lots.)  The corruption that defined East St. Louis politics in the 1860s and 1870s disappeared under his first stint as mayor.  Population grew and industry (like Alcoa) flocked to the city on his watch.  He was defeated by political machine interests in 1903, and the corruption returned.  
 				</p>
 
 				<p>
-					After the 1917 Race Riots, the broken city begged Stephens to return to office and bring peace and prosperity back.  At age 72, he reluctantly came out of retirement to save his city.  He served from 1919 until 1927 and presided over a period of calm and healing (Theising, 2003, 190).  He was defeated in 1927 by political machine interests, who then returned the city to its illicit path.  A bad investment in New York’s Victoria Building 1917 nearly bankrupted him.  Each Sunday, according to his daughter Jane, he would walk from 1010 Pennsylvania Avenue to the center point of the Eads Bridge and then back again.  She remembered that he refused to each chicken because he did not think much of the scavenging bird as a food source.  A rule in his house was that you could not come down from the second floor until you were dressed for the day.   
+					After the 1917 Race Riots, the broken city begged Stephens to return to office and bring peace and prosperity back.  At age 72, he reluctantly came out of retirement to save his city.  He served from 1919 until 1927 and presided over a period of calm and healing (Theising, 2003, 190).  He was defeated in 1927 by political machine interests, who then returned the city to its illicit path.  A bad investment in New York’s Victoria Building 1917 nearly bankrupted him.  
 				</p>
 			</div>
 
 			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
+				<img src="images/IT1/IT1_stop3_005.jpg">
 				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
+					<p>Jane Stephens, daughter of M. M. Stephens, in the front yard of 1010 Pennsylvania Avenue.  Her “nurse” watches over her.  Stately homes are in the background.  Andrew Theising Research Collection, Bowen  Archives, SIUE.</p>
 				</div>
 			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
+
+				<p>
+					Each Sunday, according to his daughter Jane, he would walk from 1010 Pennsylvania Avenue to the center point of the Eads Bridge and then back again.  She remembered that he refused to each chicken because he did not think much of the scavenging bird as a food source.  A rule in his house was that you could not come down from the second floor until you were dressed for the day. 
+				</p>
+
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop3_006.jpg">
+				<div class="IMGcaption">
+					<p>A 1914 image of a newly-renovated Sunken Garden.  The tips of the First Methodist church tower are visible above the roof of the house at left.   From the Emmet Griffin Papers, donated by Patricia Bechtoldt, and part of the Andrew Theising Research Collection, Bowen Archives, SIUE.</p>
+				</div>
+			</div>
+
+			
 
 			<div class = "itinerary_siteText" id="leftAlign">
 				<!-- <h1>Neighborhood</h1> -->
 
 				<p>
-					Olivette Park was the mansion district.  Big politicians lived here, including M. M. Stephens at 1010 Pennsylvania, his arch-rival city attorney and later municipal judge Maurice V. Joyce across the street at 1005 Pennsylvania (present home of the Katherine Dunham Museum).  The two faced off in the 1909 mayoral election and both lost!  Real estate baron Thomas Fekete lived next door to Stephens.  On Washington Place lived Fred Gerold (the only ESL politician to stand trial for corruption), corrupt political boss Locke Tarlton (the man who orchestrated Stephens’ defeats in 1903 and 1927), and city judge/mayor Silas Cook (all of these homes are vacant lots now).   The Katherine Dunham Museum houses the collections of the late great dancer, actress, and anthropologist.  Ms. Dunham was an artist-in-residence at Southern Illinois University’s Carbondale Campus in 1964 and came to East St. Louis when SIU established facilities here and in Edwardsville.  She fell in love with the community, maintained a residence here, and took over the old YWCA building (originally the Joyce mansion) for her museum. 
+					Olivette Park was the mansion district.  Big politicians lived here, including M. M. Stephens at 1010 Pennsylvania, his arch-rival city attorney and later municipal judge Maurice V. Joyce across the street at 1005 Pennsylvania (present home of the Katherine Dunham Museum).  The two faced off in the 1909 mayoral election and both lost!  Real estate baron Thomas Fekete lived next door to Stephens.  On Washington Place lived Fred Gerold (the only ESL politician to stand trial for corruption), corrupt political boss Locke Tarlton (the man who orchestrated Stephens’ defeats in 1903 and 1927), and city judge/mayor Silas Cook (all of these homes are vacant lots now).   The Katherine Dunham Museum houses the collections of the late great dancer, actress, and anthropologist.  Ms. Dunham was an artist-in-residence at Southern Illinois University’s Carbondale Campus in 1964 and came to East St. Louis when SIU established facilities here and in Edwardsville.  She fell in love with the community, maintained a residence here, and took over the old YWCA building (originally the Joyce mansion) for her museum.
 				</p>
 			</div>
 
-			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
-				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
-				</div>
+			
+
+
+			<div class="desContainer" id="des4" >
+				<div id = "titleImage">
+					<!-- <div class ="overlay">
+						<div id="overlayBG">
+						</div>
+					</div> -->
+
+					<div class="directions">
+						<div class = "overlay"></div>
+						<div class = "map">
+							<iframe src="directions/directions_IT1_Stop4.html?q=38.62505,-90.12196"></iframe>
+						</div>
+					</div>
+				</div>	
 			</div>
 
 			<div class = "destinationTitle">
@@ -344,80 +508,129 @@
 				</h4>
 			</div>
 
-
-			<div class="desContainer" id="des4" >
-				<div id = "titleImage">
-					<!-- <div class ="overlay">
-						<div id="overlayBG">
-						</div>
-					</div> -->
-
-					<div class="directions">
-						<iframe src="directions/directions_IT1_Stop4.html?q=38.62505,-90.12196"></iframe>
-					</div>
-				</div>	
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop4_001.jpg">
+				<div class="IMGcaption">
+					<p>1931 map showing Jones Park and its topographic connection to the former Lansdowne Park and Schoenberger Creek to the North. Compiled from “Monks Mound, ILL.” and “French Village, ILL.” USGS 7.5 minute maps.</p>
+				</div>
 			</div>
 
 			<div class = "itinerary_siteText" id="leftAlign">
 				<!-- <h1>Geography</h1> -->
 
 				<p>
-					This area is the city’s Lansdowne neighborhood and it was home to two large and active parks that were almost side-by-side.  The history of the two parks is not documented well.  Lansdowne Park probably was established first of the two, possibly as early as 1901—pre-dating the Park District itself.  The Jones family donated nearby farmland to the park district by 1912, thereby creating Jones Park.   
-				</p>
-
-				<p>
-					Lansdowne Park was located just 0.3 mile north of Jones Park.  Lansdowne was bordered (approximately) by Waverly Avenue on the north, Douglas Avenue on the south, North 25th Street on the west, and North Park Drive on the east.  North Park Drive continues south and is the eastern border of Jones Park as well.  Lansdowne Park had a large lake for boating, some carnival rides, a dance hall, and even a small zoo.  At some point after 1926, Lansdowne Park was closed.  The Park District deemed it illogical to have two major parks so close together.  The closure of Lansdowne on the District’s north side probably was tied to the acquisition of Lake Park on the District’s south side.  In the 1930s, the Lansdowne structures were demolished and the lake was drained.  Some of the property has been developed subsequently.   
-				</p>
-
-				<p>
-					Jones Park was expanded with facilities.  Its 3.5-acre water feature remains to this day.  In 1913, $25,000 was invested to create a “bathing beach” for swimmers.  Some called the newly constructed water feature the largest inland beach of its kind in the United States.   One million gallons of fresh water were pumped into the pool daily, through an elaborate fountain system tied to natural springs that run through the area.     
-				</p>
-
-				<p>
-					Labor Day parades were big events in this union town, and massive parades wound their ways through the streets of East St. Louis.  Twenty thousand workers representing 70 labor unions marched in the parades, with another 50,000 watching along the way.  The Congress of Industrial Organizations (the union association for unskilled workers) marched first along a route that ended at Lansdowne Park.  The American Federation of Labor (the union association for skilled workers) marched second, taking an even longer route that ended at Jones Park.  Though the AFL and CIO would eventually merge, at the time the two organizations did not get along.  Both parades ended with separate picnics for thousands in the two parks!    
-				</p>
-
-				<p>
-					A 1931 street guide described Jones Park as being one of the finest parks around.  The park contained 130 acres and featured facilities for tennis, football, horseshoes, quoits, and baseball.A quarter-mile track surrounded an athletic field.  The lake’s lagoon was used for canoeing in the summer and for ice skating in the winter.  There was even a small zoo on the property where peacocks would wander.  
-				</p>
-
-				<p>
-					Two memorials to veterans stand at the park.  A war memorial was built in 1924 near the entrance to the park at 25th and Caseyville was built to honor the citizens who died in World War I, with each face of the monument representing America’s major wars:  the Revolutionary War on one side, the Civil War on the second, the Spanish-American War on the third, and the Great War on the fourth side.  A second memorial was built showing a Civil War solider to honor all veterans just inside the park.  The soldier standing guard was nicknamed “Julius” after an elected official declared the statue looked like his uncle. 
+					This area is a “double park” in the city’s Lansdowne neighborhood.   The history of the two parks is not documented well.  Lansdowne Park probably was established first of the two, possibly as early as 1901—pre-dating the Park District itself.  The Jones family donated adjacent farmland to the park district by 1912, thereby creating Jones Park.  At some point after 1926, Lansdowne Park was closed, and the property was either attached to Jones Park or sold to developers, or both.  There is a large lake there still today, which is all that remains of a massive 3.5-acre water feature that was shared between the two parks.  
 				</p>
 			</div>
 
 			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
+				<img src="images/IT1/IT1_stop4_002.jpg">
 				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
+					<p>Boating at Jones Park, circa 1920.  Andrew Theising Research Collection, Bowen Archives, SIUE.
+					</p>
 				</div>
 			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop4_003.jpg">
+				<div class="IMGcaption">
+					<p>Boating at Lansdowne Park, circa 1920.  Andrew Theising Research Collection, Bowen Archives, SIUE.
+					</p>
+				</div>
+			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
+
+				<p>
+					In fact, Lansdowne Park seems to have been centered around boating and its water feature.  Jones Park was expanded with facilities.  In 1913, $25,000 was invested to create a “bathing beach” for swimmers.  Some called the newly constructed water feature the largest inland beach of its kind in the United States.   One million gallons of fresh water were pumped into the pool daily, through an elaborate fountain system. <sup>16</sup>   
+				</p>
+
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop4_004.jpg">
+				<div class="IMGcaption">
+					<p>Swimmers enjoying the “bathing beach” at Jones Park, about 1930.  Andrew Theising Research Collection, Bowen Archives, SIUE.
+					</p>
+				</div>
+			</div>
+
+
+			<div class = "itinerary_siteText" id="leftAlign">
+				<p>
+					Labor Day parades were big events in this union town, and massive parades wound their ways through the streets of East St. Louis.  Twenty thousand workers representing 70 labor unions marched in the parades, with another 50,000 watching along the way.<sup>17</sup>  The Congress of Industrial Organizations (the union association for unskilled workers) marched first along a route that ended at Lansdowne Park.  The American Federation of Labor (the union association for skilled workers) marched second, taking an even longer route that ended at Jones Park.  Both parades ended with a picnic for thousands in the two parks!     
+				</p>
+
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop4_005.jpg">
+				<div class="IMGcaption">
+					<p>Jones Park Bandstand. SIUE Institute for Urban Research.
+					</p>
+				</div>
+			</div>
+
+
+
+			<div class = "itinerary_siteText" id="leftAlign">
+				<p>
+					A 1931 street guide described Jones Park as being one of the finest parks around.  The park contained 130 acres and featured facilities for tennis, football, horseshoes, quoits, and baseball.  A quarter-mile track surrounded an athletic field.  The lake’s lagoon was used for canoeing in the summer and for ice skating in the winter.  There was even a small zoo on the property where peacocks would wander. <sup>18</sup>
+				</p>
+
+				<p>
+					Two memorials to veterans stand at the park.  A war memorial was built in 1924 near the entrance to the park at 25th and Caseyville was built to honor the citizens who died in World War I, with each face representing major wars:  the Revolutionary War on one side, the Civil War on the second, the Spanish-American War on the third, and the Great War on the fourth side.  A second memorial was built showing a Civil War solider to honor all veterans just inside the park.  The soldier standing guard was nicknamed “Julius” after an elected official declared the statue looked like his uncle.  
+				</p>
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop4_006.jpg">
+				<div class="IMGcaption">
+					<p>Emmet Patrick Griffin. SIUE Institute for Urban Research.
+					</p>
+				</div>
+			</div>
+
+			
 
 			<div class = "itinerary_siteText" id="leftAlign">
 				<!-- <h1>Person</h1> -->
 
 				<p>
-					Emmet Patrick (Pat) Griffin was the long-time superintendent of the Park District.  He graduated with a degree in civil engineer from University of Illinois-Urbana/Champaign in 1907.  His first job was with the new East St. Louis Park District in 1908.  After the untimely death of the first superintendent, Mr. Griffin was given the promotion—a job he would hold for the rest of his life.  
+					Emmet Patrick (Pat) Griffin was the long-time superintendent of the Park District.  He graduated with a degree in civil engineer from University of Illinois-Urbana/Champaign in 1907.  His first job was with the new East St. Louis Park District in 1908.  After the untimely death of the first superintendent, Mr. Griffin was given the promotion—a job he would hold for the rest of his life.    
 				</p>
 
 				<p>
-					He took deep interest in the parks and recreation movement of the Progressive Era.  There was a belief that parks represented a public good, providing respite and interaction with nature for those who toiled long hours at labor.  East St. Louis was filled with factory workers and Griffin saw to it that respite was available!  In addition to running the park system, he belonged to many professional organizations and was proud to show off his park system to visiting professionals and conference attendees.     
-				</p>
-
-				<p>
-					His pride and joy was Jones Park.  It was the most elaborate of his parks and he took great care to ensure that it was a source of pride for the community.  Mr. Griffin was kind-hearted and was involved in many charitable events and organizations, including the Knights of Columbus, for which he planned the annual banquet for many years.  Griffin bit off more than he could chew with the acquisition of Lake Park.  Though it was maintained throughout his lifetime and he never gave up hope that it could be developed into a gem, the large park became burdensome for the Park District and was sold to the State.   
-				</p>
-
-				<p>
-					Griffin also sat on the St. Clair County Housing Authority board that managed the new concept of government-built and managed housing for people who could not otherwise participate in the housing market.  Griffin’s service was honored in 1953, when the Emmet Griffin Homes were dedicated.  The housing complex still operates on 2630 Lincoln Avenue in East St. Louis, on the site of what used to be Lansdowne Park.  
+					He took deep interest in the parks and recreation movement of the Progressive Era.  There was a belief that parks represented a public good, providing respite and interaction with nature for those who toiled long hours at labor.  East St. Louis was filled with factory workers and Griffin saw to it that respite was available!  In addition to running the park system, he belonged to many professional organizations and was proud to show off his park system to visiting professionals and conference attendees.<sup>19</sup>        
 				</p>
 
 			</div>
 
 			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
+				<img src="images/IT1/IT1_stop4_007.jpg">
 				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
+					<p>Emmet Griffin poses by the bleachers and comfort station at Jones Park, 1914.  From the Emmet Griffin Papers, donated by Patricia Bechtoldt, and part of the Andrew Theising Research Collection, Bowen Archives, SIUE 
+					</p>
+				</div>
+			</div>
+
+			<div class = "itinerary_siteText" id="leftAlign">
+
+				<p>
+					His pride and joy was Jones Park.  It was the most elaborate of his parks and he took great care to ensure that it was a source of pride for the community.  Mr. Griffin was kind-hearted and was involved in many charitable events and organizations, including the Knights of Columbus, for which he planned the annual banquet for many years.  Griffin bit off more than he could chew with the acquisition of Lake Park.  Though it was maintained throughout his lifetime and he never gave up hope that it could be developed into a gem, the large park became burdensome for the Park District and was sold to the State. 
+				</p>
+
+				<p>
+					Griffin also sat on the St. Clair County Housing Authority board that managed the new concept of government-built and managed housing for people who could not otherwise participate in the housing market.  Griffin’s service was honored in 1953, when the Emmet Griffin Homes were dedicated.  The housing complex still operates on 2630 Lincoln Avenue in East St. Louis, not far from Griffin’s beloved Jones Park.  
+				</p>
+
+			</div>
+
+			<div class ="stopImg">
+				<img src="images/IT1/IT1_stop4_008.jpg">
+				<div class="IMGcaption">
+					<p>Aerial view of Jones Park, looking North, showing the massive water feature.   SIUE Institute for Urban Research.
+					</p>
 				</div>
 			</div>
 
@@ -425,15 +638,8 @@
 				<!-- <h1>Neighborhood</h1> -->
 
 				<p>
-					This park is across 25th Street/Caseyville Avenue from the Jackie Joyner Kersee Center.  The “JJK” Center is named for the Olympic gold-medalist who hails from East St. Louis.  As a way of giving back to her community, JJK established a foundation to build and operate a facility that provides fellowship for young people, allows them to develop athletic and personal skills, and gives them a safe place to be after school.  It opened in 2000.  Though it went through some financial difficulty after about ten years, it restructured and is again operating fully.  JJK remains active personally in the facility and its programs.  It provides after school programs for kids and serves as a Head Start center as well.  
+					This park is across Caseyville Avenue from the Jackie Joyner Kersee Center.  The “JJK” Center is named for the Olympic gold-medalist who hailed from East St. Louis.  As a way of giving back to her community, JJK established a foundation to build and operate a facility that provides fellowship for young people, allows them to develop athletic and personal skills, and gives them a safe place to be after school.  It opened in 2000.  Though it went through some financial difficulty after about ten years, it restructured and is again operating fully.  JJK remains active personally in the facility and its programs.  It provides after school programs for kids and serves as a Head Start center as well.
 				</p>
-			</div>
-
-			<div class ="stopImg">
-				<img src="images/IT1/IT1_001.jpg" >
-				<div class="IMGcaption">
-					<p>caption caption caption caption</p>
-				</div>
 			</div>
 
 		</div>
