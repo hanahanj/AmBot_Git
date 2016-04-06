@@ -196,11 +196,16 @@ p{
   font-family: "Interstate-Reg";
   font-size: 18px;
   text-indent: 50px;
-  /*letter-spacing: .05em;*/
-  line-height: 25px;
+  line-height: 30px;
   margin:0;
-  /*padding-top:25px;*/
 
+}
+
+sup{
+  font-size: 12px;
+  vertical-align: baseline;
+   position: relative;
+   top: -0.4em;
 }
 
 .IMGcaption p{
