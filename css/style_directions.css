@@ -93,6 +93,48 @@ body {
   font-weight: bold;
 }
 
+.directionButton {
+  background: rgba(255,255,255,0);
+  border-left: none;
+  position: absolute;
+  padding: 10px, 15px;
+  width: 33px;
+  height: 72px;
+  top: 0%;
+  left: 89%;
+  box-shadow: 10px;
+}
+
+.directionButton #directionClose1{
+  position: absolute;
+  width: 70%;
+  height: 7px;
+  left: 5px;
+  top: 26px;
+  z-index: 200;
+  background-color: #000000;
+  box-shadow: 10px;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.directionButton #directionClose2{
+  position: absolute;
+  width: 70%;
+  height: 7px;
+  left: 5px;
+  top: 38px;
+  z-index: 200;
+  background-color: #000000;
+  box-shadow: 10px;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+}
+
+
 .directionInputs label {
   background:#000; 
   color: #FFFFFF; 
@@ -104,7 +146,7 @@ body {
 }
 
 .directionInputs input {
-  width: 259px;
+  width: 235px;
   height: 20px;
   border: 1px solid rgba(255,255,255,0.8);
   font-size: 15px;
