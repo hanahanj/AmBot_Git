@@ -84,7 +84,7 @@ $('.menuFloatStreetview').on('click touchstart', function() {
 $('.menuFloatDescription').on('click touchstart', function() { 
 	$('.site_Title').animate({bottom: '80%',}, 300);   
 	$('.site_Title').animate({opacity: '1'}, 300);
-	$('.siteText').animate({top: '30%',}, 300);
+	$('.siteText').animate({top: '20%',}, 300);
 	$('.siteText').css({"z-index": '10'});
 	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
 	$('#bgContainer').animate({opacity: '.5'}, 300);
@@ -104,8 +104,7 @@ $('.menuFloatInt').on('click touchstart', function() {
 	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300); 
 	$('#bgContainer').animate({opacity: '.5'}, 300); 
 	$('#listItineraries').animate({opacity: '1'}, 800);  
-	$('#listItineraries').css({"z-index": '10'});
-	$('.siteText').animate({opacity: '0'}, 300);  
+	$('#listItineraries').css({"z-index": '10'});  
 	$('.streetView').animate({opacity: '0'}, 300); 
 	$('.directions').animate({opacity: '0'}, 300);
 	$('.close').animate({opacity: '1'}, 300); 
