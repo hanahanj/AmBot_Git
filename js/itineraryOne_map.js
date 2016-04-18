@@ -68,11 +68,11 @@ $(document).ready(function(){
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
 	    
-	    ['East St. Louis', 38.59923, -90.09554, 'insert Site'],
-	    ['Point 2', 38.60982, -90.15608, 'insert Site'],
+	    ['Frank Holten State Park', 38.59923, -90.09554, 'insert Site'],
+	    ['Lincoln Park', 38.60982, -90.15608, 'insert Site'],
 	    ['Sunken Garden', 38.62529, -90.14097, 'insert Site'],
 	    ['Jones Park', 38.62505, -90.12196, 'insert Site'],
-	   
+
 	    
 	    ];
 
@@ -80,25 +80,35 @@ $(document).ready(function(){
 // Content is what is displayed on Hover
 var content = [
 
-// ['<div id="bodyContent">' + '<p>East St. Louis</p>'],
+['<div id="bodyContent">' + '<p>Frank Holten State Park</p>'],
+['<div id="bodyContent">' + '<p>Lincoln Park</p>'],
+['<div id="bodyContent">' + '<p>Sunken Garden</p>'],
+['<div id="bodyContent">' + '<p>Jones Park</p>'],
 
 
 ];
 
-var clusterStyles = [{
-	url: 'http://oi62.tinypic.com/zjbf9l.jpg',
-	height: 80,
-	width: 150,
-	textSize: 16,
-	backgroundPosition: "-4 0"
-}];
+// Draw Itinerary Path
 
-var mcOptions = {
-	gridSize: 30,
-	styles: clusterStyles,
-	maxZoom: 15
-};
+var pathCoordinate = [
+{lat: 38.59923, lng: -90.09554},
+{lat: 38.60982, lng: -90.15608},
+{lat: 38.62529, lng: -90.14097},
+{lat: 38.62505, lng: -90.12196}
+];
+var flightPath = new google.maps.Polyline({
+	path: pathCoordinate,
+	geodesic: true,
+	strokeColor: '#000000',
+	strokeOpacity: 0.8,
+	strokeWeight: 10
+	// runSnapToRoad(path)
+});
 
+flightPath.setMap(map);
+
+
+// INFO WINDOW
 var bounds = new google.maps.LatLngBounds();
 var infoWindow = new google.maps.InfoWindow();
 var gmarkers = [];
@@ -140,14 +150,12 @@ google.maps.event.addListener(marker, 'mouseout', (function (marker, i) {
 })(marker, i));
 gmarkers.push(marker);
 
-
-
-
 };
-var mc = new MarkerClusterer(map, gmarkers, mcOptions);
-map.fitBounds(bounds);
+
 };
 google.maps.event.addDomListener(window, 'load', initialize);
+
+
 
 
 //Menu Move Map Canvas ///////////////////// 
