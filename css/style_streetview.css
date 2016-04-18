@@ -107,7 +107,7 @@
 
 .site_Title{
 	position:fixed;
-	top:12%;
+	bottom: 0%;
 	left:7%;
 	width: 700px;
 	/*z-index: -10;*/
@@ -125,14 +125,14 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	bottom: 7%;
+	top: 100%;
 	left: 7%;
-	width: 40%;
+	width: 30%;
 	height: 60%;
 	border-left: none;
 	padding-left: 10px;
 	overflow:scroll;
-	opacity:0;
+	opacity:1;
 
 }
 
