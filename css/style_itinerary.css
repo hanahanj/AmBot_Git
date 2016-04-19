@@ -208,12 +208,19 @@ sup{
    top: -0.4em;
 }
 
+.IMGcaption{
+    float: right;
+    position: relative;
+    width: 20%;
+}
+
 .IMGcaption p{
       font-family: "Interstate-Bold";
     font-size: 10px;
     text-indent: 0px;
     line-height: 15px;
     padding-bottom: 25px;
+    padding-left: 10px;
     margin: 0;
 
 }
@@ -244,14 +251,15 @@ sup{
 .stopImg{
   position: relative;
     padding-top: 25px;
+    padding-bottom: 25px;
     width: 40%;
-    margin-left: 28%;
+    margin-left: 33%;
     height: auto;
 }
 
 .stopImg img{
   position:relative;
-  width:100%;
+  width:80%;
   height:auto;
 
 }
