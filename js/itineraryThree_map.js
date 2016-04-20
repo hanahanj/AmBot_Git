@@ -83,25 +83,40 @@ $(document).ready(function(){
 // Content is what is displayed on Hover
 var content = [
 
-// ['<div id="bodyContent">' + '<p>East St. Louis</p>'],
+['<div id="bodyContent">' + '<p>Prairie Du Rocher</p>'],
+['<div id="bodyContent">' + '<p>Fort Chartres</p>'],
+['<div id="bodyContent">' + '<p>St. Phillipe</p>'],
+['<div id="bodyContent">' + '<p>Le Grande Passe</p>'],
+['<div id="bodyContent">' + '<p>Fults Hill Prairie</p>'],
+['<div id="bodyContent">' + '<p>Kidd Lake</p>'],
+['<div id="bodyContent">' + '<p>Bluffs</p>'],
 
 
 ];
 
-var clusterStyles = [{
-	url: 'http://oi62.tinypic.com/zjbf9l.jpg',
-	height: 80,
-	width: 150,
-	textSize: 16,
-	backgroundPosition: "-4 0"
-}];
+// Draw Itinerary Path
 
-var mcOptions = {
-	gridSize: 30,
-	styles: clusterStyles,
-	maxZoom: 15
-};
+var pathCoordinate = [
+{lat: 38.08491, lng: -90.09711},
+{lat: 38.08827, lng: -90.15958},
+{lat: 38.12226, lng: -90.20865},
+{lat: 38.16523, lng: -90.20565},
+{lat: 38.15581, lng: -90.18976},
+{lat: 38.14481, lng: -90.16857},
+{lat: 38.1201, lng: -90.13097}
+];
+var flightPath = new google.maps.Polyline({
+	path: pathCoordinate,
+	geodesic: true,
+	strokeColor: '#000000',
+	strokeOpacity: 0.8,
+	strokeWeight: 10
+	// runSnapToRoad(path)
+});
 
+flightPath.setMap(map);
+
+// INFO WINDOW
 var bounds = new google.maps.LatLngBounds();
 var infoWindow = new google.maps.InfoWindow();
 var gmarkers = [];
