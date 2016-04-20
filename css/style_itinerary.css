@@ -176,7 +176,6 @@
  text-transform: uppercase;
  /*font-style: italic;*/
  font-size: 50px;
- margin-bottom: 10px;
 }
 
 .destinationTitle h4{
@@ -195,7 +194,7 @@ p{
 
   font-family: "Interstate-Reg";
   font-size: 18px;
-  text-indent: 50px;
+  padding-top: 25px
   line-height: 28px;
   margin:0;
 
@@ -207,6 +206,32 @@ p{
   padding-left: 50px;
   padding-right: 50px;
   line-height: 28px;
+  margin:0;
+
+}
+
+.footnote{
+  padding-top: 0px;
+}
+
+ol{
+  padding:10px;
+}
+
+li{
+  font-family: "Interstate-Reg";
+  font-size: 12px;
+  padding-top: 25px
+  line-height: 18px;
+  margin:0;
+
+}
+
+li p{
+  font-family: "Interstate-Reg";
+  font-size: 12px;
+  padding-top: 25px
+  line-height: 18px;
   margin:0;
 
 }
