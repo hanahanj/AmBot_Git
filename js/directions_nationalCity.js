@@ -284,7 +284,7 @@ $('.menuFloatVisit').click(function() {
 					var newStr = fType.split("+").join(" ");
 
 					document.getElementById("dirDestination").value = newStr;
-					document.getElementById("dirSource").value = geoTest();
+					document.getElementById("dirSource").value = "Enter Your Location Here";
 
 
 				return this; // Refers to: mapDemo.Directions
