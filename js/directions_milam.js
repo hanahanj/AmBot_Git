@@ -1,27 +1,3 @@
-// Old geolocation code, not accurate
-// function geoTest() {
-
-// 	if (google.loader.ClientLocation) {
-
-// 		var latitude = google.loader.ClientLocation.latitude;
-// 		var longitude = google.loader.ClientLocation.longitude;
-// 		var city = google.loader.ClientLocation.address.city;
-// 		var country = google.loader.ClientLocation.address.country;
-// 		var country_code = google.loader.ClientLocation.address.country_code;
-// 		var region = google.loader.ClientLocation.address.region;
-
-//         //var text = latitude + ' ,' + longitude;
-//         var text = city + ' ,' + region;
-
-//     } else {
-
-//     	var text = '';
-
-//     }
-
-//     return text;
-// }
-
 
 
 // New attempts at geolocation
@@ -36,11 +12,11 @@ function getLocation() {
     }
 }
 
-function showPosition(position) {
-    x = position.coords.latitude + ", " + position.coords.longitude;
-alert(x);
-return x;	
-}
+// function showPosition(position) {
+//     x = position.coords.latitude + ", " + position.coords.longitude;
+// alert(x);
+// return x;	
+// }
 
 // New geolocation attempt ends
 
