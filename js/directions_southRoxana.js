@@ -164,7 +164,7 @@ var fType = getUrlVars()["q"];
      });
 
  var Milam_Loc = new google.maps.LatLng( 38.829046, -90.066011);
-var imageMark1 = '../images/ABMarker4.png';
+var imageMark1 = '../images/ABMarker6.png';
 
  var Milam_Mark = new google.maps.Marker({
  	position: Milam_Loc,
