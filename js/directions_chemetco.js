@@ -1,3 +1,22 @@
+//directionButton control
+$(document).ready(function(){
+	var directionsPanelIn = true;
+	$(".directionButton").click(function(){
+		if (directionsPanelIn == true){
+			$("#directionsPanel").animate({left: '-23%'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
+			$(".directionButton #directionClose1").css({transform: 'rotate(60deg)'}, 2000);
+			$(".directionButton #directionClose2").css({transform: 'rotate(-60deg)'}, 2000);
+			directionsPanelIn = false;
+		}
+		else{
+			$("#directionsPanel").animate({left: '7%'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
+			$(".directionButton #directionClose1").css({transform: 'rotate(-60deg)'}, 2000);
+			$(".directionButton #directionClose2").css({transform: 'rotate(60deg)'}, 2000);
+			directionsPanelIn = true;
+		}
+	});
+});
+
 
 function geoTest() {
 
@@ -32,10 +51,6 @@ function getUrlVars() {
 }
 
 var fType = getUrlVars()["q"];
-
-
-
-
 
 (function(mapDemo, $, undefined) {
 	mapDemo.Directions = (function() {
@@ -95,24 +110,24 @@ var fType = getUrlVars()["q"];
 				mapSetup = function() {		
 
 					var styles = [
-		{
-			stylers: [ 
-			{ hue: "#ff0091" },
-			{ saturation: -100 }
-			]
-		},{
-			featureType: "road", 
-			elementType: "geometry",
-			stylers: [
-			{ lightness: 100 },
-			{ visibility: "simplified" }
-			]
-		},
-		{
-			featureType: "water", 
-			elementType: "geometry",
-			stylers: [
-			{ color: "#000000" },
+					{
+						stylers: [ 
+						{ hue: "#ff0091" },
+						{ saturation: -100 }
+						]
+					},{
+						featureType: "road", 
+						elementType: "geometry",
+						stylers: [
+						{ lightness: 100 },
+						{ visibility: "simplified" }
+						]
+					},
+					{
+						featureType: "water", 
+						elementType: "geometry",
+						stylers: [
+						{ color: "#000000" },
 			// { lightness: 250 },
 			{ visibility: "simplified" }
 			]
@@ -127,7 +142,7 @@ var fType = getUrlVars()["q"];
          ]
      }
      ];
-	
+
      map = new google.maps.Map($Selectors.mapCanvas, {
 
      	// Update this location for Each site
@@ -162,21 +177,21 @@ var fType = getUrlVars()["q"];
 
      	// Update this location for Each site
 
-     var Milam_Loc = new google.maps.LatLng(   38.797708, -90.098816);
-    var imageMark1 = '../images/ABMarker4.png';
+     	var Milam_Loc = new google.maps.LatLng(   38.797708, -90.098816);
+     	var imageMark1 = '../images/ABMarker4.png';
 
-     var Milam_Mark = new google.maps.Marker({
-     	position: Milam_Loc,
-     	map: map,
-     	icon: imageMark1,
+     	var Milam_Mark = new google.maps.Marker({
+     		position: Milam_Loc,
+     		map: map,
+     		icon: imageMark1,
 	// animation: google.maps.Animation.DROP,
 	title: 'Milam Landfill'
 });
 
 
-     autoCompleteSetup();
-     directionsSetup();
-     trafficSetup();
+     	autoCompleteSetup();
+     	directionsSetup();
+     	trafficSetup();
 				}, // mapSetup Ends 
 				
 				directionsRender = function(source, destination) {
@@ -267,7 +282,7 @@ var fType = getUrlVars()["q"];
 					var newStr = fType.split("+").join(" ");
 
 					document.getElementById("dirDestination").value = newStr;
-				document.getElementById("dirSource").value = "Enter Your Location Here";
+					document.getElementById("dirSource").value = "Enter Your Location Here";
 
 
 				return this; // Refers to: mapDemo.Directions

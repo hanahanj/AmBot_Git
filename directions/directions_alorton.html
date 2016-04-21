@@ -32,22 +32,28 @@
     <div id="container">
     <div id="mapCanvas">&#160;</div>
   </div>
+  
+  <div id="directionsPanel">
+    <div class="directionButton">
+      <div id="directionClose1"></div>
+      <div id="directionClose2"></div>
     </div>
-    <div id="directionsPanel">
-    	<div class="directionInputs">
-    	<div class="directionInputs">
-    		<form>
-	    		<p><label>A</label><input type="text" value="" id="dirSource" /></p>
-	    		<p><label>B</label><input type="text" value="" id="dirDestination" /></p>
-	    		<a href="#getDirections" id="getDirections">Get Directions</a>
-                <!-- <a href="#reset" id="paneReset">Reset</a> -->
-    		</form>	
-    	</div>
-    	<div id="directionSteps">
-    		<p class="msg">Direction Steps Will Render Here</p>
-    	</div>
-    	<!-- <a href="#toggleBtn" id="paneToggle" class="out">&lt;</a> -->
-    </div>
+
+    <div class="directionInputs">
+      <form>
+       <p><label>A</label><input type="text" value="" id="dirSource" /></p>
+       <p><label>B</label><input type="text" value="" id="dirDestination" /></p>
+       <a href="#getDirections" id="getDirections">Get Directions</a>
+       <!-- <a href="#reset" id="paneReset">Reset</a> -->
+     </form>  
+   </div>
+
+   <div id="directionSteps">
+    <p class="msg">Direction Steps Will Render Here</p>
+  </div>
+  <!-- <a href="#toggleBtn" id="paneToggle" class="out">&lt;</a> -->
+</div>
+
     <script type="text/javascript" src="../js/directions_alorton.js"></script> 
 	
 	

@@ -58,7 +58,7 @@ body {
   padding: 0;
   position: absolute;
   top:7%;
-  left: 7%;
+  left: 100px;
   width: 300px;
   height: 83%;
   background: rgba(255,255,255,0.8);
@@ -111,7 +111,6 @@ body {
   top: 26px;
   z-index: 200;
   background-color: #000000;
-  box-shadow: 10px;
   transform: rotate(-60deg);
   -ms-transform: rotate(-60deg);
   -webkit-transform: rotate(-60deg);
@@ -125,7 +124,6 @@ body {
   top: 38px;
   z-index: 200;
   background-color: #000000;
-  box-shadow: 10px;
   transform: rotate(60deg);
   -ms-transform: rotate(60deg);
   -webkit-transform: rotate(60deg);
