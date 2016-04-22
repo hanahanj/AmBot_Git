@@ -180,7 +180,7 @@ var fType = getUrlVars()["q"];
      	// Update this location for Each site
 
      var Milam_Loc = new google.maps.LatLng(38.637083, -90.171982);
-     var imageMark1 = '../images/ABMarker4.png';
+     var imageMark1 = '../images/ABMarker6.png';
 
      var Milam_Mark = new google.maps.Marker({
      	position: Milam_Loc,

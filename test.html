@@ -40,7 +40,7 @@
     <script
       src="https://maps.googleapis.com/maps/api/js?libraries=drawing,places"></script>
     <script>
-var apiKey = 'AIzaSyA4awwlLJt7eJnYTHrE0b8TAQoN2D-B0R4';
+var apiKey = 'AIzaSyDXeCQHZqQwGoNJmQgZ2aXjlsn1UxFJcSo';
 
 var map;
 var drawingManager;
@@ -54,6 +54,8 @@ function initialize() {
     center: {lat: -33.8667, lng: 151.1955}
   };
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+  
 
   // Adds a Places search box. Searching for a place will center the map on that
   // location.
