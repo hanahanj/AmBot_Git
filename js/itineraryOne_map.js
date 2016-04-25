@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
 
+	
+
 
 	jQuery( '#infowindow' ).hide();
 
@@ -40,6 +42,8 @@ $(document).ready(function(){
      }
      ];
 
+     var src = 'itineraries/itinerariOne.kml';
+
      var map_options = {
      	center: new google.maps.LatLng(38.62529, -90.09554),
      	mapTypeId: google.maps.MapTypeId.TERRAIN,
@@ -64,6 +68,7 @@ $(document).ready(function(){
      var image = {
      	url: '../images/ABMarker6.png',
      };
+
 
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
@@ -91,10 +96,10 @@ var content = [
 // Draw Itinerary Path
 
 var pathCoordinate = [
-{lat: 38.59923, lng: -90.09554},
-{lat: 38.60982, lng: -90.15608},
-{lat: 38.62529, lng: -90.14097},
-{lat: 38.62505, lng: -90.12196}
+{lat: 38.59923, lng: -90.09554}, //Frank Holten State Park
+{lat: 38.60982, lng: -90.15608}, //Lincoln Park
+{lat: 38.62529, lng: -90.14097}, //Sunken Garden
+{lat: 38.62505, lng: -90.12196} //Jones Park
 ];
 var flightPath = new google.maps.Polyline({
 	path: pathCoordinate,
@@ -102,10 +107,17 @@ var flightPath = new google.maps.Polyline({
 	strokeColor: '#000000',
 	strokeOpacity: 0.8,
 	strokeWeight: 10
-	// runSnapToRoad(path)
 });
 
 flightPath.setMap(map);
+// loadKmlLayer(src, map);
+
+// function loadKmlLayer(src, map) {
+// 	var kmlLayer = new google.maps.KmlLayer(src, {
+// 		suppressInfoWindows: true,
+// 		preserveViewport: false,
+// 		map: map
+// 	});
 
 
 // INFO WINDOW
