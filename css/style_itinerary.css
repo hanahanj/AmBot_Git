@@ -110,10 +110,10 @@
 
 .site_Title{
   position: relative;
-    top: 75%;
-    left: 8%;
-    z-index: -10;
-    opacity: 1;
+  top: 75%;
+  left: 8%;
+  z-index: -10;
+  opacity: 1;
 
 }
 
@@ -239,24 +239,25 @@ li p{
 sup{
   font-size: 12px;
   vertical-align: baseline;
-   position: relative;
-   top: -0.4em;
+  position: relative;
+  top: -0.4em;
 }
 
 .IMGcaption{
-    float: right;
-    position: relative;
-    width: 20%;
+  float: right;
+  position: relative;
+  width: 20%;
 }
 
 .IMGcaption p{
-      font-family: "Interstate-Bold";
-    font-size: 10px;
-    text-indent: 0px;
-    line-height: 15px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    margin: 0;
+  font-family: "Interstate-Bold";
+  font-size: 10px;
+  text-indent: 0px;
+  line-height: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  margin: 0;
 
 }
 
@@ -285,17 +286,54 @@ sup{
 
 .stopImg{
   position: relative;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    width: 40%;
-    margin-left: 33%;
-    height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 40%;
+  margin-left: 33%;
+  height: auto;
 }
 
 .stopImg img{
   position:relative;
   width:80%;
   height:auto;
+
+}
+
+
+/*Carousel*//*/////////////////////////////*/
+
+.container {
+  width: 80%;
+  position: relative;
+}
+.container div {
+  width: 100%;
+  display: inline;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  width: 10px;
+  position: relative;
+  float: left;
+  margin-top: -20px;
+  padding-left: 10px;
+}
+
+.prev {
+  width: 10px;
+  position: relative;
+  float: left;
+  margin-top: -20px;
 
 }
 
