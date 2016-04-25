@@ -150,7 +150,7 @@
 	z-index: -10;
 	margin: 0;
 	padding: 0;
-	position: absolute;
+	position: fixed;
 	top: 100%;
 	left: 7%;
 	width: 30%;
