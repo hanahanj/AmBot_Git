@@ -330,26 +330,25 @@
 
 
 
-#listItineraries{
+.listItineraries{
 	position: fixed;
 	bottom: 30px;
 	right: 10%;
 	z-index: -10;
 	opacity:0;
-	color:#c0c0c0;
 }
 
-#listItineraries h3{
+.listItineraries h3{
 	font-size: 1.05rem;
 }
 
-#listItineraries h3 a{
+.listItineraries h3 a{
 	text-decoration: none;
 	font-style: normal;
 	color:#000000;
 }
 
-#listItineraries h3 a:hover{
+.listItineraries h3 a:hover{
 	text-decoration: none;
 	font-style: italic;
 	color:#000000;

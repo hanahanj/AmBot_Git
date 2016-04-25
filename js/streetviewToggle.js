@@ -64,7 +64,7 @@ $('.menuFloatStreetview').on('click touchstart', function() {
 	$('.site_Title').animate({bottom: '0%',}, 300); 
 	$('.siteText').animate({top: '100%',}, 300); 
 	$('.streetView').animate({opacity: '1'}, 800); 
-	$('#listItineraries').animate({opacity: '0'}, 300);
+	$('.listItineraries').animate({opacity: '0'}, 300);
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});
@@ -92,7 +92,7 @@ $('.menuFloatDescription').on('click touchstart', function() {
 	$('#bgContainer').animate({opacity: '.5'}, 300);
 	$('.streetView').animate({opacity: '0'}, 300); 
 	$('.directions').animate({opacity: '0'}, 300);
-	$('#listItineraries').animate({opacity: '0'}, 300);
+	$('.listItineraries').animate({opacity: '0'}, 300);
 	$('.close').animate({opacity: '1'}, 300); 
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
@@ -107,8 +107,8 @@ $('.menuFloatInt').on('click touchstart', function() {
 	$('.site_Title').animate({bottom: '0%',}, 300); 
 	$('.siteText').animate({top: '100%',}, 300); 
 	$('#bgContainer').animate({opacity: '.5'}, 300); 
-	$('#listItineraries').animate({opacity: '1'}, 800);  
-	$('#listItineraries').css({"z-index": '10'});  
+	$('.listItineraries').animate({opacity: '1'}, 800);  
+	$('.listItineraries').css({"z-index": '10'});  
 	$('.streetView').animate({opacity: '0'}, 300); 
 	$('.directions').animate({opacity: '0'}, 300);
 	$('.close').animate({opacity: '1'}, 300); 
@@ -127,7 +127,7 @@ $('.menuFloatVisit').on('click touchstart', function() {
 	$('.siteText').animate({top: '100%',}, 300);
 	$('.directions').animate({opacity: '1'}, 800); 
 	$('.streetView').animate({opacity: '0'}, 300); 
-	$('#listItineraries').animate({opacity: '0'}, 300); 
+	$('.listItineraries').animate({opacity: '0'}, 300); 
 	$('.streetView').css({"z-index": '0'});
 	$('.directions').css({"z-index": '100'});
 	$('.close').animate({opacity: '1'}, 300); 
@@ -148,7 +148,7 @@ $('.close').on('click touchstart', function() {
 	$('#titleImage').animate({width: '100%',}, 300);
 	$('.streetView').animate({opacity: '0'}, 300); 
 	$('.directions').animate({opacity: '0'}, 300);
-	$('#listItineraries').animate({opacity: '0'}, 300);
+	$('.listItineraries').animate({opacity: '0'}, 300);
 	$(".menu").animate({opacity: '0'}, 300); 
 
 	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
