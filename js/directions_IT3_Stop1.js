@@ -79,17 +79,6 @@ var fType = getUrlVars()["q"];
 					
 					directionsDisplay.setPanel($Selectors.dirSteps[0]);											
 				}, // direstionsSetup Ends
-
-				trafficSetup = function() {					
-					// Creating a Custom Control and appending it to the map
-					var controlDiv = document.createElement('div'), 
-					controlUI = document.createElement('div'), 
-					trafficLayer = new google.maps.TrafficLayer();
-
-					jQuery(controlDiv).addClass('gmap-control-container').addClass('gmnoprint');
-					jQuery(controlUI).text('Traffic').addClass('gmap-control');
-					jQuery(controlDiv).append(controlUI);												
-				}, // trafficSetup Ends
 				
 				
 				
@@ -133,7 +122,7 @@ var fType = getUrlVars()["q"];
 
      	// Update this location for Each site
 
-     	center: new google.maps.LatLng(  38.62505, -90.12196),	
+     	center: new google.maps.LatLng(  38.118360, -90.185776),	
      	zoom: 20,
      	styles: styles,
 
@@ -144,7 +133,7 @@ var fType = getUrlVars()["q"];
 
      	// Update this location for Each site
 
-     var Milam_Loc = new google.maps.LatLng( 38.62505, -90.12196);
+     var Milam_Loc = new google.maps.LatLng(  38.118360, -90.185776);
     var imageMark1 = '../images/ABMarker6.png';
 
      var Milam_Mark = new google.maps.Marker({
@@ -152,7 +141,7 @@ var fType = getUrlVars()["q"];
      	map: map,
      	icon: imageMark1,
 	// animation: google.maps.Animation.DROP,
-	title: 'Jones/Landsdowne Park'
+	title: 'Monroe Bottoms'
 });
 
 

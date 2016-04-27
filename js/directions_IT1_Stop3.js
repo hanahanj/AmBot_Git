@@ -151,7 +151,7 @@ var fType = getUrlVars()["q"];
      		map: map,
      		icon: imageMark1,
 	// animation: google.maps.Animation.DROP,
-	title: 'Milam Landfill'
+	title: 'Sunken Garden'
 });
 
 
