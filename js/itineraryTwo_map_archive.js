@@ -81,10 +81,8 @@ $(document).ready(function(){
 	    ['Sauget', 38.60805, -90.18028, 'insert Site'],
 	    ['Mulch', 38.58463, -90.19097, 'insert Site'],
 	    ['Pulcher', 38.49603, -90.23869, 'insert Site'],
-
-	   
-	    
 	    ];
+
 
 
 var clusterStyles = [{

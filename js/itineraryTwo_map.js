@@ -81,19 +81,57 @@ $(document).ready(function(){
 	    ['Sauget', 38.60805, -90.18028, 'insert Site'],
 	    ['Mulch', 38.58463, -90.19097, 'insert Site'],
 	    ['Pulcher', 38.49603, -90.23869, 'insert Site'],
-
-	   
-	    
+ 
 	    ];
 
 
 // Content is what is displayed on Hover
 var content = [
 
-// ['<div id="bodyContent">' + '<p>East St. Louis</p>'],
+['<div id="bodyContent">' + '<p>Wood River Power Plant</p>'],
+['<div id="bodyContent">' + '<p>Roxana Mound</p>'],
+['<div id="bodyContent">' + '<p>Chemetco</p>'],
+['<div id="bodyContent">' + '<p>American Steel</p>'],
+['<div id="bodyContent">' + '<p>Venice</p>'],
+['<div id="bodyContent">' + '<p>Milam</p>'],
+['<div id="bodyContent">' + '<p>Sam Chucallo</p>'],
+['<div id="bodyContent">' + '<p>Powell Mound</p>'],
+['<div id="bodyContent">' + '<p>Cahokia</p>'],
+['<div id="bodyContent">' + '<p>Alorton</p>'],
+['<div id="bodyContent">' + '<p>Sauget</p>'],
+['<div id="bodyContent">' + '<p>Mulch</p>'],
+['<div id="bodyContent">' + '<p>Pulcher</p>'],
 
 
 ];
+
+// Draw Itinerary Path
+
+var pathCoordinate = [
+{lat: 38.86878, lng: -90.09711}, //Wood River
+{lat: 38.85366, lng: -90.07574}, // Roxana
+{lat: 38.80113, lng: -90.09743}, // Chemetco
+{lat: 38.7051, lng: -90.16234}, // American Steel
+{lat: 38.67539, lng: -90.17586}, // Venice
+{lat: 38.65625, lng: -90.12934}, // Milam
+{lat: 38.64385, lng: -90.11559}, // Sam Chucallo
+{lat: 38.65342, lng: -90.09604}, // Powell Mound
+{lat: 38.65682, lng: -90.06231}, // Cahokia
+{lat: 38.60379, lng: -90.12042}, // Alorton
+{lat: 38.60805, lng: -90.18028}, // Sauget
+{lat: 38.58463, lng: -90.19097}, // Mulch
+{lat: 38.49603, lng: -90.23869} // Pulcher
+];
+var flightPath = new google.maps.Polyline({
+	path: pathCoordinate,
+	geodesic: true,
+	strokeColor: '#000000',
+	strokeOpacity: 0.8,
+	strokeWeight: 10
+	// runSnapToRoad(path)
+});
+
+flightPath.setMap(map);
 
 var clusterStyles = [{
 	url: 'http://oi62.tinypic.com/zjbf9l.jpg',
