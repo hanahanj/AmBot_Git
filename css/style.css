@@ -200,11 +200,18 @@
 	position: absolute;
 	left: 0;
 	top: 37%;
-	height: 200px;
+	height: 110px;
 	width: 100%;
 	overflow: none;
 	z-index: 200;
 
+}
+
+#bodyContent{
+	position: absolute;
+    top: -49px;
+    text-align: center;
+    width:100%;
 }
 
 #bodyContent p{
