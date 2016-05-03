@@ -25,50 +25,45 @@
   font-style: normal;
 }
 
-.splashDescription{
-	background-color:rgba(255, 255, 255, 1.0);
-	position: fixed;
-	width:84%;
-	height:84%;
-	top:8%;
-	left:8%;
-	overflow: hidden;
-	overflow: scroll;
+
+p{
+
+	font-family: "Interstate-Bold";
+	font-size: 18px;
+	/*letter-spacing: .05em;*/
+	line-height: 1.4em;
+	margin:0;
+
 }
 
-.splashDescription h1{
+a{
+	text-decoration: none; 
+	color:black;
+
+}
+
+a:visited{
+	text-decoration: none; 
+	color:black;
+
+}
+
+	.site_Title h1{
 		font-family: "Interstate-Bold";
 		font-size: 48px;
 		line-height: 1em;
 		text-align: left;
-		color: white;
 
 	}
 
-	#splashText{
-		position:relative;
-		padding-top: 25px;
-		margin-top: 25px;
-		padding-right: 100px;
+	.site_Title h2{
+		/*font-family: "Interstate-Bold";*/
+		font-size: 24px;
+		line-height: .8em;
+		text-align: left;
 	}
 
-.splashDescription p{
-	font-family: "Interstate-Bold";
-	padding-left: 6%;
-    padding-right: 6%;
-    color: #000000;
-    font-size: 18px
-}
 
-.splashClose{
-	position:fixed;
-	top:8%;
-	right:8%;
-	width:50px;
-	height:50px;
-	z-index: 2000;
-	opacity:1;
-}
 
 #bgContainer {
 	position:fixed;
@@ -171,31 +166,100 @@
 
 }
 
+.menuSites{
+	position:absolute;
+	bottom:5px;
+	left:6%;
+	width:88%;
+	display:inline-block;
+}
 
-
-p{
-
-	font-family: "Interstate-Bold";
-	font-size: 18px;
-	/*letter-spacing: .05em;*/
-	line-height: 1.4em;
+.menuSites h1{
+	font-family: "Interstate-CompressedBlack";
+	font-size: 30px;
+	text-align: right;
+	letter-spacing: .05em;
+	text-transform: uppercase;
 	margin:0;
+	display:inline;
+	margin-left: 10px;
+}
+
+.menuFloatDescription{
+	left:71%;
+	position: relative;
+	height: auto;
+	margin-left: 20px;
+	z-index: 2000;
+	display:inline;
+	/*-ms-transform: rotate(270deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(270deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(270deg);*/
 
 }
 
-a{
-	text-decoration: none; 
-	color:black;
+.menuFloatStreetview{
+	left:71%;
+	position: relative;
+	height: auto;
+	z-index: 2000;
+	display:inline;
+	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(180deg);*/
 
 }
 
-a:visited{
-	text-decoration: none; 
-	color:black;
 
+.menuFloatVisit{
+	left:71%;
+	position: relative;
+	height: auto;
+	z-index: 2000;
+	display:inline;
+	margin-left: 20px;
+	/*	-ms-transform: rotate(0deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(0deg); *//* Chrome, Safari, Opera */
+	/*transform: rotate(0deg);*/
 }
 
 
+.menuFloatInt{
+	left:71%;
+	position: relative;
+	height: auto;
+	z-index: 20;
+	display:inline;
+	margin-left: 20px;
+	/*-ms-transform: rotate(90deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(90deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(90deg);*/
+}
+
+
+
+.menuFloatSites{
+	position: relative;
+	bottom: 0%;
+	left: 10%;
+	height: auto;
+	z-index: 20;
+	margin-left: 20px;
+	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+	/*transform: rotate(180deg);*/
+
+}
+
+.menuFloatAbout{
+	position: relative;
+	top: 0;
+	right: 30%;
+	height: auto;
+	z-index: 2000;
+	margin-left: 20px;
+
+}
 
 
 

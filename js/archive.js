@@ -285,16 +285,23 @@ $("#site_southRoxana").mouseleave(function(){
 
 
 $('.home').mouseover('click touchstart', function() {
-    // $('#mapContainer').animate({height: '82.5%', width: "100%", top: '17.5%', }), 300;
-    $(".menuLinks ").animate({opacity: '.9'}, 150); 
-    $('.menuLinks ').css({"z-index": '100'});
-    //$(".menuLinks #int").animate({opacity: '.9'}, 150); 
-    //$('.menuLinks #int').css({"z-index": '100'});  
+    $(".menuLinks #about").animate({opacity: '1'}, 150); 
+    $(".menuLinks #int").animate({opacity: '1'}, 150); 
 });
 
-$('.menuLinks').mouseleave('click touchstart', function() {
-    $(this).animate({opacity: '0'}, 500); 
-    $(this).css({"z-index": '-10'});  
+$('.menu').mouseleave('click touchstart', function() {
+    $(".menuLinks #about").animate({opacity: '0'}, 150); 
+    $(".menuLinks #int").animate({opacity: '0'}, 150); 
+});
+
+$('.menuLinks #archive').mouseover('click touchstart', function() {
+    $(".menuLinks #about").animate({opacity: '1'}, 150); 
+    $(".menuLinks #int").animate({opacity: '1'}, 150); 
+});
+
+$('.menuLinks #archive').mouseleave('click touchstart', function() {
+    $(".menuLinks #about").animate({opacity: '0'}, 150); 
+    $(".menuLinks #int").animate({opacity: '0'}, 150); 
 });
 
 // code below changed on Feb 23, 2016 by Bohao. This probably will be needed in the future

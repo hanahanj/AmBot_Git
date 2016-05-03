@@ -241,13 +241,7 @@
 }
 
 .menuSites h1{
-	font-family: "Interstate-CompressedBlack";
-	font-size: 1.2rem;
-	text-align: right;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	margin:0;
-	display:inline;
+	font-size: 20px;
 	margin-left: 7px;
 }
 

@@ -51,24 +51,6 @@
 
 	}
 
-	.site_Title h1{
-		font-family: "Interstate-Bold";
-		font-size: 48px;
-		line-height: 1em;
-		text-align: left;
-
-	}
-
-	.site_Title h2{
-		/*font-family: "Interstate-Bold";*/
-		font-size: 24px;
-		line-height: .8em;
-		text-align: left;
-
-
-	}
-
-
 	h2{
 		font-family: "Interstate-CompressedBlack";
 		text-transform: uppercase;
@@ -84,6 +66,7 @@
 		font-style: normal;
 		color:#000000;
 	}
+
 
 	a:hover{
 		font-style: italic;
@@ -111,27 +94,72 @@
 		/*letter-spacing: .05em;*/
 		line-height: .8em;
 		margin:0;
+	}
 
+	ul{
+		padding: 0;
+		list-style: none;
+		text-align: right;
+	}
+
+	ul li ul{
+		text-align: right;
+	}
+
+	.splashDescription{
+		background-color:rgba(255, 255, 255, 1.0);
+		position: fixed;
+		width:84%;
+		height:84%;
+		top:8%;
+		left:8%;
+		overflow: hidden;
+		overflow: scroll;
+	}
+
+	.splashDescription h1{
+		font-family: "Interstate-Bold";
+		font-size: 48px;
+		line-height: 1em;
+		text-align: left;
+		color: white;
+	}
+
+	#splashText{
+		position:relative;
+		padding-top: 25px;
+		margin-top: 25px;
+		padding-right: 100px;
+	}
+
+	.splashDescription p{
+		font-family: "Interstate-Bold";
+		padding-left: 6%;
+		padding-right: 6%;
+		color: #000000;
+		font-size: 18px
+	}
+
+	.splashClose{
+		position:fixed;
+		top:8%;
+		right:8%;
+		width:50px;
+		height:50px;
+		z-index: 2000;
+		opacity:1;
 	}
 
 	.about p{
 		font-family: "Interstate-Bold";
 		font-size: 14px;
 		color:#000000;
-
 	}
 
 	p{
 		margin:0;
 		padding:0px;
 	}
-
-/*a{
-	text-decoration: none;
-	font-style: italic;
-	color:#000000;
-	}*/
-
 
 	.close{
 		position:fixed;
@@ -178,7 +206,7 @@
 		position:fixed;
 		width:100%;
 		height:100%;
-		top:	0%;
+		top:0%;
 		left: 0%
 	}
 
@@ -189,6 +217,7 @@
 		margin: -10px;
 		padding: 0px;
 	}
+
 	#mapCanvas {
 		position: absolute;
 	/*top:	6%;
@@ -196,6 +225,7 @@
 	height: 100%;
 	width: 100%;
 }
+
 #infowindow {
 	position: absolute;
 	left: 0;
@@ -209,13 +239,12 @@
 
 #bodyContent{
 	position: absolute;
-    top: -49px;
-    text-align: center;
-    width:100%;
+	top: -49px;
+	text-align: center;
+	width:100%;
 }
 
 #bodyContent p{
-	
 	font-size: 150px;
 	font-family: "Interstate-CompressedBlack";
 	color: white;
@@ -223,11 +252,7 @@
 	opacity:1;
 	text-align: center;
 	text-shadow: 1px 1px 5px #444444;
-
 }
-
-
-
 
 
 #logo{
@@ -261,40 +286,26 @@
 	position: fixed;
 	width: 101%;
 	height: 17%;
-	opacity: 0;
 	margin:-10px;
 	background-color: white;
+	opacity: 1;
+}
+
+.menu div:hover{
+	font-style: italic;
 }
 
 .menuLinks{
-	z-index: -10;
-	position: fixed;
 	width: 101%;
 	height: 17%;
-	opacity: 0;
-	margin:-10px;
-	background-color: white;
 	position:relative;
 	top:75px;
 	left:100px;
-	opacity:1;
 }   
 
 .menuLinks h1{
 	font-size: 3rem;
 } 
-
-.menuArchive #archive{
-	z-index: -10;
-	position: fixed;
-	width: 101%;
-	height: 17%;
-	margin:-10px;
-	position:relative;
-	top:75px;
-	left:100px;
-	opacity:1;
-}
 
 .menuLinks #about{
 	opacity: 0;
@@ -308,106 +319,6 @@
 	opacity: 0;
 } 
 
-.menu div:hover{
-	font-style: italic;
-}
-
-.menuSites{
-	position:absolute;
-	bottom:5px;
-	left:6%;
-	width:88%;
-	display:inline-block;
-}
-
-.menuSites h1{
-	font-family: "Interstate-CompressedBlack";
-	font-size: 30px;
-	text-align: right;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	margin:0;
-	display:inline;
-	margin-left: 10px;
-}
-
-.menuFloatDescription{
-	left:71%;
-	position: relative;
-	height: auto;
-	margin-left: 20px;
-	z-index: 2000;
-	display:inline;
-	/*-ms-transform: rotate(270deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(270deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(270deg);*/
-
-}
-
-.menuFloatStreetview{
-	left:71%;
-	position: relative;
-	height: auto;
-	z-index: 2000;
-	display:inline;
-	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(180deg);*/
-
-}
-
-
-.menuFloatVisit{
-	left:71%;
-	position: relative;
-	height: auto;
-	z-index: 2000;
-	display:inline;
-	margin-left: 20px;
-	/*	-ms-transform: rotate(0deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(0deg); *//* Chrome, Safari, Opera */
-	/*transform: rotate(0deg);*/
-
-}
-
-.menuFloatInt{
-	left:71%;
-	position: relative;
-	height: auto;
-	z-index: 20;
-	display:inline;
-	margin-left: 20px;
-	/*-ms-transform: rotate(90deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(90deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(90deg);*/
-
-}
-
-
-
-.menuFloatSites{
-	position: relative;
-	bottom: 0%;
-	left: 10%;
-	height: auto;
-	z-index: 20;
-	margin-left: 20px;
-	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(180deg);*/
-
-}
-
-.menuFloatAbout{
-	position: relative;
-	top: 0;
-	right: 30%;
-	height: auto;
-	z-index: 2000;
-	margin-left: 20px;
-
-}
-
 .archiveTitle{
 	position: relative;
 	top: 0%;
@@ -417,18 +328,13 @@
 	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
 	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
 	/*transform: rotate(180deg);*/
-
 }
-
 
 .listItineraries{
 	position: fixed;
 	bottom: 15%;
 	right: 125px;
 	z-index: -10;
-	
-
-	
 }
 
 .nolink{
@@ -446,7 +352,7 @@
 }
 
 .listItineraries h3 a{
-	font-style: normal;
+	font: normal;
 	text-decoration:none;
 
 }
@@ -475,8 +381,8 @@
 	width: 100%;
 	top: 17%;
 }
+
 #itinerarySitesContain{
-	
 	position: relative;
 	top: 10%;
 	left: 20%;
@@ -537,10 +443,10 @@
 }
 
 .itineraryMap_solo:hover{
-	 cursor: move; /* fallback if grab cursor is unsupported */
-    cursor: grab;
-    cursor: -moz-grab;
-    cursor: -webkit-grab;
+	cursor: move; /* fallback if grab cursor is unsupported */
+	cursor: grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
 	
 }
 
@@ -552,81 +458,6 @@
 
 
 
-/*===========Archive Page========*/
-.archiveContain{
-	position: absolute;
-	width: 100%;
-	top: 17%;
-}
-
-#sitesContain{
-	position: absolute;
-	top: 82%;
-	left: 20%;
-	width: 70%;
-	opacity:0;
-	z-index: -10;
-}
-
-#archiveSitesContain{
-	position: absolute;
-	top: 7%;
-	left: 20%;
-	width: 70%;
-	z-index: -10;
-}
-
-.archiveSitetitle{
-	position:absolute;
-	top:59%;
-	width:300px;
-	text-align: center;
-	margin-top: -12.5%;
-	color:#ffffff;
-	opacity: 0;
-}
-.archiveSitetitle h4{
-	font-family: "Interstate-CondensedBold";
-	text-transform: uppercase;
-	font-size: 36px;
-	/*letter-spacing: .05em;*/
-	line-height: .8em;
-	margin:0;
-
-}
-
-
-.site{
-	display: inline-block;
-	position: relative;
-	width: 23%;
-	height: auto;
-	margin: 10px;
-	float:left;
-}
-
-.sitesGrid{
-	display: inline;
-	position: relative;
-	width: 298px;
-	height: auto;
-	margin: 10px;
-	float:left;
-}
-
-.site img{
-	position:relative;
-	width:100%;
-	height:auto;
-}
-
-.sitesGrid img{
-	position:relative;
-	width:100%;
-	height:auto;
-}
-
-
 .about{
 	position: absolute;
 	top: 11%;
@@ -635,15 +466,4 @@
 	z-index: -10;
 	opacity:0;
 }
-
-ul{
-	padding: 0;
-	list-style: none;
-	text-align: right;
-}
-
-ul li ul{
-	text-align: right;
-}
-
 
