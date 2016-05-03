@@ -122,7 +122,7 @@ var fType = getUrlVars()["q"];
 
      	// Update this location for Each site
 
-     	center: new google.maps.LatLng(  38.7051, -90.16234),	
+     	center: new google.maps.LatLng(  38.67545, -90.17526),	
      	zoom: 20,
      	styles: styles,
 
@@ -133,7 +133,7 @@ var fType = getUrlVars()["q"];
 
      	// Update this location for Each site
 
-     var Milam_Loc = new google.maps.LatLng(  38.7051, -90.16234);
+     var Milam_Loc = new google.maps.LatLng(  38.67545, -90.17526);
     var imageMark1 = '../images/ABMarker6.png';
 
      var Milam_Mark = new google.maps.Marker({
