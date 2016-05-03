@@ -123,7 +123,7 @@ var fType = getUrlVars()["q"];
      	// Update this location for Each site
 
      	center: new google.maps.LatLng(  38.116533, -90.173587),	
-     	zoom: 20,
+     	zoom: 15,
      	styles: styles,
 
      	 disableDefaultUI: true,
