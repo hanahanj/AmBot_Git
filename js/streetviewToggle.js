@@ -58,7 +58,7 @@ $('.menuFloatVisit').mouseleave('click touchstart', function() {
 /////////////////////////////// Canvas
 
 
-$('.menuFloatStreetview').on('click touchstart', function() {
+$('.menuFloatStreetview').mouseover('click touchstart', function() {
 	$('#bgContainer').animate({top: '6%', left: "0%", height: '88%', width: "100%", }, 300);
 	$('#bgContainer').animate({opacity: '1'}, 300);
 	$('.site_Title').animate({bottom: '0%',}, 300); 
@@ -83,7 +83,7 @@ $('.menuFloatStreetview').on('click touchstart', function() {
 });
 
 
-$('.menuFloatDescription').on('click touchstart', function() { 
+$('.menuFloatDescription').mouseover('click touchstart', function() { 
 	$('.site_Title').animate({bottom: '80%',}, 300);   
 	$('.site_Title').animate({opacity: '1'}, 300);
 	$('.siteText').animate({top: '20%',}, 300);
@@ -102,7 +102,7 @@ $('.menuFloatDescription').on('click touchstart', function() {
 
 });
 
-$('.menuFloatInt').on('click touchstart', function() { 
+$('.menuFloatInt').mouseover('click touchstart', function() { 
 	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
 	$('.site_Title').animate({bottom: '0%',}, 300); 
 	$('.siteText').animate({top: '100%',}, 300); 
@@ -120,7 +120,7 @@ $('.menuFloatInt').on('click touchstart', function() {
 });
 
 
-$('.menuFloatVisit').on('click touchstart', function() {  
+$('.menuFloatVisit').mouseover('click touchstart', function() {  
 	$('#bgContainer').animate({width: '100%', height: "100%", top: "0%", left:"0%"}, 300);  
 	$('#bgContainer').animate({opacity: '1'}, 300); 
 	$('.site_Title').animate({bottom: '0%',}, 300); 
