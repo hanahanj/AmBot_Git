@@ -198,6 +198,10 @@ a:visited{
 
 }
 
+.menuFloatDescription:hover{
+	cursor:pointer;
+}
+
 .menuFloatStreetview{
 	left:71%;
 	position: relative;
@@ -208,6 +212,10 @@ a:visited{
 	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
 	/*transform: rotate(180deg);*/
 
+}
+
+.menuFloatStreetview:hover{
+	cursor:pointer;
 }
 
 
@@ -223,6 +231,10 @@ a:visited{
 	/*transform: rotate(0deg);*/
 }
 
+.menuFloatVisit:hover{
+cursor:pointer;
+}
+
 
 .menuFloatInt{
 	left:71%;
@@ -236,6 +248,9 @@ a:visited{
 	/*transform: rotate(90deg);*/
 }
 
+.menuFloatInt:hover{
+cursor:pointer;
+}
 
 
 .menuFloatSites{
@@ -251,6 +266,10 @@ a:visited{
 
 }
 
+.menuFloatSites:hover{
+	cursor:pointer;
+}
+
 .menuFloatAbout{
 	position: relative;
 	top: 0;
@@ -259,6 +278,10 @@ a:visited{
 	z-index: 2000;
 	margin-left: 20px;
 
+}
+
+.menuFloatAbout:hover{
+	cursor:pointer;
 }
 
 

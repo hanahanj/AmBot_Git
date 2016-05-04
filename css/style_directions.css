@@ -55,7 +55,7 @@ body {
   top:7%;
   left: 100px;
   width: 300px;
-  height: 83%;
+  height: 78%;
   background: rgba(255,255,255,0.8);
   /* border: 5px solid #000; */
   border-left: none;
@@ -96,6 +96,10 @@ body {
   top: 0px;
   left: 100%;
   box-shadow: 10px;
+}
+
+.directionButton:hover{
+  cursor:pointer;
 }
 
 .directionButton #directionClose1{

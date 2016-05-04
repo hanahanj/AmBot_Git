@@ -148,6 +148,11 @@
 		height:50px;
 		z-index: 2000;
 		opacity:1;
+
+	}
+
+	.splashClose:hover{
+		cursor:pointer;
 	}
 
 	.about p{
@@ -169,6 +174,10 @@
 		height:50px;
 		z-index: 2000;
 		opacity:0;
+	}
+
+	.close:hover{
+		cursor:pointer;
 	}
 
 	.home{
