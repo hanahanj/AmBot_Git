@@ -285,24 +285,25 @@ $("#site_southRoxana").mouseleave(function(){
 
 
 $('.home').mouseover('click touchstart', function() {
-    $(".menuLinks #about").animate({opacity: '1'}, 150); 
-    $(".menuLinks #int").animate({opacity: '1'}, 150); 
+    $(".menuLinks #Aabout").animate({opacity: '1'}, 300); 
+    $(".menuLinks #Aint").animate({opacity: '1'}, 300); 
+});
+
+$('.menuLinks #Aarchive').mouseover('click touchstart', function() {
+    $(".menuLinks #Aabout").animate({opacity: '1'}, 300); 
+    $(".menuLinks #Aint").animate({opacity: '1'}, 300); 
 });
 
 $('.menu').mouseleave('click touchstart', function() {
-    $(".menuLinks #about").animate({opacity: '0'}, 150); 
-    $(".menuLinks #int").animate({opacity: '0'}, 150); 
+    $(".menuLinks #Aabout").animate({opacity: '0'}, 300); 
+    $(".menuLinks #Aint").animate({opacity: '0'}, 300); 
 });
 
-$('.menuLinks #archive').mouseover('click touchstart', function() {
-    $(".menuLinks #about").animate({opacity: '1'}, 150); 
-    $(".menuLinks #int").animate({opacity: '1'}, 150); 
-});
 
-$('.menuLinks #archive').mouseleave('click touchstart', function() {
-    $(".menuLinks #about").animate({opacity: '0'}, 150); 
-    $(".menuLinks #int").animate({opacity: '0'}, 150); 
-});
+// $('.menuLinks').mouseleave('click touchstart', function() {
+//     $(".menuLinks #Aabout").animate({opacity: '0'}, 300); 
+//     $(".menuLinks #Aint").animate({opacity: '0'}, 300); 
+// });
 
 // code below changed on Feb 23, 2016 by Bohao. This probably will be needed in the future
 
