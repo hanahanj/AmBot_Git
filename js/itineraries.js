@@ -15,16 +15,7 @@ $(document).ready(function(){
     $(".menuLinks #Iabout").animate({opacity: '0'}, 300); 
     $('.menuLinks #Iarchive').animate({opacity: '0'}, 300);
 });
-// $('.menuLinks').mouseleave('click touchstart', function() {
-//     $(".menuLinks #Iabout").animate({opacity: '0'}, 300); 
-//     $(".menuLinks #Iarchive").animate({opacity: '0'}, 300); 
-// });
 
-
-// 	$('.menu').mouseleave('click touchstart', function() {
-//     $(".menuLinks").animate({opacity: '0'}, 300); 
-//     $('.menuLinks').css({"z-index": '-10'});  
-// });
 
 	$('#IT1').mouseover('click touchstart', function() {  
 		$('#map1').animate({opacity: '1'}, 500); 
