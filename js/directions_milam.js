@@ -20,15 +20,15 @@ $(document).ready(function(){
 
 // New attempts at geolocation
 
-var x = navigator.geolocation.getCurrentPosition(showPosition);
+// var x = navigator.geolocation.getCurrentPosition(showPosition);
 
-function getLocation() {
-    if (navigator.geolocation) {
-        x = navigator.geolocation.getCurrentPosition(showPosition);
-    } else { 
-        x = "Geolocation is not supported by this browser.";
-    }
-}
+// function getLocation() {
+//     if (navigator.geolocation) {
+//         x = navigator.geolocation.getCurrentPosition(showPosition);
+//     } else { 
+//         x = "Geolocation is not supported by this browser.";
+//     }
+// }
 
 // function showPosition(position) {
 //     x = position.coords.latitude + ", " + position.coords.longitude;
