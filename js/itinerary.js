@@ -22,14 +22,18 @@ $('.close').on('click touchstart', function() {
 
 $('.home').mouseover('click touchstart', function() {
 	// $('#mapContainer').animate({height: '82.5%', width: "100%", top: '17.5%', }), 300;
-	$(".menu").animate({opacity: '.9'}, 300); 
-	$('.menu').css({"z-index": '100'}); 
+  $(".menuLinks #Iabout").animate({opacity: '1'}, 300); 
+  $(".menuLinks #Iarchive").animate({opacity: '1'}, 300); 
+});
+
+$('.menuLinks #Iint').mouseover('click touchstart', function() {
+  $(".menuLinks #Iabout").animate({opacity: '1'}, 300); 
+  $(".menuLinks #Iarchive").animate({opacity: '1'}, 300); 
 });
 
 $('.menu').mouseleave('click touchstart', function() {
-	// $('#mapContainer').animate({top: '0%', left: "0%", height: '100%', width: "100%", }, 300);
-	$(".menu").animate({opacity: '0'}, 800); 
-	$('.menu').css({"z-index": '-10'});  
+  $(".menuLinks #Iabout").animate({opacity: '0'}, 300); 
+  $('.menuLinks #Iarchive').animate({opacity: '0'}, 300);
 });
 
 
@@ -48,8 +52,8 @@ $('.map').mouseup(function() {
 //////////// Carousel 
 
 var currentIndex = 0,
-  items = $('.container div'),
-  itemAmt = items.length;
+items = $('.container div'),
+itemAmt = items.length;
 
 function cycleItems() {
   var item = $('.container div').eq(currentIndex);

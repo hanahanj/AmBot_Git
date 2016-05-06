@@ -285,11 +285,8 @@
 	text-transform: uppercase;
 }
 
-
-
-/*menu*//*//////////////////////////////////////////*/
-
-
+/*==================menu=======================*/
+/*everything about menu should be all inside of style.css page*/
 .menu {
 	z-index: 1999;
 	position: fixed;
