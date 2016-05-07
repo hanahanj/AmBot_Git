@@ -1,117 +1,4 @@
-
-@font-face {
-	font-family: "Interstate-Bold";
-	src: url('fonts/INTBD.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Interstate-CompressedBlack";
-	src: url('fonts/INTBLCM_.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
-
-
-.splashDescription{
-	background-color: grey;
-	position: fixed;
-	width: 82%;
-	height: 82%;
-	top: 13%;
-	left: 8%;
-	overflow: hidden;
-	opacity: 0.8;
-	overflow: scroll;
-}
-
-.splashDescription p{
-	font-size: 16px;
-	padding: 13px;
-	opacity: 1;
-}
-
-.splashClose{
-	position:fixed;
-	top:6%;
-	right:6%;
-	width:50px;
-	height:50px;
-	z-index: 2000;
-	opacity:1;
-	top: 12%;
-    right: 10%;
-
-}
-
-#bgContainer {
-	position:fixed;
-	width:88%;
-	height:88%;
-	top:6%;
-	left:6%;
-	overflow:hidden;
-}
-
-.background img{
-	position:relative;
-	width:100%;
-	height:auto;
-}
-
-
-#titleImage{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	overflow:hidden;
-	overflow-y:hidden;
-
-}
-
-#titleImage img{
-	position:relative;
-	height:100%;
-	width:auto;
-	overflow:hidden;
-
-}
-
-
-.streetView {
-	position: absolute;
-	top: 0%;
-	width: 100%;
-	height: 100%;
-	opacity:0;
-
-
-}
-
-.directions {
-	position: absolute;
-	top: 0%;
-	width: 100%;
-	height: 100%;
-	opacity:0;
-
-
-}
-
-.directions iframe{
-	position:absolute;
-	width:100%;
-	height:100%;
-}
-
-
 .site_Title{
-	position:fixed;
 	bottom: 0%;
 	left:9%;
 	width: 260px;
@@ -127,19 +14,9 @@
 }
 
 .siteText{
-	z-index: -10;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 100%;
-	left: 7%;
 	width: 50%;
 	height: 70%;
-	border-left: none;
 	padding-left: 10px;
-	overflow:scroll;
-	opacity:1;
-
 }
 
 .siteText p{
@@ -151,28 +28,16 @@
 
 }
 
-
-
-p{
-
-	font-family: "Interstate-Bold";
-	font-size: 18px;
-	/*letter-spacing: .05em;*/
-	line-height: 1.4em;
-	margin:0;
-
+.menuFloatDescription{
+	left: 72%;
 }
 
-a{
-	text-decoration: none; 
-	color:black;
-
+.menuFloatStreetview{
+	left: 72%;
 }
 
-a:visited{
-	text-decoration: none; 
-	color:black;
-
+.menuFloatVisit{
+	left: 72%;
 }
 
 

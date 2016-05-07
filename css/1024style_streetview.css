@@ -1,22 +1,4 @@
 
-@font-face {
-	font-family: "Interstate-Bold";
-	src: url('fonts/INTBD.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Interstate-CompressedBlack";
-	src: url('fonts/INTBLCM_.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
-
 
 .splashDescription{
 	background-color: grey;
@@ -152,6 +134,19 @@
 }
 
 
+
+.menuFloatDescription{
+	left: 67%;
+}
+
+.menuFloatStreetview{
+	left: 67%;
+}
+
+
+.menuFloatVisit{
+	left: 67%;
+}
 
 p{
 

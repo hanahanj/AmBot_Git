@@ -186,7 +186,7 @@ a:visited{
 }
 
 .menuFloatDescription{
-	left:71%;
+	left:80%;
 	position: relative;
 	height: auto;
 	margin-left: 20px;
@@ -203,7 +203,7 @@ a:visited{
 }
 
 .menuFloatStreetview{
-	left:71%;
+	left:80%;
 	position: relative;
 	height: auto;
 	z-index: 2000;
@@ -220,7 +220,7 @@ a:visited{
 
 
 .menuFloatVisit{
-	left:71%;
+	left:80%;
 	position: relative;
 	height: auto;
 	z-index: 2000;
@@ -235,18 +235,6 @@ a:visited{
 cursor:pointer;
 }
 
-
-.menuFloatInt{
-	left:71%;
-	position: relative;
-	height: auto;
-	z-index: 20;
-	display:inline;
-	margin-left: 20px;
-	/*-ms-transform: rotate(90deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(90deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(90deg);*/
-}
 
 .menuFloatInt:hover{
 cursor:pointer;

@@ -177,57 +177,7 @@
 
 }
 
-.menuFloatDescription{
-	position: relative;
-	left: 53%;
-	height: auto;
-	margin-left: 20px;
-	z-index: 2000;
-	display:inline;
-	/*-ms-transform: rotate(270deg);*/ /* IE 9 */
-	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-	/*transform: rotate(270deg);*/
 
-}
-
-.menuFloatStreetview{
-	position: relative;
-	left: 53%;
-	height: auto;
-	z-index: 2000;
-	display:inline;
-	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(180deg);*/
-
-}
-
-
-.menuFloatVisit{
-	position: relative;
-	left: 53%;
-	height: auto;
-	z-index: 2000;
-	display:inline;
-	margin-left: 20px;
-	/*	-ms-transform: rotate(0deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(0deg); *//* Chrome, Safari, Opera */
-	/*transform: rotate(0deg);*/
-
-}
-
-.menuFloatInt{
-	position: relative;
-	left: 53%;
-	height: auto;
-	z-index: 20;
-	display:inline;
-	margin-left: 20px;
-	/*-ms-transform: rotate(90deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(90deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(90deg);*/
-
-}
 
 
 
