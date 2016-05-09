@@ -1,110 +1,3 @@
-
-
-.about p{
-	font-family: "Interstate-Bold";
-	font-size: 14px;
-	color:#000000;
-
-}
-
-p{
-	margin:0;
-	padding:0px;
-}
-
-/*a{
-	text-decoration: none;
-	font-style: italic;
-	color:#000000;
-	}*/
-
-	.close{
-		position:fixed;
-		top:6%;
-		right:6%;
-		width:50px;
-		height:50px;
-		z-index: 2000;
-		opacity:0;
-	}
-
-	.bar1{
-		position:absolute;
-		width:100%;
-		height:10px;
-		margin-left: 25px;
-		z-index: 200;
-		background-color: #000000;
-		-ms-transform: rotate(45deg); /* IE 9 */
-		-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-		transform: rotate(45deg);
-	}
-
-	.bar2{
-		position:absolute;
-		width:100%;
-		height:10px;
-		z-index: 200;
-		margin-left:25px;
-		background-color: #000000;
-		-ms-transform: rotate(-45deg); /* IE 9 */
-		-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
-		transform: rotate(-45deg);
-	}
-
-	#mapContainer {
-		position:fixed;
-		width:100%;
-		height:100%;
-		top:	0%;
-		left: 0%
-	}
-
-	#contentContainer {
-		position:fixed;
-		width:100%;
-		height:100%;
-		margin: -10px;
-		padding: 0px;
-	}
-	#mapCanvas {
-		position: absolute;
-	/*top:	6%;
-	left: 6%;*/
-	height: 100%;
-	width: 100%;
-}
-
-#infowindow {
-	position: absolute;
-	left: 0;
-	top: 37%;
-	height: 155px;
-	width: 100%;
-	overflow: auto;
-	z-index: 200;
-
-}
-
-#bodyContent p{
-	font-size: 75px;
-	font-family: "Interstate-CompressedBlack";
-	color: white;
-	text-transform: uppercase;
-	opacity:1;
-	text-align: center;
-	text-shadow: 1px 1px 5px #444444;
-
-}
-
-#logo{
-	position: relative;
-	width: 80%;
-	height: auto;
-
-}
-
-
 /*home*//*//////////////////////////////////////////*/
 
 .home{
@@ -144,45 +37,18 @@ p{
 }
 
 .menuSites{
-	position:absolute;
-	bottom:5px;
-	left:6%;
-	width:88%;
-	display:inline-block;
 }
 
 .menuSites h1{
-	font-size: 30px;
-	margin-left: 15px;
 }
 
 
 .menuFloatSites{
-	position: relative;
-	bottom: 0%;
-	left: 10%;
-	height: auto;
-	z-index: 20;
-	margin-left: 20px;
-	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(180deg);*/
 
 }
 
 .menuFloatAbout{
-	position: relative;
-	top: 0;
-	right: 30%;
-	height: auto;
-	z-index: 2000;
-	margin-left: 20px;
-
 }
-
-
-
-
 
 .listItineraries h3{
 	font-size: 2rem;
@@ -191,186 +57,40 @@ p{
 
 /*===========Itinerary Page========*/
 .itineraryTitle{
-	position: relative;
-	top: 0%;
-	left: 5%;
-	width:10%;
-	height: auto;
-	z-index: 20;
-	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(180deg);*/
 }
 
 .itineraryTitle h1{
 	font-size: 33px;
 }
 .itineraryContain{
-	position: absolute;
 	width: 100%;
 	top: 15%;
 }
 
 #itinerarySitesContain{
-	
-	position: relative;
-	top: 10%;
 	left: 0%;
 	width: 85%;
 	
 }
 
 #itinerarySitesContain ul li{
-	font-family: "Interstate-Bold";
-	/*	font-size: 40px;*/
-	line-height: .8em;
-	margin:50px;
-	text-align: left;
 }
 #itinerarySitesContain ul li h1{
-	font-family: "Interstate-Bold";
-	font-size: 28px;
-	line-height: 1.1em;
-	text-align: left;
-	display: inline-block;
 }
 
 #itinerarySitesContain ul li h2{
-	font-family: "Interstate-Bold";
-	font-size: 16px;
-	line-height: 1rem;
-	margin:10px;
-	text-align: left;
 }
 
 .itineraryMap{
-	position: fixed;
-	top: 0%;
-	width: 100%;
-	height: 100%;
-	opacity:0;
-	z-index: -10;
-	
-	
 }
 
 .itineraryMap iframe{
-	position:absolute;
-	width:100%;
-	height:100%;
 }
-
-
 
 /*===========Archive Page========*/
-.archiveContain{
-	position: absolute;
-	width: 100%;
-	top: 100px;
-}
-
-.archiveTitle{
-	position: relative;
-	top: 0%;
-	left: 2%;
-	margin-bottom: 3%;
-	height: auto;
-	z-index: 20;
-	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(180deg);*/
-}
-
 .archiveTitle h1{
 	font-size: 1.8rem;
 }
-
-#sitesContain{
-	position: absolute;
-	top: 82%;
-	left: 20%;
-	width: 70%;
-	opacity:0;
-	z-index: -10;
-}
-
-#archiveSitesContain{
-	position: absolute;
-	top: 50%;
-	left: 0%;
-	width: 92%;
-	z-index: -10;
-}
-
-.archiveSitetitle{
-	position: absolute;
-	top: 60%;
-	width: 100%;
-	text-align: center;
-	margin-top: -12.5%;
-	color: #ffffff;
-	opacity: 0;
-}
-.archiveSitetitle h4{
-	font-family: "Interstate-CondensedBold";
-	text-transform: uppercase;
-	font-size: 2rem;
-	/*letter-spacing: .05em;*/
-	line-height: .8em;
-}
-
-.site{
-	display: inline-block;
-	position: relative;
-	width: 23%;
-	height: auto;
-	margin: 10px;
-	float:left;
-}
-
-.sitesGrid{
-	display: inline;
-	position: relative;
-	width: 100%;
-	height: auto;
-	margin-top: 4%;
-	margin-left: 4%;
-	margin-right: 4%;
-	float:left;
-}
-
-.site img{
-	position:relative;
-	width:100%;
-	height:auto;
-}
-
-.sitesGrid img{
-	position:relative;
-	width:100%;
-	height:auto;
-}
-
-
-.about{
-	position: absolute;
-	top: 11%;
-	left: 600px;
-	width: 500px;
-	z-index: -10;
-	opacity:0;
-}
-
-ul{
-	padding: 0;
-	list-style: none;
-	text-align: right;
-}
-
-ul li ul{
-	text-align: right;
-}
-
 
 
 
