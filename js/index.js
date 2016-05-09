@@ -365,11 +365,36 @@ $('.close').on('click touchstart', function() {
 	$('.menuFloatAbout').css({"text-decoration":"none", "font-style": "normal"}); 
 });
 
-$('.splashClose').on('click touchstart', function() {
-	$(this).animate({opacity: '0'}, 300);
-	$('.splashDescription').animate({opacity: '0'}, 300);
-	$('.splashDescription').css({"z-index": '-10'}, 300);  
-});
+
+// $('.splashClose').on('click touchstart', function() {
+// 	$(this).animate({opacity: '0'}, 300);
+// 	$('.splashDescription').animate({opacity: '0'}, 300);
+// 	$('.splashDescription').css({"z-index": '-10'}, 300); 
+// });
+
+$(document).on('ready', checkSplash);
+
+function checkSplash(){
+	var visit = localStorage.getItem("visit");
+	localStorage.setItem("visit", "true");
+    //once the mouse is clicked the <splashClose>
+    $(".splashClose").on('click touchstart', function(){
+         //get the variable value from local storage and compare it
+         
+         $(this).animate({opacity: '0'}, 300);
+         $('.splashDescription').animate({opacity: '0'}, 300);
+         $('.splashDescription').css({"z-index": '-10'}, 300); 	
+         if(visit==="true") {
+         	localStorage.setItem("visit", "false");
+         }
+     });
+
+    if (visit === "false") {
+    	 $('.splashClose').animate({opacity: '0'}, 10);
+         $('.splashDescription').animate({opacity: '0'}, 10);
+         $('.splashDescription').css({"z-index": '-10'}, 10); 	
+    };
+}
 
 
 $('.home').mouseover('click touchstart', function() {
