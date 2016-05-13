@@ -4,16 +4,19 @@ $(document).ready(function(){
     // $('#mapContainer').animate({height: '82.5%', width: "100%", top: '17.5%', }), 300;
     $(".menuLinks #Iabout").animate({opacity: '1'}, 300); 
     $(".menuLinks #Iarchive").animate({opacity: '1'}, 300); 
+    $(".menuLinks #Imap").animate({opacity: '1'}, 300); 
 });
 
 	$('.menuLinks #Iint').mouseover('click touchstart', function() {
     $(".menuLinks #Iabout").animate({opacity: '1'}, 300); 
-    $(".menuLinks #Iarchive").animate({opacity: '1'}, 300); 
+    $(".menuLinks #Iarchive").animate({opacity: '1'}, 300);
+    $(".menuLinks #Imap").animate({opacity: '1'}, 300);  
 });
 
 	$('.menu').mouseleave('click touchstart', function() {
     $(".menuLinks #Iabout").animate({opacity: '0'}, 300); 
     $('.menuLinks #Iarchive').animate({opacity: '0'}, 300);
+    $('.menuLinks #Imap').animate({opacity: '0'}, 300);
 });
 
 

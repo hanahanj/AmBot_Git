@@ -287,16 +287,19 @@ $("#site_southRoxana").mouseleave(function(){
 $('.home').mouseover('click touchstart', function() {
     $(".menuLinks #Aabout").animate({opacity: '1'}, 300); 
     $(".menuLinks #Aint").animate({opacity: '1'}, 300); 
+    $(".menuLinks #Amap").animate({opacity: '1'}, 300);
 });
 
 $('.menuLinks #Aarchive').mouseover('click touchstart', function() {
     $(".menuLinks #Aabout").animate({opacity: '1'}, 300); 
     $(".menuLinks #Aint").animate({opacity: '1'}, 300); 
+    $(".menuLinks #Amap").animate({opacity: '1'}, 300);
 });
 
 $('.menu').mouseleave('click touchstart', function() {
     $(".menuLinks #Aabout").animate({opacity: '0'}, 300); 
     $(".menuLinks #Aint").animate({opacity: '0'}, 300); 
+    $(".menuLinks #Amap").animate({opacity: '0'}, 300); 
 });
 
 

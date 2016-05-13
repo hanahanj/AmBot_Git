@@ -176,13 +176,22 @@
 		opacity:0;
 	}
 
+	.menuIcon{
+		position:fixed;
+		top:4%;
+		width:50px;
+		height:50px;
+		z-index: 2000;
+
+	}
+
 	.close:hover{
 		cursor:pointer;
 	}
 
 	.home{
 		position:fixed;
-		left: 4%;
+		left: 2.5%;
 		top: 3%;
 		z-index: 2000;
 	}
@@ -209,6 +218,35 @@
 		-ms-transform: rotate(-45deg); /* IE 9 */
 		-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
 		transform: rotate(-45deg);
+	}
+
+	.menubar1{
+		position:absolute;
+		width:100%;
+		height:8px;
+		margin-left: 25px;
+		z-index: 200;
+		background-color: #000000;
+	}
+
+	.menubar2{
+		position:absolute;
+		width:100%;
+		height:8px;
+		top:15px;
+		z-index: 200;
+		margin-left:25px;
+		background-color: #000000;
+	}
+
+	.menubar3{
+		position:absolute;
+		width:100%;
+		height:8px;
+		top:30px;
+		z-index: 200;
+		margin-left:25px;
+		background-color: #000000;
 	}
 
 	#mapContainer {
@@ -315,7 +353,11 @@
 /*=================about page menu================*/
 .menuLinks #Aabout{
 	opacity: 0;
+}
+.menuLinks #Amap{
+	opacity: 0;
 } 
+
 
 .menuLinks #Aarchive{
 	opacity: 1;
@@ -327,6 +369,10 @@
 
 /*=================itineraries page menu================*/
 .menuLinks #Iabout{
+	opacity: 0;
+} 
+
+.menuLinks #Imap{
 	opacity: 0;
 } 
 
