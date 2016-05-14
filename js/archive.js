@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-
-
 //A
 // With the element initially hidden, we can show it slowly:
 
@@ -284,22 +282,26 @@ $("#site_southRoxana").mouseleave(function(){
 //S ends here
 
 
+// hover over the home
+// menulinks show up
+// leave menu, everything disappear
+
 $('.home').mouseover('click touchstart', function() {
-    $(".menuLinks #Aabout").animate({opacity: '1'}, 300); 
-    $(".menuLinks #Aint").animate({opacity: '1'}, 300); 
-    $(".menuLinks #Amap").animate({opacity: '1'}, 300);
+    $(".menuLinks #Aabout").animate({opacity: '1'}, 140); 
+    $(".menuLinks #Aint").animate({opacity: '1'}, 140); 
+    $(".menuLinks #Amap").animate({opacity: '1'}, 140);
 });
 
 $('.menuLinks #Aarchive').mouseover('click touchstart', function() {
-    $(".menuLinks #Aabout").animate({opacity: '1'}, 300); 
-    $(".menuLinks #Aint").animate({opacity: '1'}, 300); 
-    $(".menuLinks #Amap").animate({opacity: '1'}, 300);
+    $(".menuLinks #Aabout").animate({opacity: '1'}, 140); 
+    $(".menuLinks #Aint").animate({opacity: '1'}, 140); 
+    $(".menuLinks #Amap").animate({opacity: '1'}, 140);
 });
 
 $('.menu').mouseleave('click touchstart', function() {
-    $(".menuLinks #Aabout").animate({opacity: '0'}, 300); 
-    $(".menuLinks #Aint").animate({opacity: '0'}, 300); 
-    $(".menuLinks #Amap").animate({opacity: '0'}, 300); 
+    $(".menuLinks #Aabout").animate({opacity: '0'}, 140); 
+    $(".menuLinks #Aint").animate({opacity: '0'}, 140); 
+    $(".menuLinks #Amap").animate({opacity: '0'}, 140); 
 });
 
 

@@ -1,22 +1,21 @@
 $(document).ready(function(){
 
 	$('.home').mouseover('click touchstart', function() {
-    // $('#mapContainer').animate({height: '82.5%', width: "100%", top: '17.5%', }), 300;
-    $(".menuLinks #Iabout").animate({opacity: '1'}, 300); 
-    $(".menuLinks #Iarchive").animate({opacity: '1'}, 300); 
-    $(".menuLinks #Imap").animate({opacity: '1'}, 300); 
+    $(".menuLinks #Iabout").animate({opacity: '1'}, 140); 
+    $(".menuLinks #Iarchive").animate({opacity: '1'}, 140); 
+    $(".menuLinks #Imap").animate({opacity: '1'}, 140); 
 });
 
 	$('.menuLinks #Iint').mouseover('click touchstart', function() {
-    $(".menuLinks #Iabout").animate({opacity: '1'}, 300); 
-    $(".menuLinks #Iarchive").animate({opacity: '1'}, 300);
-    $(".menuLinks #Imap").animate({opacity: '1'}, 300);  
+    $(".menuLinks #Iabout").animate({opacity: '1'}, 140); 
+    $(".menuLinks #Iarchive").animate({opacity: '1'}, 140);
+    $(".menuLinks #Imap").animate({opacity: '1'}, 140);  
 });
 
 	$('.menu').mouseleave('click touchstart', function() {
-    $(".menuLinks #Iabout").animate({opacity: '0'}, 300); 
-    $('.menuLinks #Iarchive').animate({opacity: '0'}, 300);
-    $('.menuLinks #Imap').animate({opacity: '0'}, 300);
+    $(".menuLinks #Iabout").animate({opacity: '0'}, 140); 
+    $('.menuLinks #Iarchive').animate({opacity: '0'}, 140);
+    $('.menuLinks #Imap').animate({opacity: '0'}, 140);
 });
 
 
