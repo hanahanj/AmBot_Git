@@ -398,14 +398,14 @@ function checkSplash(){
 
 $('.home').mouseover('click touchstart', function() {
 	$('.menu').animate({opacity: '1'}, 120); 
-	$('.MmenuLinks').animate({opacity: '1'}, 120); 
-	$('.MmenuLinks').css({"z-index": '-10'}, 120); 
+	$('.menuLinks').animate({opacity: '1'}, 120); 
+	$('.menuLinks').css({"z-index": '-10'}, 120); 
 	$('.home').animate({opacity: '0'}, 120); 
 
 });
 
 $('.menu').mouseleave('click touchstart', function() {
-	$('.MmenuLinks').animate({opacity: '0'}, 120); 
+	$('.menuLinks').animate({opacity: '0'}, 120); 
 	$('.home').animate({opacity: '1'}, 120); 
 });
 

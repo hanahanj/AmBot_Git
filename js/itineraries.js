@@ -4,18 +4,21 @@ $(document).ready(function(){
     $(".menuLinks #Iabout").animate({opacity: '1'}, 140); 
     $(".menuLinks #Iarchive").animate({opacity: '1'}, 140); 
     $(".menuLinks #Imap").animate({opacity: '1'}, 140); 
+    $(this).animate({opacity: '0'}, 140);
 });
 
 	$('.menuLinks #Iint').mouseover('click touchstart', function() {
     $(".menuLinks #Iabout").animate({opacity: '1'}, 140); 
     $(".menuLinks #Iarchive").animate({opacity: '1'}, 140);
-    $(".menuLinks #Imap").animate({opacity: '1'}, 140);  
+    $(".menuLinks #Imap").animate({opacity: '1'}, 140); 
+    $(".home").animate({opacity: '0'}, 140); 
 });
 
-	$('.menu').mouseleave('click touchstart', function() {
+	$('.AImenu').mouseleave('click touchstart', function() {
     $(".menuLinks #Iabout").animate({opacity: '0'}, 140); 
     $('.menuLinks #Iarchive').animate({opacity: '0'}, 140);
     $('.menuLinks #Imap').animate({opacity: '0'}, 140);
+    $(".home").animate({opacity: '1'}, 140);
 });
 
 

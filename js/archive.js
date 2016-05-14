@@ -290,18 +290,21 @@ $('.home').mouseover('click touchstart', function() {
     $(".menuLinks #Aabout").animate({opacity: '1'}, 140); 
     $(".menuLinks #Aint").animate({opacity: '1'}, 140); 
     $(".menuLinks #Amap").animate({opacity: '1'}, 140);
+    $(this).animate({opacity: '0'}, 140);
 });
 
 $('.menuLinks #Aarchive').mouseover('click touchstart', function() {
     $(".menuLinks #Aabout").animate({opacity: '1'}, 140); 
     $(".menuLinks #Aint").animate({opacity: '1'}, 140); 
     $(".menuLinks #Amap").animate({opacity: '1'}, 140);
+    $(".home").animate({opacity: '0'}, 140);
 });
 
-$('.menu').mouseleave('click touchstart', function() {
+$('.AImenu').mouseleave('click touchstart', function() {
     $(".menuLinks #Aabout").animate({opacity: '0'}, 140); 
     $(".menuLinks #Aint").animate({opacity: '0'}, 140); 
     $(".menuLinks #Amap").animate({opacity: '0'}, 140); 
+    $(".home").animate({opacity: '1'}, 140);
 });
 
 

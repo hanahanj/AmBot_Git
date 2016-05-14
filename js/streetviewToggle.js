@@ -160,17 +160,15 @@ $('.close').on('click touchstart', function() {
 });
 
 $('.home').mouseover('click touchstart', function() {
-	$(".menu").animate({opacity: '.9'}, 300); 
-	$('.menu').css({"z-index": '100'}); 
-
-
+	$('.menu').animate({opacity: '1'}, 120); 
+	$('.menuLinks').animate({opacity: '1'}, 120); 
+	$('.menuLinks').css({"z-index": '-10'}, 120); 
+	$('.home').animate({opacity: '0'}, 120); 
 });
 
 $('.menu').mouseleave('click touchstart', function() {
-	$(".menu").animate({opacity: '0'}, 300); 
-	$('.menu').css({"z-index": '-10'});  
-	//$('.siteText').animate({top: '35%', height: '64%'}), 1600;
-
+	$('.menuLinks').animate({opacity: '0'}, 120); 
+	$('.home').animate({opacity: '1'}, 120); 
 });
 
 // Trying to get directions iframe to reload when clicked so it returns to satellite.... not working currently
