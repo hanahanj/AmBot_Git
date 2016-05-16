@@ -20,25 +20,25 @@ $('.close').on('click touchstart', function() {
 });
 
 
-$('.home').mouseover('click touchstart', function() {
- $(".menuLinks #Iabout").animate({opacity: '1'}, 140); 
- $(".menuLinks #Iarchive").animate({opacity: '1'}, 140); 
- $(".menuLinks #Imap").animate({opacity: '1'}, 140);
- $(this).animate({opacity: '0'}, 140);
+$('.home').click('click touchstart', function() {
+  $('.menu').animate({opacity: '1'}, 120); 
+  $('.menuLinks').animate({opacity: '1'}, 120); 
+  $('.menuLinks').css({"z-index": '-10'}, 120); 
+  $(this).animate({opacity: '0'}, 300);
+  $(this).css({"z-index": '1000'}, 120);
+
+  $('.homeClose').animate({opacity: '1'}, 300);
+  $('.homeClose').css({"z-index": '2000'}, 120); 
 });
 
-$('.menuLinks #Iint').mouseover('click touchstart', function() {
-  $(".menuLinks #Iabout").animate({opacity: '1'}, 140); 
-  $(".menuLinks #Iarchive").animate({opacity: '1'}, 140); 
-  $(".menuLinks #Imap").animate({opacity: '1'}, 140);
-  $(".home").animate({opacity: '0'}, 140);
-});
-
-$('.AImenu').mouseleave('click touchstart', function() {
-  $(".menuLinks #Iabout").animate({opacity: '0'}, 140); 
-  $(".menuLinks #Iarchive").animate({opacity: '0'}, 140); 
-  $(".menuLinks #Imap").animate({opacity: '0'}, 140);
-  $(".home").animate({opacity: '1'}, 140);
+$('.homeClose').click('click touchstart', function() {
+  $('.menu').animate({opacity: '0'}, 120); 
+  $('.menuLinks').animate({opacity: '0'}, 120); 
+  $('.menuLinks').css({"z-index": '-10'}, 120); 
+  $(this).animate({opacity: '0'}, 300);  
+  $(this).css({"z-index": '1000'}, 120);  
+  $('.home').animate({opacity: '1'}, 300);
+  $('.home').css({"z-index": '2000'}, 120); 
 });
 
 

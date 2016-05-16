@@ -286,52 +286,30 @@ $("#site_southRoxana").mouseleave(function(){
 // menulinks show up
 // leave menu, everything disappear
 
-$('.home').mouseover('click touchstart', function() {
-    $(".menuLinks #Aabout").animate({opacity: '1'}, 140); 
-    $(".menuLinks #Aint").animate({opacity: '1'}, 140); 
-    $(".menuLinks #Amap").animate({opacity: '1'}, 140);
-    $(this).animate({opacity: '0'}, 140);
+$('.home').click('click touchstart', function() {
+    $('.menu').animate({opacity: '1'}, 120); 
+    $('.menuLinks #Aabout').animate({opacity: '1'}, 120); 
+    $('.menuLinks #Aint').animate({opacity: '1'}, 120); 
+    $('.menuLinks #Amap').animate({opacity: '1'}, 120); 
+    $('.menuLinks').css({"z-index": '-10'}, 120); 
+    $(this).animate({opacity: '0'}, 300);
+    $(this).css({"z-index": '1000'}, 120);
+
+    $('.homeClose').animate({opacity: '1'}, 300);
+    $('.homeClose').css({"z-index": '2000'}, 120); 
 });
 
-$('.menuLinks #Aarchive').mouseover('click touchstart', function() {
-    $(".menuLinks #Aabout").animate({opacity: '1'}, 140); 
-    $(".menuLinks #Aint").animate({opacity: '1'}, 140); 
-    $(".menuLinks #Amap").animate({opacity: '1'}, 140);
-    $(".home").animate({opacity: '0'}, 140);
+$('.homeClose').click('click touchstart', function() {
+    $('.menu').animate({opacity: '0'}, 120); 
+    $('.menuLinks #Aabout').animate({opacity: '0'}, 120); 
+    $('.menuLinks #Aint').animate({opacity: '0'}, 120); 
+    $('.menuLinks #Amap').animate({opacity: '0'}, 120); 
+    $('.menuLinks').css({"z-index": '-10'}, 120); 
+    $(this).animate({opacity: '0'}, 300);  
+    $(this).css({"z-index": '1000'}, 120);  
+    $('.home').animate({opacity: '1'}, 300);
+    $('.home').css({"z-index": '2000'}, 120); 
 });
-
-$('.AImenu').mouseleave('click touchstart', function() {
-    $(".menuLinks #Aabout").animate({opacity: '0'}, 140); 
-    $(".menuLinks #Aint").animate({opacity: '0'}, 140); 
-    $(".menuLinks #Amap").animate({opacity: '0'}, 140); 
-    $(".home").animate({opacity: '1'}, 140);
-});
-
-
-// $('.menuLinks').mouseleave('click touchstart', function() {
-//     $(".menuLinks #Aabout").animate({opacity: '0'}, 300); 
-//     $(".menuLinks #Aint").animate({opacity: '0'}, 300); 
-// });
-
-// code below changed on Feb 23, 2016 by Bohao. This probably will be needed in the future
-
-// $('.home').mouseover('click touchstart', function() {
-// 	$('.archiveContain').animate({height: '77%', width: "100%", top: '17.5%', }), 300;
-// 	$('.site_Title').animate({top: '20%',}), 300;
-// 	$(".menu").animate({opacity: '1'}, 800);  
-// 	$(".close").animate({opacity: '1'}, 800);  
-
-
-// });
-
-// $('.close').on('click touchstart', function() { 
-// 	$('.archiveContain').animate({top: '6%', width: "100%", }, 300);
-// 	$(this).animate({opacity: '0'}, 300);  
-// 	$(".menu").animate({opacity: '0'}, 300);
-
-// });
-
-
 
 
 
