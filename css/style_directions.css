@@ -52,10 +52,10 @@ body {
   margin: 0;
   padding: 0;
   position: absolute;
-  top:7%;
+  top:11%;
   left: 100px;
   width: 300px;
-  height: 78%;
+  height: 73%;
   background: rgba(255,255,255,0.8);
   /* border: 5px solid #000; */
   border-left: none;
@@ -183,7 +183,7 @@ body {
   margin: 10px 0 0 0; 
   font-size: 11px; 
   line-height: normal; 
-  height: 395px; 
+  height: 460px; 
   overflow: auto;
 }
 
