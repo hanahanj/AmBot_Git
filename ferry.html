@@ -1,10 +1,8 @@
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>The American Bottom</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media = "(max-width:320px)" href="css/320style.css" />
 	<link rel="stylesheet" media = "(max-width:320px)" href="css/320style_streetview.css" />
 	<link rel="stylesheet" media = "(min-width:321px)" and "(max-width:375px)" href="css/375style.css" />
@@ -20,16 +18,12 @@
 	<link rel="stylesheet" media = "(min-width:1281px)" href="css/style.css" />
 	<link rel="stylesheet" media = "(min-width:1281px)" href="css/style_streetview.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="Content-Type"content="text/html;charset=UTF-8">
-	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="js/streetviewToggle.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
-
-
+	<meta http-equiv="Content-Type"content="text/html;charset=UTF-8">
 </head>
 <body>
 
-<div class="home">
+
+	<div class="home">
 		<div class="menuIcon">
 			<div class="menubar1">
 			</div>
@@ -57,53 +51,54 @@
 			<h1><a href="itineraries.html">Itineraries</a></h1>
 		</div>
 	</div>
-	
 
-	<div class="menuSites">
+
+		<div class="menuSites">
 			<h1 class="menuFloatStreetview">Visit</h1>
 			<h1 class="menuFloatVisit">Directions</h1>
 			<h1 class="menuFloatDescription">Info</h1>	
 		</div>
 
-	<div class="close">
-		<div class="bar1">
-		</div>
-		<div class="bar2">
-		</div>
-	</div>
-
-
-
-	<div id="bgContainer">
-		<div id = "titleImage">
-			<img src="images/sites/SandPrairie.jpg" >
+		<div class="close">
+			<div class="bar1">
+			</div>
+			<div class="bar2">
+			</div>
 		</div>
 
-		<div class="streetView">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2s!4v1455090653416!6m8!1m7!1sNAy6A0kSKXgjE_HyiKN32Q!2m2!1d38.394475211376!2d-90.25492525521885!3f276.43682232854576!4f-7.0624117279974!5f0.7820865974627469" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+		<div id="bgContainer">
+			<div id = "titleImage">
+				<img src="images/sites/ModocFerry1.jpg" >
+			</div>
+
+			<div class="streetView">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2s!4v1455092823356!6m8!1m7!1soB8Guv5jA2Oz2tv93GarXQ!2m2!1d38.0035232295191!2d-90.05913211612061!3f355.6335156607783!4f-6.92351777622217!5f0.7820865974627469"  width="100%" height="100%"  frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			</div>
+
+			<div class="directions">
+				<iframe src="directions/directions_ferry.html?q=38.009568,-90.053401"></iframe>
+
+
+
+			</div>
 		</div>
 
-		<div class="directions">
-			<iframe src="directions/directions_lowlandForests.html?q=38.417596,-90.262183"></iframe>
-
-
+		<div class="site_Title">
+			<h2>Modoc Ferry</h2>
 
 		</div>
-	</div>
-
-	<div class="site_Title">
-		<h2>Lowland Forests</h2>
-
-	</div>
 
 
-	<div class = "siteText">
-		<p>
-			Part of a complex of wetlands and sloughs that at one time warranted naming: Porter, Waddle, Saunders, and Howe Lakes, and Little Carr Creek and Long Slash are all reminders of the saturated nature of the floodplain. While many of these lakes are now little more than saturated depressions in agricultural fields, the managed forests in the region map quite exactly the former saturated lowlands. More tolerant to the perennial inundations than row-crops, certain tree species are commonly planted in these low-lying zones to capitalize on the moisture and to demarcate arable cropland from less than productive mud. Throughout the American Bottom, when one comes upon forests you can be relatively sure that the boundaries of the trees map the perimeter of a once annual lake.
-		</p>
-	</div>
+		<div class = "siteText">
+			<p>
+				The Modoc Ferry is a fair-weather vessel connecting Mudds Landing, IL and Little Rock Landing, MO. While it may seem that the ferry’s nickname—“The French Connection”—is merely a marketing gimmick, this very location has indeed been host to ferry service since French Colonial trade brought agricultural goods across the river from the American Bottom to St. Geneviev. Nicolas de Finiels 1797 map of the region shows a ferry crossing in this location—with the main road from St. Geneviev to St. Louis actually crossing to the East bank of the river, then north through the bottoms, and crossing back over the river to the West bank. It takes approximately 5 minutes to make the crossing, with the ferry dodging barge traffic and plying a strangely acute angle against the strong river current. Currently, it is the only crossing in the 50+ miles between the Jefferson Barracks Bridge and the Chester, IL bridge, and charges a fee for the crossing.
+			</p>
+		</div>
 
-	<div class="listItineraries">
+		<div class="listItineraries">
 		<ul>
 			<li>
 				<h3 class ="nolink">Parks and Recreation in East St. Louis</h3>
@@ -116,7 +111,10 @@
 			</li>
 		</ul>
 	</div>
-</div>
+	</div>
 
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/streetviewToggle.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
 </body>
 </html>
