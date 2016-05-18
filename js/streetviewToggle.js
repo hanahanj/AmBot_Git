@@ -84,9 +84,9 @@ $('.menuFloatStreetview').mouseover('click touchstart', function() {
 
 
 $('.menuFloatDescription').mouseover('click touchstart', function() { 
-	$('.site_Title').animate({bottom: '80%',}, 300);   
+	$('.site_Title').animate({bottom: '78%',}, 300);   
 	$('.site_Title').animate({opacity: '1'}, 300);
-	$('.siteText').animate({top: '20%',}, 300);
+	$('.siteText').animate({top: '23%',}, 300);
 	$('.siteText').css({"z-index": '10'});
 	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
 	$('#bgContainer').animate({opacity: '.5'}, 300);
