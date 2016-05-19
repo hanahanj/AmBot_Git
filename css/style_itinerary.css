@@ -309,8 +309,10 @@ sup{
 /*Carousel*//*/////////////////////////////*/
 
 .container {
-  width: 80%;
-  position: relative;
+   position:relative;
+  width:75%;
+  height:auto;
+  display:inline-block;
 }
 .container div {
   width: 100%;
