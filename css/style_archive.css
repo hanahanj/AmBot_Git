@@ -1,4 +1,8 @@
 
+body{
+  overflow-x:hidden;
+}
+
 /*===========Archive Page========*/
 .menuArchive #archive{
 	z-index: -10;
