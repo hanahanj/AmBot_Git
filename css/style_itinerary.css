@@ -311,7 +311,7 @@ sup{
 .container {
    position:relative;
   width:75%;
-  height:auto;
+  height:100%;
   display:inline-block;
 }
 .container div {
@@ -320,12 +320,18 @@ sup{
   display: none;
 }
 .container img {
-  width: 100%;
+  width: 90%;
+  top: 0px;
+  left: 0px;
   height: auto;
 }
 
 button {
   position: absolute;
+}
+
+.carouselBtns:hover{
+  cursor:pointer;
 }
 
 .next {
