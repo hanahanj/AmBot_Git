@@ -35,9 +35,12 @@
 }
 
 .site_Title h2{
-	font-size: 3.5rem;
-	line-height: 100%;
-	letter-spacing: 0px;
+	font-family: "Interstate-CompressedBlack";
+	text-transform: uppercase;
+	font-size: 80px;
+	letter-spacing: .05em;
+	line-height: .8em;
+	margin:0;
 }
 
 .siteText{
