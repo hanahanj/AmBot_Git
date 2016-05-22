@@ -279,37 +279,101 @@ a:visited{
 
 
 @media (max-width: 1280px){
-	.menuSites{
-		width:84%;
+	.site_Title{
+		bottom: 7%;
 	}
+
+	.menuFloatStreetview{
+		left: 77%;
+	}
+	.menuFloatVisit{
+		left: 77%;
+	}
+	.menuFloatDescription{
+		left: 77%;
+	}
+
 }
 
 @media (max-width: 1024px){
-	.menuSites{
-		width:76%;
+	.menuFloatStreetview{
+		left: 71%;
+	}
+	.menuFloatVisit{
+		left: 71%;
+	}
+	.menuFloatDescription{
+		left: 71%;
 	}
 }
 
 @media (max-width: 768px){
-	.menuSites{
-		width:55%;
+	.menuFloatStreetview{
+		left: 62%;
+	}
+	.menuFloatVisit{
+		left: 62%;
+	}
+	.menuFloatDescription{
+		left: 62%;
 	}
 }
 @media (max-width: 414px){
-	.menuSites{
-		width:35%;
+	.menuFloatStreetview{
+		left: 31%;
 	}
+	.menuFloatVisit{
+		left: 31%;
+	}
+	.menuFloatDescription{
+		left: 31%;
+	}
+
+	.site_Title h2{
+		font-size: 70px;
+	}
+
+
 }
 @media (max-width: 375px){
-	.menuSites{
-		width:25%;
+	.menuFloatStreetview{
+		left: 32%;
+	}
+	.menuFloatVisit{
+		left: 32%;
+	}
+	.menuFloatDescription{
+		left: 32%;
+	}
+
+	.menuSites h1{
+		font-size: 26px;
+	}
+
+	.site_Title h2{
+		font-size: 63px;
 	}
 }
 
 @media (max-width: 320px){
-	.menuSites{
-		width:25%;
+	.menuFloatStreetview{
+		left: 28%;
 	}
+	.menuFloatVisit{
+		left: 28%;
+	}
+	.menuFloatDescription{
+		left: 28%;
+	}
+
+	.menuSites h1{
+		font-size: 23px;
+	}
+
+	.site_Title h2{
+		font-size: 60px;
+	}
+
 }
 
 
