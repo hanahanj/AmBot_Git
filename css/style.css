@@ -601,41 +601,130 @@
 
 @media (max-width: 1024px){
 	.menuLinks{
-		left: 110px;
+		left: 105px;
 	}
 
 	.menuLinks h1{
-		font-size: 2.8rem;
+		font-size: 2.7rem;
 	}	
+
+	.menuIcon{
+		top: 3.6%;
+		width: 40px;
+	}
+
+	.menubarClose1{
+		height: 7px;
+	}
+	.menubarClose2{
+		height: 7px;
+	}
+
+	.menubar1{
+		height: 7px;
+	}
+	.menubar2{
+		height: 7px;
+	}
+	.menubar3{
+		height: 7px;
+	}
 }
 
 @media (max-width: 768px){
 	.menuLinks{
-		left: 90px;
+		left: 80px;
 	}
 
 	.menuLinks h1{
-		font-size: 2.4rem;
+		font-size: 2.5rem;
+	}
+
+	.menuIcon{
+		top: 3.3%;
+	}
+
+	.menubarClose1{
+		height: 6.5px;
+	}
+	.menubarClose2{
+		height: 6.5px;
+	}
+
+	.menubar1{
+		height: 6.5px;
+	}
+	.menubar2{
+		height: 6.5px;
+	}
+	.menubar3{
+		height: 6.5px;
 	}
 }
 
 @media (max-width: 414px){
 	.menuLinks{
 		left: 50px;
+		top: 28px;
 	}
 
 	.menuLinks h1{
-		font-size: 2rem;
+		font-size: 1.65rem;
+		margin-left: 6.6px;
 	}
+	.menuIcon{
+		top: 2.9%;
+		width: 28px;
+	}
+
+	.menubarClose1{
+		height: 5.5px;
+	}
+	.menubarClose2{
+		height: 5.5px;
+	}
+
+	.menubar1{
+		height: 5.5px;
+		top: 5px;
+	}
+	.menubar2{
+		height: 5.5px;
+		top: 15px;
+	}
+	.menubar3{
+		height: 5.5px;
+		top: 25px;
+	}
+
 }
 
 @media (max-width: 375px){
 	.menuLinks{
-		left: 40px;
+		left: 46px;
+		top: 23px;
 	}
 
 	.menuLinks h1{
-		font-size: 1.8rem;
+		font-size: 1.56rem;
+		margin-left: 6px;
+	}
+	.menuIcon{
+		top: 2.5%;
+		width: 25px;
+	}
+
+	.menubar1{
+		height: 5px;
+		top: 6px;
+	}
+	.menubar2{
+		height: 5px;
+		top: 15px;
+	}
+	.menubar3{
+		height: 5px;
+		top: 24px;
 	}
 }
 
