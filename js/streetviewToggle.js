@@ -71,7 +71,7 @@ $('.menuFloatStreetview').mouseover('click touchstart', function() {
 	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
 	$('.streetView').css({"z-index": '100'});
 	$('.directions').css({"z-index": '0'});
-	$('.close').animate({opacity: '1'}, 300); 
+	// $('.close').animate({opacity: '1'}, 300); 
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"});
@@ -85,14 +85,9 @@ $('.menuFloatStreetview').mouseover('click touchstart', function() {
 
 $('.menuFloatDescription').mouseover('click touchstart', function() { 
 	$('.site_Title').animate({bottom: '78%',}, 300);   
-	$('.site_Title').animate({opacity: '1'}, 300);
 	$('.siteText').animate({top: '23%',}, 300);
 	$('.siteText').css({"z-index": '10'});
-	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
 	$('#bgContainer').animate({opacity: '.5'}, 300);
-	$('.streetView').animate({opacity: '0'}, 300); 
-	$('.directions').animate({opacity: '0'}, 300);
-	$('.listItineraries').animate({opacity: '0'}, 300);
 	$('.close').animate({opacity: '1'}, 300); 
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
@@ -111,7 +106,7 @@ $('.menuFloatInt').mouseover('click touchstart', function() {
 	$('.listItineraries').css({"z-index": '10'});  
 	$('.streetView').animate({opacity: '0'}, 300); 
 	$('.directions').animate({opacity: '0'}, 300);
-	$('.close').animate({opacity: '1'}, 300); 
+	// $('.close').animate({opacity: '1'}, 300); 
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
 	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
@@ -142,14 +137,8 @@ $('.menuFloatVisit').mouseover('click touchstart', function() {
 $('.close').on('click touchstart', function() { 
 	$('.site_Title').animate({bottom: '7%',}, 300); 
 	$('.siteText').animate({top: '100%',}, 300);
-	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300); 
-	$('#bgContainer').animate({opacity: '1'}, 800); 
 	$(this).animate({opacity: '0'}, 300);  
-	$('#titleImage').animate({width: '100%',}, 300);
-	$('.streetView').animate({opacity: '0'}, 300); 
-	$('.directions').animate({opacity: '0'}, 300);
-	$('.listItineraries').animate({opacity: '0'}, 300);
-	$(".menu").animate({opacity: '0'}, 300); 
+	
 
 	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"}); 
