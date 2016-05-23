@@ -305,6 +305,19 @@ a:visited{
 	.menuFloatDescription{
 		left: 71%;
 	}
+
+	.site_Title h2{
+		font-size: 75px;
+	}
+
+
+	.siteText{
+		width: 40%;
+	}
+
+	.siteText p{
+		font-size: 19px;
+	}
 }
 
 @media (max-width: 768px){
@@ -316,6 +329,10 @@ a:visited{
 	}
 	.menuFloatDescription{
 		left: 62%;
+	}
+
+	.siteText p{
+		font-size: 18px;
 	}
 }
 @media (max-width: 414px){
@@ -331,6 +348,13 @@ a:visited{
 
 	.site_Title h2{
 		font-size: 70px;
+	}
+
+	.siteText{
+		width: 75%;
+	}
+	.siteText p{
+		font-size: 17px;
 	}
 
 
@@ -353,25 +377,36 @@ a:visited{
 	.site_Title h2{
 		font-size: 63px;
 	}
+
+	.siteText p{
+		font-size: 16px;
+	}
+
 }
 
 @media (max-width: 320px){
 	.menuFloatStreetview{
-		left: 28%;
+		left: 27.5%;
 	}
 	.menuFloatVisit{
-		left: 28%;
+		left: 27.5%;
 	}
 	.menuFloatDescription{
-		left: 28%;
+		left: 27.5%;
 	}
 
 	.menuSites h1{
 		font-size: 23px;
 	}
 
+	.site_Title{
+		left: 10%;
+	}
 	.site_Title h2{
-		font-size: 60px;
+		font-size: 55px;
+	}
+	.siteText p{
+		font-size: 14px;
 	}
 
 }
