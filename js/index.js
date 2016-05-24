@@ -73,10 +73,14 @@ $(document).ready(function(){
 	    ['Central Port',  38.711324, -90.172260, 'americasCentralPort.html'],
 	    ['Field Station HQ', 38.711325, -90.172261, 'insert Site'],  
 	    ['Brooklyn, IL', 38.657758, -90.169039, 'brooklyn.html'],
+	    ['Camp DuBois', 38.849717, -90.119760, 'duBios.html'],
 	    ['Cahokia Courthouse', 38.571008, -90.191758, 'insert Site'],
 	    ['Cahokia Creek Chanel', 38.803944, -90.054722, 'insert Site'],
+	    ['Cahokia Diversion Canal', 38.804668, -90.067069, 'diversionCanal.html'],
 	    ['Cahokia Mounds', 38.660444, -90.062153, 'insert Site'],
+	    ['Cahokia Power Plant', 38.606402, -90.180386, 'powerPlant.html'],
 	    ['Chain of Rocks', 38.7585, -90.170575, 'insert Site'],
+	    ['Chain of Rocks Canal', 38.760148, -90.139328, 'canal.html'],
 	    ['Chemetco', 38.797708, -90.098817, 'chemetco.html'],
 	    ['Chouteau Island', 38.753956, -90.158042, 'insert Site'],
 	    ['Columbia Bottoms', 38.806817, -90.155358, 'insert Site'],
@@ -91,10 +95,9 @@ $(document).ready(function(){
 	    ['Fults', 38.163822, -90.212572, 'insert Site'],
 	    ['Gateway Commerce Center', 38.769133, -90.0667, 'gateway.html'],
 	    ['Gateway Geyser', 38.621836, -90.175347, 'insert Site'],
-	    ['Gateway Grizzlies Ballpark', 38.565714, -90.135919, 'insert Site'],
-	    ['Gateway Motorsports Park', 38.649808, -90.134908, 'insert Site'],
-	    ['Granite City', 38.7019, -90.151317, 'insert Site'],
-	    ['Army Depot', 38.688181, -90.179908, 'insert Site'],
+	    ['Gateway Grizzlies Ballpark', 38.565715, -90.135919, 'grizzlies.html'],
+	    ['Gateway Motorsports Park', 38.649807, -90.134907, 'motorsport.html'],
+	    ['Granite City Army Depot', 38.691183, -90.176091, 'depot.html'],
 	    ['Holcim Cement Plant', 38.000328, -90.079517, 'insert Site'],
 	    ['Horseradish', 38.688242, -90.011325, 'collinsville.html'],
 	    ['Horseshoe Lake', 38.699222, -90.067539, 'horseshoeLake.html'],
@@ -109,15 +112,17 @@ $(document).ready(function(){
 	    ['Melvin Price Lock & Dam', 38.870622, -90.151639, 'insert Site'],
 	    ['Milam', 38.655978, -90.123811,'milam.html'],
 	    ['Missouri & Mississippi Confluence', 38.816378, -90.119692,'insert Site'],  
-	    ['Modoc Ferry', 38.009711, -90.053083,'insert Site'],  
+	    ['Modoc Ferry', 38.009568, -90.053401,'ferry.html'],  
 	    ['National Archives & Record Administration', 38.302856, -90.304133,'insert Site'], 
 	    ['National City', 38.638292, -90.148397,'nationalCity.html'], 
 	    ['New Valmeyer', 38.308297, -90.279775,'insert Site'],  
+	    ['Old Channel of Wood River ', 38.861303, -90.111696,'channel.html'],
+	    ['Old Man River', 38.636745, -90.165637,'oldManRiver.html'], 
 	    ['Old Valmeyer', 38.294528, -90.312883,'insert Site'], 
 	    ['Olin Brass',  38.888360, -90.113417,'brass.html'],
 	    ['Olin Brass Manufacturing Plant', 38.888492, -90.113567,'insert Site'], 
-	    ['Pulcher', 38.495846, -90.231493,'insert Site'], 
-	    ['Prairie Du Pont Creek', 38.551607, -90.201470,'insert Site'], 
+	    ['Pulcher', 38.495846, -90.231493,'pulcher.html'], 
+	    ['Prairie Du Pont Creek', 38.551607, -90.201470,'creek.html'], 
 	    ['Prairie Du Rocher', 38.082825, -90.096803,'insert Site'], 
 	    ['Riverlands Audubon Center', 38.863083, -90.176272,'insert Site'], 
 	    ['Rush City', 38.607606, -90.168136,'insert Site'], 
@@ -132,7 +137,7 @@ $(document).ready(function(){
 	    ['Watco Railroad Mechanical Dome', 38.871994, -90.106222,'railroadDome.html'],
 	    ['Watco Railroad Refinery Museum', 38.838406, -90.074638,'railroadMuseum.html'],
 	    ['Wood River Historical Society Museum', 38.860592, -90.099431,'insert Site'],
-	    ['Wood River Power Station', 38.863922, -90.133911,'insert Site'],
+	    ['Wood River Power Station', 38.863923, -90.133911,'power.html'],
 	    ['Wood River Refinery', 38.845214, -90.068736,'insert Site'],
 	    ['Wood River Refinery Museum',  38.838406, -90.074638,'refineryMuseum.html'],
 	    ['1993 Levee Breach', 38.340653, -90.321088,'refineryMuseum.html'],
@@ -372,28 +377,30 @@ $('.close').on('click touchstart', function() {
 // 	$('.splashDescription').css({"z-index": '-10'}, 300); 
 // });
 
+//==============splashPage only appear once================
 $(document).on('ready', checkSplash);
 
 function checkSplash(){
-	var visit = localStorage.getItem("visit");
-	localStorage.setItem("visit", "true");
+	var visit = sessionStorage.getItem("visit");
+	
+    sessionStorage.setItem("visit", "true");
     //once the mouse is clicked the <splashClose>
     $(".splashClose").on('click touchstart', function(){
          //get the variable value from local storage and compare it
-         
          $(this).animate({opacity: '0'}, 300);
          $('.splashDescription').animate({opacity: '0'}, 300);
          $('.splashDescription').css({"z-index": '-10'}, 300); 	
-         if(visit==="true") {
-         	localStorage.setItem("visit", "false");
-         }
-     });
+         if(visit === "true") {
+         	sessionStorage.setItem("visit", "false");
+         } 
 
-    if (visit === "false") {
-    	$('.splashClose').animate({opacity: '0'}, 10);
-    	$('.splashDescription').animate({opacity: '0'}, 10);
-    	$('.splashDescription').css({"z-index": '-10'}, 10); 	
-    };
+     });
+    if (visit === "false"){
+    	$('.splashClose').animate({opacity: '0'}, 5);
+    	$('.splashDescription').animate({opacity: '0'}, 5);
+    	$('.splashDescription').css({"z-index": '-10'}, 5); 
+    	sessionStorage.setItem("visit", "false");
+    }
 }
 
 $('.home').click('click touchstart', function() {
