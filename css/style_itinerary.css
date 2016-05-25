@@ -126,6 +126,21 @@ body{
 
 }
 
+.site_Title h1{
+  font-family: "Interstate-Bold";
+  font-size: 48px;
+  line-height: 1em;
+  text-align: left;
+
+}
+
+.site_Title h2{
+  /*font-family: "Interstate-Bold";*/
+  font-size: 75px;
+  line-height: .8em;
+  text-align: left;
+}
+
 .site_Title h4{
   font-family: "Interstate-CondensedBold";
   text-transform: uppercase;
