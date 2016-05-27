@@ -48,7 +48,6 @@
 		text-transform: uppercase;
 		margin:0;
 		display:inline;
-		margin-left: 10px;
 
 	}
 
@@ -170,14 +169,63 @@
 
 	.aboutDescription{
 		position: fixed;
-    width: 55%;
-    height:100%;
-    margin-left: 20%;
-    border-left: none;
-    padding: 10px;
-    opacity: 1;
+		width: 55%;
+		height:100%;
+		margin-left: 20%;
+		border-left: none;
+		padding: 10px;
+		opacity: 1;
 		overflow: hidden;
 		overflow: scroll;
+	}
+
+
+	#aboutContainer {
+		position:absolute;
+		width:80%;
+		margin-left: 10%;
+		left:0px;
+		height:90%;
+		top:10%;
+		overflow: scroll;
+	}
+
+	.aboutColophon{
+		position: fixed;
+		width: 25%; 
+		height: auto; 
+	}
+
+	.aboutColophon h1{
+		font-family: "Interstate-CompressedBlack";
+		font-size: 21px;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+		display:inline;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+
+	.aboutColophon p{
+		padding-top: 0px;
+	}
+
+	.credits{
+		padding-top: 25px;
+	}
+
+	#aboutText{
+		position: absolute;
+		float: left;
+		width: 60%;
+		margin-left: 35%;
+		height: 100%;
+		padding-left: 10px;
+		margin-bottom: 50px;
+	}
+
+	#aboutText p{
+		padding-top: 0px;
 	}
 
 	p{
@@ -364,8 +412,8 @@
 
 .logo{
 	position:relative;
-	top:6%;
-	left:6%;
+	/*top:6%;
+	left:6%;*/
 	width:500px;
 	height:auto;
 }
