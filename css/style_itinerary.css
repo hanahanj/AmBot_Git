@@ -117,16 +117,17 @@ body{
 }
 
 
-.site_Title{
+.Title{
   position: relative;
   top: 75%;
   left: 8%;
+  width:80%;
   z-index: -10;
   opacity: 1;
 
 }
 
-.site_Title h1{
+.Title h1{
   font-family: "Interstate-Bold";
   font-size: 48px;
   line-height: 1em;
@@ -134,7 +135,7 @@ body{
 
 }
 
-.site_Title h2{
+.Title h2{
   /*font-family: "Interstate-Bold";*/
   font-size: 75px;
   line-height: .8em;
