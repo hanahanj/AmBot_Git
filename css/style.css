@@ -168,6 +168,18 @@
 		color:#000000;
 	}
 
+	.aboutDescription{
+		position: fixed;
+    width: 55%;
+    height:100%;
+    margin-left: 20%;
+    border-left: none;
+    padding: 10px;
+    opacity: 1;
+		overflow: hidden;
+		overflow: scroll;
+	}
+
 	p{
 		margin:0;
 		padding:0px;

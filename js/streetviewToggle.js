@@ -135,7 +135,7 @@ $('.menuFloatVisit').mouseover('click touchstart', function() {
 });
 
 $('.close').on('click touchstart', function() { 
-	$('.site_Title').animate({bottom: '7%',}, 300); 
+	$('.site_Title').animate({bottom: '1%',}, 300); 
 	$('.siteText').animate({top: '100%',}, 300);
 	$(this).animate({opacity: '0'}, 300);  
 	
