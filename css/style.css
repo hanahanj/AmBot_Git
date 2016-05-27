@@ -229,6 +229,19 @@
 		padding-top: 0px;
 	}
 
+	#aboutText h1{
+		font-family: "Interstate-CompressedBlack";
+		font-size: 21px;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+		display:inline;
+		padding-top: 10px;
+		margin-left: 0px;
+		text-indent: 25px;
+
+
+	}
+
 	p{
 		margin:0;
 		padding:0px;
