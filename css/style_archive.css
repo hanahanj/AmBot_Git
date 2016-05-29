@@ -1,6 +1,6 @@
 
 body{
-  overflow-x:hidden;
+	overflow-x:hidden;
 }
 
 /*===========Archive Page========*/
@@ -90,4 +90,96 @@ body{
 
 .sitesGrid a:hover{
 	font-style: normal;
+}
+
+@media (max-width: 1280px){
+	#archiveSitesContain{
+		left: 11%;
+	}
+}
+
+@media (max-width: 1192px){
+	#archiveSitesContain{
+		left: 6%;
+		width: 94%;
+	}
+}
+@media (max-width: 1024px){
+	#archiveSitesContain{
+		left: 1.5%;
+		width: 100%;
+	}
+}
+@media (max-width: 953px){
+	#archiveSitesContain{
+		left: 14%;
+	}
+}
+
+@media (max-width: 768px){
+	#archiveSitesContain{
+		left: 7%;
+	}
+}
+
+@media (max-width: 680px){
+	#archiveSitesContain{
+		left: 0%;
+	}
+}
+
+@media (max-width: 635px){
+	#archiveSitesContain{
+		left: 11%;
+	}
+	.sitesGrid{
+		width: 460px;
+	}
+}
+
+@media (max-width: 540px){
+	#archiveSitesContain{
+		left: 7%;
+	}
+	.sitesGrid{
+		width: 400px;
+	}
+}
+
+
+@media (max-width: 414px){
+	#archiveSitesContain{
+		left: 5%;
+	}
+	.archiveSitetitle{
+		width: 330px;
+		top: 60%;
+	}
+	.archiveContain{
+		top: 11%;
+	}
+	.sitesGrid{
+		width: 330px;
+	}
+}
+@media (max-width: 375px){
+	#archiveSitesContain{
+		left: 5%;
+	}
+	.sitesGrid{
+		width: 298px;
+	}
+}
+
+@media (max-width: 320px){
+	#archiveSitesContain{
+		left: 2%;
+	}
+	.sitesGrid{
+		width: 268px;
+	}
+
+	.archiveContain{
+		top: 10%;
+	}
 }
