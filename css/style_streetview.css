@@ -94,6 +94,7 @@ a:visited{
 
 #titleImage img{
 	width: 100%;
+	height: auto;
 	position:relative;
 	overflow:hidden;
 }
@@ -292,7 +293,7 @@ a:visited{
 		left: 77%;
 	}
 
-	b#titleImage img{
+	#titleImage img{
 		height: 100%;
 		width: auto;
 	}
