@@ -149,7 +149,7 @@ $(document).ready(function(){
 var content = [
 ['<div id="bodyContent">' + '<p>Alorton</p>'],
 ['<div id="bodyContent">' + '<p>Alton</p>'],
-['<div id="bodyContent">' +'<p>Alton Steel</p>'],
+['<div id="bodyContent">' + '<p>Alton Steel</p>'],
 ['<div id="bodyContent">' + '<p>Central Port</p>'],
 ['<div id="bodyContent">' + '<p>Field Station HQ</p>'],
 ['<div id="bodyContent">' + '<p>Brooklyn</p>'],
