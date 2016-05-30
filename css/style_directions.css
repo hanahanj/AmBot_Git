@@ -54,7 +54,7 @@ body {
   position: absolute;
   top:11%;
   left: 20px;
-  width: 300px;
+  width: 280px;
   height: 73%;
   background: rgba(255,255,255,0.8);
   /* border: 5px solid #000; */
@@ -256,4 +256,14 @@ body {
 @media (max-width: 375px){
 }
 @media (max-width: 320px){
+  #directionsPanel {
+    width: 220px;
+  }
+
+  #directionSteps{
+    height: 316px;
+  }
+  .directionInputs input {
+    width: 175px;
+  }
 }

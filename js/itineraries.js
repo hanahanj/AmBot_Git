@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$('.home').click('click touchstart', function() {
+$('.home').click('click touchstart', function() {
     $('.menu').animate({opacity: '1'}, 120); 
     $('.menuLinks #Iabout').animate({opacity: '1'}, 120); 
     $('.menuLinks #Iarchive').animate({opacity: '1'}, 120); 
@@ -24,8 +24,6 @@ $('.homeClose').click('click touchstart', function() {
     $('.home').animate({opacity: '1'}, 300);
     $('.home').css({"z-index": '2000'}, 120); 
 });
-
-
 
 	$('#IT1').mouseover('click touchstart', function() {  
 		$('#map1').animate({opacity: '1'}, 500); 

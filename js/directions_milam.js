@@ -1,20 +1,50 @@
 //directionButton control
 $(document).ready(function(){
-	var directionsPanelIn = true;
-	$(".directionButton").click(function(){
-		if (directionsPanelIn == true){
-			$("#directionsPanel").animate({left: '-23%'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
-			$(".directionButton #directionClose1").css({transform: 'rotate(60deg)'}, 2000);
-			$(".directionButton #directionClose2").css({transform: 'rotate(-60deg)'}, 2000);
-			directionsPanelIn = false;
-		}
-		else{
-			$("#directionsPanel").animate({left: '7%'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
-			$(".directionButton #directionClose1").css({transform: 'rotate(-60deg)'}, 2000);
-			$(".directionButton #directionClose2").css({transform: 'rotate(60deg)'}, 2000);
-			directionsPanelIn = true;
-		}
-	});
+	if (matchMedia) {
+		var mq = window.matchMedia("(min-width: 321px)");
+		mq.addListener(WidthChange);
+		WidthChange(mq);
+	}
+
+	// media query change
+	function WidthChange(mq) {
+		if (mq.matches) {
+    	// window width is at least 320px
+    	var directionsPanelIn = true;
+    	$(".directionButton").click(function(){
+    		if (directionsPanelIn == true){
+				$("#directionsPanel").animate({left: '-310px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
+				$(".directionButton #directionClose1").css({transform: 'rotate(60deg)'}, 2000);
+				$(".directionButton #directionClose2").css({transform: 'rotate(-60deg)'}, 2000);
+				directionsPanelIn = false;
+			}
+			else{
+				$("#directionsPanel").animate({left: '25px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
+				$(".directionButton #directionClose1").css({transform: 'rotate(-60deg)'}, 2000);
+				$(".directionButton #directionClose2").css({transform: 'rotate(60deg)'}, 2000);
+				directionsPanelIn = true;
+			}
+		});
+    } else {
+    	// window width is less than 320px
+    	var directionsPanelIn = true;
+    	$(".directionButton").click(function(){
+    		if (directionsPanelIn == true){
+				$("#directionsPanel").animate({left: '-250px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
+				$(".directionButton #directionClose1").css({transform: 'rotate(60deg)'}, 2000);
+				$(".directionButton #directionClose2").css({transform: 'rotate(-60deg)'}, 2000);
+				directionsPanelIn = false;
+			}
+			else{
+				$("#directionsPanel").animate({left: '25px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
+				$(".directionButton #directionClose1").css({transform: 'rotate(-60deg)'}, 2000);
+				$(".directionButton #directionClose2").css({transform: 'rotate(60deg)'}, 2000);
+				directionsPanelIn = true;
+			}
+		});
+
+    }
+}
 });
 
 
