@@ -152,13 +152,13 @@ a:visited{
 	padding: 0;
 	position: fixed;
 	top: 100%;
-	left: 7%;
-	width: 35%;
+	right: 6%;
+	width: 25%;
 	height: 70%;
 	border-left: none;
-	padding-left: 10px;
-	overflow:scroll;
-	opacity:1;
+	padding-right: 20px;
+	overflow: scroll;
+	opacity: 1;
 
 }
 
@@ -174,8 +174,8 @@ a:visited{
 .menuSites{
 	position:absolute;
 	bottom:5px;
-	right:10%;
-	width:88%;
+	right: 27%;
+	width: 30%;
 	display:inline-block;
 }
 
