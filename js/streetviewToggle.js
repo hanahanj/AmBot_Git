@@ -133,6 +133,7 @@ $('.menuFloatVisit').mouseover('click touchstart', function() {
 $('.close').on('click touchstart', function() { 
 	$('.site_Title').animate({bottom: '1%',}, 300); 
 	$('.siteText').animate({top: '100%',}, 300);
+	$('#bgContainer').animate({opacity: '1'}, 300); 
 	$(this).animate({opacity: '0'}, 300);  
 
 	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
