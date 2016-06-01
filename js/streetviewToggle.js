@@ -176,13 +176,6 @@ $('.menuFloatInt').mouseover('click touchstart', function() {
 });
 
 
-// $('#siteText').mouseover('click touchstart', function() { 
-// 	$(this).animate({background-color: 'background-color:rgba(255, 255, 255, 0.5);'}, 300);
-	 
-// });
-
-
-
 
 
 });
