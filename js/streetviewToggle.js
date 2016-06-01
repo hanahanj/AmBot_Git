@@ -66,10 +66,6 @@ $('.menuFloatDescription').mouseover('click touchstart', function() {
 	$('.close').animate({opacity: '1'}, 300); 
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
-	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
-	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});  
-	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
-	$('.menuFloatView').css({"text-decoration":"none", "font-style": "normal"});
 });
 
 $('.menuFloatView').mouseover('click touchstart', function() { 
@@ -126,11 +122,7 @@ $('.close').on('click touchstart', function() {
 	$('#bgContainer').animate({opacity: '1'}, 300); 
 	$(this).animate({opacity: '0'}, 300);  
 
-	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"}); 
-	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});    
-	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
-	$('.menuFloatView').css({"text-decoration":"none", "font-style": "normal"});
 });
 
 $('.home').click('click touchstart', function() {
@@ -182,6 +174,8 @@ $('.menuFloatInt').mouseover('click touchstart', function() {
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});   
 });
+
+
 
 
 });

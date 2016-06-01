@@ -148,17 +148,18 @@ a:visited{
 
 .siteText{
 	z-index: -10;
-	margin: 0;
-	padding: 0;
-	position: fixed;
-	top: 100%;
-	right: 6%;
-	width: 25%;
-	height: 82%;
-	border-left: none;
-	padding-right: 20px;
-	overflow: scroll;
-	opacity: 1;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 100%;
+    right: 6%;
+    width: 24%;
+    height: 77%;
+    border-left: none;
+    padding: 10px;
+    padding-right: 20px;
+    overflow: scroll;
+	background-color:rgba(255, 255, 255, 0.5);
 
 }
 

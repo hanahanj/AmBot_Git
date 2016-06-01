@@ -41,9 +41,9 @@ $(document).ready(function(){
      ];
 
      var map_options = {
-     	center: new google.maps.LatLng(38.613844, -90.167799),
+     	center: new google.maps.LatLng(38.7015, -90.14894),
      	mapTypeId: google.maps.MapTypeId.TERRAIN,
-     	zoom: 12,
+     	zoom: 11,
      	panControl: false,
      	zoomControl: true,
      	scaleControl: true,
@@ -68,24 +68,13 @@ $(document).ready(function(){
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
 	    
-	   ['Site 1', 37.921475, -89.913523, 'insert Site'],
-	    ['Site 2', 38.302856, -90.304, 'insert Site'],
-	    ['Site 3', 38.277725, -90.350111, 'insert Site'],
-	    ['Site 4', 38.3636, -90.261725, 'insert Site'],
-	    ['Site 5', 38.451045, -90.228953, 'insert Site'],
-	    ['Site 6', 38.550942, -90.200618, 'insert Site'],
-	    ['Site 7', 38.558776, -90.172563, 'insert Site'],
-	    ['Site 8', 38.594559, -90.167283, 'insert Site'],
-	    ['Site 9', 38.613844, -90.167799, 'insert Site'],
-	    ['Site 10', 38.63111, -90.17217, 'insert Site'],
-	    ['Site 11', 38.626846, -90.159777, 'insert Site'],
-	    ['Site 12', 38.645277, -90.152113, 'insert Site'],
-	    ['Site 13', 38.664595, -90.176686, 'insert Site'],
-	    ['Site 14', 38.66493, -90.16711, 'insert Site'],
-	    ['Site 15', 38.700301, -90.156967, 'insert Site'],
-	    ['Site 16', 38.698900, -90.150652, 'insert Site'],
-	    ['Site 17', 38.800444, -90.082706, 'insert Site'],
-	   
+	     ['Site 1', 38.86022, -90.0866, 'insert Site'],
+	    ['Site 2', 38.84863, -90.07887, 'insert Site'],
+	    ['Site 3', 38.84091, -90.09385, 'insert Site'],
+	    ['Site 4', 38.7015, -90.14894, 'insert Site'],
+	    ['Site 5', 38.64335, -90.15166, 'insert Site'],
+	    ['Site 6', 38.59996, -90.12801, 'insert Site'],
+	    ['Site 7', 38.5902, -90.16919, 'insert Site'],
 	    
 	    ];
 

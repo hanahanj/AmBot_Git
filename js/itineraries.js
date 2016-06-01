@@ -58,7 +58,7 @@ $('.homeClose').click('click touchstart', function() {
 		$('#map6').animate({opacity: '1'}, 500); 
 	});
 	$('#IT6').mouseleave('click touchstart', function() {  
-		$('#map6').animate({opacity: '0'}, 800); 
+		$('#map6a').animate({opacity: '0'}, 800); 
 	});
 
 
