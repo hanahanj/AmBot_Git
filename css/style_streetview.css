@@ -154,7 +154,7 @@ a:visited{
 	top: 100%;
 	right: 6%;
 	width: 25%;
-	height: 70%;
+	height: 82%;
 	border-left: none;
 	padding-right: 20px;
 	overflow: scroll;
@@ -197,6 +197,7 @@ a:visited{
 	margin-left: 20px;
 	z-index: 2000;
 	display:inline;
+
 }
 
 .menuFloatDescription:hover{
@@ -210,6 +211,8 @@ a:visited{
 	z-index: 2000;
 	display:inline;
 	margin-left: 20px;
+	text-decoration: underline;
+    font-style: italic;
 }
 
 .menuFloatView:hover{
