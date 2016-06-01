@@ -47,6 +47,20 @@ $('.homeClose').click('click touchstart', function() {
 		$('#map3').animate({opacity: '0'}, 800); 
 	});
 
+	$('#IT5').mouseover('click touchstart', function() {  
+		$('#map5').animate({opacity: '1'}, 500); 
+	});
+	$('#IT5').mouseleave('click touchstart', function() {  
+		$('#map5').animate({opacity: '0'}, 800); 
+	});
+
+	$('#IT6').mouseover('click touchstart', function() {  
+		$('#map6').animate({opacity: '1'}, 500); 
+	});
+	$('#IT6').mouseleave('click touchstart', function() {  
+		$('#map6').animate({opacity: '0'}, 800); 
+	});
+
 
 });
 

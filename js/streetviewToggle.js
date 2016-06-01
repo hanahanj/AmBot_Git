@@ -64,8 +64,6 @@ $('.menuFloatDescription').mouseover('click touchstart', function() {
 	$('.siteText').animate({top: '23%',}, 300);
 	$('.siteText').css({"z-index": '10'});
 	$('.close').animate({opacity: '1'}, 300); 
-	// $('.streetView').css({"z-index": '-10'});
-	// $('.directions').css({"z-index": '-10'});
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
 	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
@@ -80,8 +78,6 @@ $('.menuFloatView').mouseover('click touchstart', function() {
 	$('#titleImage').animate({opacity: '1'}, 800);
 	$('.streetView').animate({opacity: '0'}, 800);
 	$('.directions').animate({opacity: '0'}, 800);
-	// $('.streetView').css({"z-index": '-10'});
-	// $('.directions').css({"z-index": '-10'});
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
 	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
@@ -92,8 +88,6 @@ $('.menuFloatView').mouseover('click touchstart', function() {
 $('.menuFloatStreetview').mouseover('click touchstart', function() {
 	$('#bgContainer').animate({top: '6%', left: "0%", height: '88%', width: "100%", }, 300);
 	$('#bgContainer').animate({opacity: '1'}, 300);
-	// $('.site_Title').animate({bottom: '1%',}, 300); 
-	// $('.siteText').animate({top: '100%',}, 300); 
 	$('.streetView').animate({opacity: '1'}, 800); 
 	$('#titleImage').animate({opacity: '0'}, 800);
 	$('.directions').animate({opacity: '0'}, 800);
@@ -102,8 +96,6 @@ $('.menuFloatStreetview').mouseover('click touchstart', function() {
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});
 	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
-	// $('.streetView').css({"z-index": '10'});
-	// $('.directions').css({"z-index": '-10'});
 	
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
@@ -119,8 +111,6 @@ $('.menuFloatVisit').mouseover('click touchstart', function() {
 	$('.directions').animate({opacity: '1'}, 800); 
 	$('.streetView').animate({opacity: '0'}, 800);
 	$('#titleImage').animate({opacity: '0'}, 800); 
-	// $('.streetView').css({"z-index": '-10'});
-	// $('.directions').css({"z-index": '10'});
 
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
