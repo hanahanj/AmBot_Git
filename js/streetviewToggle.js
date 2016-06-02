@@ -72,8 +72,12 @@ $('.menuFloatView').mouseover('click touchstart', function() {
 	$('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
 	$('#bgContainer').animate({opacity: '1'}, 300);
 	$('#titleImage').animate({opacity: '1'}, 800);
+	$('#titleImage').css({"z-index": '10'});
 	$('.streetView').animate({opacity: '0'}, 800);
+	$('.streetView').css({"z-index": '-10'}); 
 	$('.directions').animate({opacity: '0'}, 800);
+	$('.directions').css({"z-index": '-10'});
+
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
 	$('.menuFloatStreetview').css({"text-decoration":"none", "font-style": "normal"});
@@ -84,15 +88,13 @@ $('.menuFloatView').mouseover('click touchstart', function() {
 $('.menuFloatStreetview').mouseover('click touchstart', function() {
 	$('#bgContainer').animate({top: '6%', left: "0%", height: '88%', width: "100%", }, 300);
 	$('#bgContainer').animate({opacity: '1'}, 300);
-	$('.streetView').animate({opacity: '1'}, 800); 
+	$('.streetView').animate({opacity: '1'}, 800);
+	$('.streetView').css({"z-index": '10'}); 
 	$('#titleImage').animate({opacity: '0'}, 800);
+	$('#titleImage').css({"z-index": '-10'});
 	$('.directions').animate({opacity: '0'}, 800);
+	$('.directions').css({"z-index": '-10'});
 
-	$(this).css({"text-decoration":"underline", "font-style": "italic"});
-	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"});
-	$('.menuFloatInt').css({"text-decoration":"none", "font-style": "normal"});
-	$('.menuFloatVisit').css({"text-decoration":"none", "font-style": "normal"});
-	
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
 	$('.menuFloatDescription').css({"text-decoration":"none", "font-style": "normal"});
@@ -105,8 +107,11 @@ $('.menuFloatVisit').mouseover('click touchstart', function() {
 	$('#bgContainer').animate({width: '100%', height: "100%", top: "0%", left:"0%"}, 300);  
 	$('#bgContainer').animate({opacity: '1'}, 300); 
 	$('.directions').animate({opacity: '1'}, 800); 
+	$('.directions').css({"z-index": '10'});
 	$('.streetView').animate({opacity: '0'}, 800);
-	$('#titleImage').animate({opacity: '0'}, 800); 
+	$('.streetView').css({"z-index": '-10'}); 
+	$('#titleImage').animate({opacity: '0'}, 800);
+	$('#titleImage').css({"z-index": '-10'}); 
 
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
