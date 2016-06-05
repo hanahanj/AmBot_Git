@@ -122,8 +122,8 @@ var fType = getUrlVars()["q"];
 
      	// Update this location for Each site
 
-     	center: new google.maps.LatLng(   38.643988, -90.115389),	
-     	zoom: 18,
+     	center: new google.maps.LatLng(    38.652007, -90.101660),	
+     	zoom: 19,
      	styles: styles,
 
      	 disableDefaultUI: true,
@@ -133,7 +133,7 @@ var fType = getUrlVars()["q"];
 
      	// Update this location for Each site
 
-     var Milam_Loc = new google.maps.LatLng(  38.643988, -90.115389);
+     var Milam_Loc = new google.maps.LatLng(  38.652007, -90.101660);
     var imageMark1 = '../images/ABMarker6.png';
 
      var Milam_Mark = new google.maps.Marker({
@@ -141,7 +141,7 @@ var fType = getUrlVars()["q"];
      	map: map,
      	icon: imageMark1,
 	// animation: google.maps.Animation.DROP,
-	title: 'Powell Mound'
+	title: 'Sam Chucallo'
 });
 
 
