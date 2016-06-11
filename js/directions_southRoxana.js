@@ -176,14 +176,12 @@ var fType = getUrlVars()["q"];
          ]
      }
      ];
-
- }
- ];			
+	
  map = new google.maps.Map($Selectors.mapCanvas, {
 
      	// Update this location for Each site
 
-     	center: new google.maps.LatLng(  38.829046, -90.066011),	
+     	center: new google.maps.LatLng(38.829046, -90.066011),	
      	zoom: 15,
      	styles: styles,
 
@@ -211,7 +209,7 @@ var fType = getUrlVars()["q"];
      	mapTypeId: google.maps.MapTypeId.SATELLITE
      });
 
- var Milam_Loc = new google.maps.LatLng( 38.829046, -90.066011);
+ var Milam_Loc = new google.maps.LatLng(38.829046, -90.066011);
 var imageMark1 = '../images/ABMarker6.png';
 
  var Milam_Mark = new google.maps.Marker({
