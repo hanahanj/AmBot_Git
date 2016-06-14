@@ -9,6 +9,30 @@ $("#site_alorton").mouseleave(function(){
     $("#title_alorton").fadeTo("fast", 0);
     $("#site_alorton img").fadeTo("fast", 1);
 });
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
 $("#site_centralPort").mouseover(function(){
     $("#title_centralPort").fadeTo("fast", 1);
     $("#site_centralPort img").fadeTo("fast", 0.5);
@@ -51,6 +75,30 @@ $("#site_brooklyn").mouseover(function(){
 $("#site_brooklyn").mouseleave(function(){
     $("#title_brooklyn").fadeTo("fast", 0);
     $("#site_brooklyn img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
 });
 //B ends here
 
@@ -119,6 +167,38 @@ $("#site_creek").mouseleave(function(){
     $("#title_creek").fadeTo("fast", 0);
     $("#site_creek img").fadeTo("fast", 1);
 });
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
 // C ends here
 
 //D
@@ -162,6 +242,14 @@ $("#site_dupo").mouseleave(function(){
     $("#title_dupo").fadeTo("fast", 0);
     $("#site_dupo img").fadeTo("fast", 1);
 });
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
 //D ends here
 
 //E
@@ -180,6 +268,14 @@ $("#site_eastCarondelet").mouseover(function(){
 $("#site_eastCarondelet").mouseleave(function(){
     $("#title_eastCarondelet").fadeTo("fast", 0);
     $("#site_eastCarondelet img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
 });
 // E ends here
 
@@ -200,6 +296,22 @@ $("#site_ferry").mouseleave(function(){
     $("#title_ferry").fadeTo("fast", 0);
     $("#site_ferry img").fadeTo("fast", 1);
 });
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
 //F ends here
 
 //G
@@ -218,6 +330,30 @@ $("#site_grizzlies").mouseover(function(){
 $("#site_grizzlies").mouseleave(function(){
     $("#title_grizzlies").fadeTo("fast", 0);
     $("#site_grizzlies img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
+});
+$("#site_").mouseover(function(){
+    $("#title_").fadeTo("fast", 1);
+    $("#site_ img").fadeTo("fast", 0.5);
+});
+$("#site_").mouseleave(function(){
+    $("#title_").fadeTo("fast", 0);
+    $("#site_ img").fadeTo("fast", 1);
 });
 //G ends here
 
