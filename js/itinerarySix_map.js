@@ -68,7 +68,7 @@ $(document).ready(function(){
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
 	    
-	     ['Site 1', 38.86022, -90.0866, 'insert Site'],
+	    ['Site 1', 38.86022, -90.0866, 'insert Site'],
 	    ['Site 2', 38.84863, -90.07887, 'insert Site'],
 	    ['Site 3', 38.84091, -90.09385, 'insert Site'],
 	    ['Site 4', 38.7015, -90.14894, 'insert Site'],
