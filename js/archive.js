@@ -189,12 +189,12 @@ $('#site_diversionCanal').mouseover(function(){
      $('#title_diversionCanal').fadeTo('fast', 0);
      $('#site_diversionCanal img').fadeTo('fast', 1);
  });
-$('#site_duBios').mouseover(function(){
-     $('#title_duBios').fadeTo('fast', 1);
-     $('#site_duBios img').fadeTo('fast', 0.5);
- });$('#site_duBios').mouseleave(function(){
-     $('#title_duBios').fadeTo('fast', 0);
-     $('#site_duBios img').fadeTo('fast', 1);
+$('#site_duBois').mouseover(function(){
+     $('#title_duBois').fadeTo('fast', 1);
+     $('#site_duBois img').fadeTo('fast', 0.5);
+ });$('#site_duBois').mouseleave(function(){
+     $('#title_duBois').fadeTo('fast', 0);
+     $('#site_duBois img').fadeTo('fast', 1);
  });
 $('#site_dupo').mouseover(function(){
      $('#title_dupo').fadeTo('fast', 1);

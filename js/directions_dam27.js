@@ -176,7 +176,7 @@ var fType = getUrlVars()["q"];
 
      	// Update this location for Each site
 
-     	center: new google.maps.LatLng(38.756382,-90.171517 ),	
+     	center: new google.maps.LatLng(38.756382,-90.171517),	
      	zoom: 15,
      	styles: styles,
 
