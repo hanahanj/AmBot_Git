@@ -1,4 +1,4 @@
-
+// THIS IS FOR MICHAEL ALLEN ITINERARY LINK ON ITINERARIES.HTML (NO PATH)
 $(document).ready(function(){
 
 

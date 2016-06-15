@@ -1,4 +1,4 @@
-
+// Insignificant Mounds Itinerary (NO PATH)
 $(document).ready(function(){
 
 

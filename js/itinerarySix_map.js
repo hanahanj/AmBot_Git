@@ -1,4 +1,4 @@
-
+// THIS IS FOR VOGLER COMPANY TOWN ITINERARY 
 $(document).ready(function(){
 
 

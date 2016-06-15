@@ -1,4 +1,4 @@
-
+// THIS IS FOR VOGLER COMPANY TOWN LINK ON ITINERARIES.HTML (NO PATH)
 $(document).ready(function(){
 
 
