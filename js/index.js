@@ -166,7 +166,8 @@ $(document).ready(function(){
 
 
 // Content is what is displayed on Hover
-var content = [['<div id=bodyContent>'+'<p>Airport<p>'],
+var content = [
+['<div id=bodyContent>'+'<p>Airport<p>'],
 ['<div id=bodyContent>'+'<p>Alorton<p>'],
 ['<div id=bodyContent>'+'<p>Alton<p>'],
 ['<div id=bodyContent>'+'<p>Baseline<p>'],
