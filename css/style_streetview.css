@@ -154,12 +154,12 @@ a:visited{
     top: 100%;
     right: 6%;
     width: 24%;
-    height: 82%;
+    height: 85.5%;
     border-left: none;
     padding: 10px;
     padding-right: 20px;
     overflow: scroll;
-	background-color:rgba(255, 255, 255, 0.5);
+	background-color:rgba(255, 255, 255, 0.3);
 
 }
 

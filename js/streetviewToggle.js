@@ -54,7 +54,7 @@ $('.menuFloatDescription').mouseover('click touchstart', function() {
 	// $('#bgContainer').animate({top: '6%', left: "6%", height: '88%', width: "88%", }, 300);
 	// $('#bgContainer').animate({opacity: '1'}, 300);
 	// $('#bgContainer').animate({opacity: '0.5'}, 200);
-	$('.siteText').animate({top: '10%',}, 300);
+	$('.siteText').animate({top: '6%',}, 300);
 	$('.siteText').css({"z-index": '10'});
 	$('.close').animate({opacity: '1'}, 300); 
 
