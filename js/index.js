@@ -160,7 +160,7 @@ $(document).ready(function(){
      ['Watco Railroad Mechanical Dome', 38.871994, -90.106222, 'railroadDome.html'],
      ['Wilson Mound', 38.652007,-90.101660, 'wilson.html'],
      ['Wood River', 38.861060,-90.093276, '0pageIsFoundHere.html'],
-     ['Wood RIver Historical Society Museum', 38.642372,-90.297819 , '0pageIsFoundHere.html'],
+     // ['Wood River Historical Society Museum', 38.642372,-90.297819 , '0pageIsFoundHere.html'],
      ['Old American Zinc', 38.647372,-90.097819, 'zinc.html'],
      ];
 
@@ -261,7 +261,7 @@ var content = [
 ['<div id=bodyContent>'+'<p>Watco<p>'],
 ['<div id=bodyContent>'+'<p>Wilson<p>'],
 ['<div id=bodyContent>'+'<p>Wood River<p>'],
-['<div id=bodyContent>'+'<p>WRHSM<p>'],
+// ['<div id=bodyContent>'+'<p>WRHSM<p>'],
 ['<div id=bodyContent>'+'<p>Zinc<p>'],
 ];
 
