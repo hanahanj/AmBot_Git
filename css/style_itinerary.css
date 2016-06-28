@@ -46,6 +46,15 @@ body{
   top:75%;
 }
 
+#allContainer_NoMap {
+  position:absolute;
+  width:100%;
+  left:0px;
+  height:auto;
+  top:10%;
+}
+
+
 
 .background img{
   position:relative;
