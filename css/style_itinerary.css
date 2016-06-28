@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: "Interstate-Bold";
   src: url('fonts/INTBD.ttf');
   font-weight: 100;
@@ -23,7 +23,7 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
-}
+}*/
 
 body{
   overflow-x:hidden;
@@ -128,7 +128,7 @@ body{
 }
 
 .Title h1{
-  font-family: "Interstate-Bold";
+  font-family: "Interstate Bd";
   font-size: 48px;
   line-height: 1em;
   text-align: left;
@@ -136,14 +136,13 @@ body{
 }
 
 .Title h2{
-  /*font-family: "Interstate-Bold";*/
   font-size: 75px;
   line-height: .8em;
   text-align: left;
 }
 
 .site_Title h4{
-  font-family: "Interstate-CondensedBold";
+  font-family: "Interstate Bd Cond";
   text-transform: uppercase;
   font-size: 32px;
   font-style: italic;
@@ -196,16 +195,14 @@ body{
 }
 
 .destinationTitle h3{
-
- font-family: "Interstate-CondensedBold";
+ font-family: "Interstate Bd Cond";
  text-transform: uppercase;
  /*font-style: italic;*/
  font-size: 50px;
 }
 
 .destinationTitle h4{
-
-  font-family: "Interstate-CondensedBold";
+  font-family: "Interstate Bd Cond";
   text-transform: uppercase;
   text-decoration: underline;
   font-size: 24px;
@@ -216,8 +213,7 @@ body{
 
 
 p{
-
-  font-family: "Interstate-Reg";
+  font-family: "Interstate Reg";
   font-size: 18px;
   padding-top: 25px;
   line-height: 28px;
@@ -244,7 +240,7 @@ ol{
 }
 
 li{
-  font-family: "Interstate-Reg";
+  font-family: "Interstate Reg";
   font-size: 12px;
   padding-top: 25px
   line-height: 18px;
@@ -253,7 +249,7 @@ li{
 }
 
 li p{
-  font-family: "Interstate-Reg";
+  font-family: "Interstate Reg";
   font-size: 12px;
   padding-top: 0px;
   line-height: 18px;
@@ -275,7 +271,7 @@ sup{
 }
 
 .IMGcaption p{
-  font-family: "Interstate-Bold";
+  font-family: "Interstate Bd";
   font-size: 10px;
   text-indent: 0px;
   line-height: 15px;

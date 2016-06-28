@@ -1,23 +1,7 @@
-@font-face {
-  font-family: "Interstate-Bold";
-  src: url('fonts/INTBD.ttf');
-  font-weight: 100;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: "Interstate-CompressedBlack";
-  src: url('fonts/INTBLCM_.ttf');
-  font-weight: 100;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-}
 
 body {
-  font-family: "Interstate-Bold";
+  font-family: "Interstate Bd";
 }
 
 #container {

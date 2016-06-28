@@ -4,7 +4,7 @@
 	}
 
 
-	@font-face {
+	/*@font-face {
 		font-family: "Interstate-Bold";
 		src: url('fonts/INTBD.ttf');
 		font-weight: 100;
@@ -38,11 +38,11 @@
 		font-style: normal;
 		-webkit-font-smoothing: antialiased;
 		font-style: normal;
-	}
+	}*/
 
 
 	h1{
-		font-family: "Interstate-CompressedBlack";
+		font-family: "Interstate Bla Comp";
 		font-size: 48px;
 		letter-spacing: .05em;
 		text-transform: uppercase;
@@ -52,7 +52,7 @@
 	}
 
 	h2{
-		font-family: "Interstate-CompressedBlack";
+		font-family: "Interstate Bla Comp";
 		text-transform: uppercase;
 		font-size: 80px;
 		letter-spacing: .05em;
@@ -80,14 +80,14 @@
 	}
 
 	h3{
-		font-family: "Interstate-Bold";
+		font-family: "Interstate Bd";
 		font-size: 24px;
 		/*text-transform: uppercase;*/
 	}
 
 
 	h4{
-		font-family: "Interstate-CondensedBold";
+		font-family: "Interstate Bd Cond";
 		text-transform: uppercase;
 		font-size: 50px;
 		/*letter-spacing: .05em;*/
@@ -96,7 +96,7 @@
 	}
 
 	h5{
-		font-family: "Interstate-Bold";
+		font-family: "Interstate Bd";
 		font-size: 24px;
 		text-decoration: underline;
 		margin-bottom: 10px;
@@ -124,7 +124,7 @@
 	}
 
 	.splashDescription h1{
-		font-family: "Interstate-Bold";
+		font-family: "Interstate Bd";
 		font-size: 48px;
 		line-height: 1em;
 		text-align: left;
@@ -162,7 +162,7 @@
 	}
 
 	.about p{
-		font-family: "Interstate-Bold";
+		font-family: "Interstate Bd";
 		font-size: 14px;
 		color:#000000;
 	}
@@ -199,7 +199,7 @@
 	}
 
 	.aboutColophon h1{
-		font-family: "Interstate-CompressedBlack";
+		font-family: "Interstate Bla Comp";
 		font-size: 21px;
 		letter-spacing: .05em;
 		text-transform: uppercase;
@@ -233,7 +233,7 @@
 	}
 
 	#aboutText h1{
-		font-family: "Interstate-CompressedBlack";
+		font-family: "Interstate Bla Comp";
 		font-size: 21px;
 		letter-spacing: .05em;
 		text-transform: uppercase;
@@ -246,7 +246,7 @@
 	}
 
 	#aboutText h3{
-		font-family: "Interstate-Bold";
+		font-family: "Interstate Bd";
 		font-size: 18px;
 		text-transform: uppercase;
 		/*text-indent: 25px;*/
@@ -420,7 +420,7 @@ p{
 
 #bodyContent p{
 	font-size: 150px;
-	font-family: "Interstate-CompressedBlack";
+	font-family: "Interstate Bla Comp";
 	color: white;
 	text-transform: uppercase;
 	opacity:1;
@@ -642,14 +642,14 @@ p{
 }
 
 #itinerarySitesContain ul li{
-	font-family: "Interstate-Bold";
+	font-family: "Interstate Bd";
 	font-size: 48px;
 	line-height: .8em;
 	margin:50px;
 	text-align: left;
 }
 #itinerarySitesContain ul li h1{
-	font-family: "Interstate-Bold";
+	font-family: "Interstate Bd";
 	font-size: 48px;
 	line-height: 1em;
 	text-align: left;
@@ -657,7 +657,7 @@ p{
 }
 
 #itinerarySitesContain ul li h2{
-	font-family: "Interstate-Bold";
+	font-family: "Interstate Bd";
 	font-size: 24px;
 	line-height: .8em;
 	margin:10px;
