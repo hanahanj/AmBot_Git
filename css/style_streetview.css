@@ -23,466 +23,385 @@
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	font-style: normal;
-}*/
+	}*/
 
-body{
-	overflow-x:hidden;
-}
-
-
-p{
-	font-family: "Interstate Bd";
-	font-size: 18px;
-	/*letter-spacing: .05em;*/
-	line-height: 1.4em;
-	margin:0;
-
-}
-
-a{
-	text-decoration: none; 
-	color:black;
-
-}
-
-a:visited{
-	text-decoration: none; 
-	color:black;
-
-}
-
-.site_Title h1{
-	font-family: "Interstate Bd";
-	font-size: 48px;
-	line-height: 1em;
-	text-align: left;
-
-}
-
-.site_Title h2{
-	font-size: 24px;
-	line-height: .8em;
-	text-align: left;
-}
-
-
-
-#bgContainer {
-	position:fixed;
-	width:88%;
-	height:88%;
-	top:6%;
-	left:6%;
-	opacity: 1;
-	overflow:hidden;
-}
-
-.background img{
-	position:relative;
-	width:100%;
-	height:auto;
-}
-
-
-#titleImage{
-	position: relative;
-	overflow:hidden;
-	overflow-y:hidden;
-
-}
-
-#titleImage img{
-	width: 100%;
-	height: auto;
-	position:relative;
-	overflow:hidden;
-}
-
-
-.streetView {
-	position: absolute;
-	top: 0%;
-	width: 100%;
-	height: 100%;
-	opacity:0;
-	z-index: -10;
-}
-
-.directions {
-	position: absolute;
-	top: 0%;
-	width: 100%;
-	height: 100%;
-	opacity:0;
-	z-index: -10;
-
-}
-
-.directions iframe{
-	position:absolute;
-	width:100%;
-	height:100%;
-}
-
-
-.site_Title{
-	position:fixed;
-	bottom: 1%;
-	left:7%;
-	width: 60%;
-	/*z-index: -10;*/
-	opacity:1;
-}
-
-.site_Title h2{
-	font-family: "Interstate Bla Comp";
-	text-transform: uppercase;
-	font-size: 80px;
-	letter-spacing: .05em;
-	line-height: .8em;
-	margin:0;
-}
-
-
-
-.siteText{
-	z-index: -10;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 100%;
-    right: 6%;
-    width: 24%;
-    height: 85.5%;
-    border-left: none;
-    padding: 10px;
-    padding-right: 20px;
-    overflow: scroll;
-	background-color:rgba(255, 255, 255, 0.3);
-
-}
-
-.siteText p{
-	font-family: "Interstate Bd";
-	font-size: 20px;
-	/*letter-spacing: .05em;*/
-	line-height: 1.4em;
-	margin:0;
-
-}
-
-.menuSites{
-	position:absolute;
-	bottom:5px;
-	right: 27%;
-	width: 30%;
-	display:inline-block;
-}
-
-.menuSites h1{
-	font-family: "Interstate Bla Comp";
-	font-size: 30px;
-	text-align: right;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	margin:0;
-	display:inline;
-	margin-left: 10px;
-}
-
-.menuFloatDescription{
-	left:80%;
-	position: relative;
-	height: auto;
-	margin-left: 20px;
-	z-index: 2000;
-	display:inline;
-
-}
-
-.menuFloatDescription:hover{
-	cursor:pointer;
-}
-
-.menuFloatView{
-	left:80%;
-	position: relative;
-	height: auto;
-	z-index: 2000;
-	display:inline;
-	margin-left: 20px;
-	text-decoration: underline;
-    font-style: italic;
-}
-
-.menuFloatView:hover{
-	cursor:pointer;
-}
-
-
-.menuFloatStreetview{
-	left:80%;
-	position: relative;
-	height: auto;
-	z-index: 2000;
-	display:inline;
-}
-
-.menuFloatStreetview:hover{
-	cursor:pointer;
-}
-
-.menuFloatVisit{
-	left:80%;
-	position: relative;
-	height: auto;
-	z-index: 2000;
-	display:inline;
-	margin-left: 20px;
-}
-
-.menuFloatVisit:hover{
-	cursor:pointer;
-}
-
-
-.menuFloatInt:hover{
-	cursor:pointer;
-}
-
-
-.menuFloatSites{
-	position: relative;
-	bottom: 0%;
-	left: 10%;
-	height: auto;
-	z-index: 20;
-	margin-left: 20px;
-	/*-ms-transform: rotate(180deg);*/ /* IE 9 */
-	/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
-	/*transform: rotate(180deg);*/
-
-}
-
-.menuFloatSites:hover{
-	cursor:pointer;
-}
-
-.menuFloatAbout{
-	position: relative;
-	top: 0;
-	right: 30%;
-	height: auto;
-	z-index: 2000;
-	margin-left: 20px;
-
-}
-
-.menuFloatAbout:hover{
-	cursor:pointer;
-}
-
-
-@media (max-width: 1280px){
-	.site_Title{
-		bottom: 7%;
+	body{
+		overflow-x:hidden;
 	}
 
-	.menuFloatStreetview{
-		left: 77%;
+
+	p{
+		font-family: "Interstate Bd";
+		font-size: 18px;
+		/*letter-spacing: .05em;*/
+		line-height: 1.4em;
+		margin:0;
+
 	}
-	.menuFloatVisit{
-		left: 77%;
+
+	a{
+		text-decoration: none; 
+		color:black;
+
 	}
-	.menuFloatDescription{
-		left: 77%;
+
+	a:visited{
+		text-decoration: none; 
+		color:black;
+
+	}
+
+	.site_Title h1{
+		font-family: "Interstate Bd";
+		font-size: 48px;
+		line-height: 1em;
+		text-align: left;
+
+	}
+
+	.site_Title h2{
+		font-size: 24px;
+		line-height: .8em;
+		text-align: left;
+	}
+
+
+
+	#bgContainer {
+		position:fixed;
+		width:88%;
+		height:88%;
+		top:6%;
+		left:6%;
+		opacity: 1;
+		overflow:hidden;
+	}
+
+	.background img{
+		position:relative;
+		width:100%;
+		height:auto;
+	}
+
+
+	#titleImage{
+		position: relative;
+		overflow:hidden;
+		overflow-y:hidden;
+
 	}
 
 	#titleImage img{
+		width: 100%;
+		height: auto;
+		position:relative;
+		overflow:hidden;
+	}
+
+
+	.streetView {
+		position: absolute;
+		top: 0%;
+		width: 100%;
 		height: 100%;
-		width: auto;
-	}
-}
-
-
-@media (max-width: 1190px){
-	.menuFloatStreetview{
-		left: 74%;
-	}
-	.menuFloatVisit{
-		left: 74%;
-	}
-	.menuFloatDescription{
-		left: 74%;
-	}
-}
-@media (max-width: 1024px){
-	.menuFloatStreetview{
-		left: 71%;
-	}
-	.menuFloatVisit{
-		left: 71%;
-	}
-	.menuFloatDescription{
-		left: 71%;
+		opacity:0;
+		z-index: -10;
 	}
 
-	.site_Title h2{
-		font-size: 70px;
+	.directions {
+		position: absolute;
+		top: 0%;
+		width: 100%;
+		height: 100%;
+		opacity:0;
+		z-index: -10;
+
 	}
 
-	.siteText{
-		width: 40%;
+	.directions iframe{
+		position:absolute;
+		width:100%;
+		height:100%;
 	}
 
-	.siteText p{
-		font-size: 19px;
-	}
-
-}
-@media (max-width: 900px){
-	.menuFloatStreetview{
-		left: 67%;
-	}
-	.menuFloatVisit{
-		left: 67%;
-	}
-	.menuFloatDescription{
-		left: 67%;
-	}
-}
-@media (max-width: 768px){
-	.site_Title{
-		top: 10%;
-	}
-	.menuFloatStreetview{
-		left: 63%;
-	}
-	.menuFloatVisit{
-		left: 63%;
-	}
-	.menuFloatDescription{
-		left: 63%;
-	}
-
-	.siteText p{
-		font-size: 18px;
-	}
-	.site_Title h2{
-		font-size: 60px;
-	}
-}
-@media (max-width: 660px){
-	.menuFloatStreetview{
-		left: 53%;
-	}
-	.menuFloatVisit{
-		left: 53%;
-	}
-	.menuFloatDescription{
-		left: 53%;
-	}
-}
-@media (max-width: 570px){
-	.menuFloatStreetview{
-		left: 47%;
-	}
-	.menuFloatVisit{
-		left: 47%;
-	}
-	.menuFloatDescription{
-		left: 47%;
-	}
-}
-@media (max-width: 540px){
-	.menuFloatStreetview{
-		left: 43%;
-	}
-	.menuFloatVisit{
-		left: 43%;
-	}
-	.menuFloatDescription{
-		left: 43%;
-	}
-}
-@media (max-width: 414px){
-	.menuFloatStreetview{
-		left: 31%;
-	}
-	.menuFloatVisit{
-		left: 31%;
-	}
-	.menuFloatDescription{
-		left: 31%;
-	}
-
-	.site_Title h2{
-		font-size: 70px;
-	}
-
-	.siteText{
-		width: 75%;
-	}
-	.siteText p{
-		font-size: 17px;
-	}
-
-	.site_Title h2{
-		font-size: 50px;
-	}
-
-}
-@media (max-width: 375px){
-	.menuFloatStreetview{
-		left: 32%;
-	}
-	.menuFloatVisit{
-		left: 32%;
-	}
-	.menuFloatDescription{
-		left: 32%;
-	}
-
-	.menuSites h1{
-		font-size: 26px;
-	}
-
-	.site_Title h2{
-		font-size: 63px;
-	}
-
-	.siteText p{
-		font-size: 16px;
-	}
-
-}
-
-@media (max-width: 320px){
-	.menuFloatStreetview{
-		left: 27.5%;
-	}
-	.menuFloatVisit{
-		left: 27.5%;
-	}
-	.menuFloatDescription{
-		left: 27.5%;
-	}
-
-	.menuSites h1{
-		font-size: 23px;
-	}
 
 	.site_Title{
+		position:fixed;
+		bottom: 1%;
+		left:7%;
+		width: 60%;
+		/*z-index: -10;*/
+		opacity:1;
+	}
+
+	.site_Title h2{
+		font-family: "Interstate Bla Comp";
+		text-transform: uppercase;
+		font-size: 80px;
+		letter-spacing: .05em;
+		line-height: .8em;
+		margin:0;
+	}
+
+
+
+	.siteText{
+		z-index: -10;
+		margin: 0;
+		padding: 0;
+		position: fixed;
+		top: 100%;
+		right: 6%;
+		width: 24%;
+		height: 85.5%;
+		border-left: none;
+		padding: 10px;
+		padding-right: 20px;
+		overflow: scroll;
+		background-color:rgba(255, 255, 255, 0.3);
+
+	}
+
+	.siteText p{
+		font-family: "Interstate Bd";
+		font-size: 20px;
+		/*letter-spacing: .05em;*/
+		line-height: 1.4em;
+		margin:0;
+
+	}
+
+	.menuSites{
+		position: absolute;
+		bottom: 5px;
+		right: 6%;
+		width: 85%;
+		display: inline-block;
+	}
+
+	.menuSitesLinks{
+		position: relative;
+		width: 80%;
+		margin-left: 20%;
+		margin-right: 0%;	
+	}
+
+
+	.menuSites h1{
+		font-family: "Interstate Bla Comp";
+		font-size: 30px;
+		text-align: right;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+		margin:0;
+		display:inline;
+		margin-left: 10px;
+		float:right;
+	}
+
+	.menuFloatDescription{
+		position: relative;
+		height: auto;
+		margin-left: 20px;
+		z-index: 2000;
+		display:inline;
+
+	}
+
+	.menuFloatDescription:hover{
+		cursor:pointer;
+	}
+
+	.menuFloatView{
+		position: relative;
+		height: auto;
+		z-index: 2000;
+		display:inline;
+		margin-left: 20px;
+		text-decoration: underline;
+		font-style: italic;
+	}
+
+	.menuFloatView:hover{
+		cursor:pointer;
+	}
+
+
+	.menuFloatStreetview{
+		position: relative;
+		height: auto;
+		z-index: 2000;
+		display:inline;
+	}
+
+	.menuFloatStreetview:hover{
+		cursor:pointer;
+	}
+
+	.menuFloatVisit{
+		position: relative;
+		height: auto;
+		z-index: 2000;
+		display:inline;
+		margin-left: 20px;
+	}
+
+	.menuFloatVisit:hover{
+		cursor:pointer;
+	}
+
+
+	.menuFloatInt:hover{
+		cursor:pointer;
+	}
+
+
+	.menuFloatSites{
+		position: relative;
+		bottom: 0%;
 		left: 10%;
-	}
-	.site_Title h2{
-		font-size: 55px;
-	}
-	.siteText p{
-		font-size: 14px;
+		height: auto;
+		z-index: 20;
+		margin-left: 20px;
+		/*-ms-transform: rotate(180deg);*/ /* IE 9 */
+		/*-webkit-transform: rotate(180deg);*/ /* Chrome, Safari, Opera */
+		/*transform: rotate(180deg);*/
+
 	}
 
-}
+	.menuFloatSites:hover{
+		cursor:pointer;
+	}
+
+	.menuFloatAbout{
+		position: relative;
+		top: 0;
+		right: 30%;
+		height: auto;
+		z-index: 2000;
+		margin-left: 20px;
+
+	}
+
+	.menuFloatAbout:hover{
+		cursor:pointer;
+	}
+
+
+	@media (max-width: 1280px){
+		.site_Title{
+			bottom: 7%;
+		}
+
+		#titleImage img{
+			height: 100%;
+			width: auto;
+		}
+	}
+
+
+	@media (max-width: 1190px){
+		
+	}
+	@media (max-width: 1024px){
+		
+		.site_Title h2{
+			font-size: 70px;
+		}
+
+		.siteText{
+			width: 40%;
+		}
+
+		.siteText p{
+			font-size: 19px;
+		}
+
+	}
+	@media (max-width: 900px){
+		
+	}
+	@media (max-width: 768px){
+		.site_Title{
+			top: 10%;
+		}
+		
+		.siteText p{
+			font-size: 18px;
+		}
+		.site_Title h2{
+			font-size: 60px;
+		}
+	}
+	@media (max-width: 660px){
+		
+	}
+	@media (max-width: 570px){
+	
+	}
+	@media (max-width: 540px){
+	
+	}
+	@media (max-width: 414px){
+		
+		.site_Title h2{
+			font-size: 70px;
+		}
+
+		.siteText{
+			width: 75%;
+		}
+		.siteText p{
+			font-size: 17px;
+		}
+
+		.site_Title h2{
+			font-size: 50px;
+		}
+
+		.menuSitesLinks{
+			width:100%;
+			margin-left: 0%;
+		}
+
+		.menuSitesLinks h1{
+			font-size: 1.65rem;
+		}
+
+	}
+	@media (max-width: 375px){
+
+		.menuSites h1{
+			font-size: 26px;
+		}
+
+		.site_Title h2{
+			font-size: 63px;
+		}
+
+		.siteText p{
+			font-size: 16px;
+		}
+
+	}
+
+	@media (max-width: 320px){
+
+		.menuSites h1{
+			font-size: 1.3rem;
+		}
+
+		.site_Title{
+			left: 10%;
+		}
+		.site_Title h2{
+			font-size: 55px;
+		}
+		.siteText p{
+			font-size: 14px;
+		}
+
+	}
 
 
 
