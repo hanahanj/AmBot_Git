@@ -457,7 +457,7 @@ p{
 .menu {
 	z-index: 1999;
 	position: fixed;
-	width: 80%;
+	width: 85%;
 	height: 12%;
 	margin:-10px;
 	opacity: 0;
@@ -847,13 +847,13 @@ p{
 
 @media (max-width: 375px){
 	.menuLinks{
-		left: 46px;
+		left: 50px;
 		top: 23px;
 	}
 
 	.menuLinks h1{
 		font-size: 1.56rem;
-		margin-left: 6px;
+		margin-left: 0px;
 	}
 	.menuIcon{
 		top: 2.5%;
@@ -876,7 +876,7 @@ p{
 
 @media (max-width: 320px){
 	.menuLinks{
-		left: 34px;
+		left: 40px;
 	}
 	.menuLinks h1{
 		font-size: 1.3rem;
