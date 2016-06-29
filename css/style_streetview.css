@@ -175,7 +175,7 @@
 		position: absolute;
 		bottom: 5px;
 		right: 6%;
-		width: 85%;
+		width: 88%;
 		display: inline-block;
 	}
 
@@ -289,6 +289,10 @@
 
 
 	@media (max-width: 1280px){
+		.menuSites{
+			width: 88%;
+		}
+
 		.site_Title{
 			bottom: 7%;
 		}
@@ -298,13 +302,7 @@
 			width: auto;
 		}
 	}
-
-
-	@media (max-width: 1190px){
-		
-	}
 	@media (max-width: 1024px){
-		
 		.site_Title h2{
 			font-size: 70px;
 		}
@@ -318,10 +316,10 @@
 		}
 
 	}
-	@media (max-width: 900px){
-		
-	}
 	@media (max-width: 768px){
+		.menuSites{
+			width: 100%;
+		}
 		.site_Title{
 			top: 10%;
 		}
@@ -333,21 +331,15 @@
 			font-size: 60px;
 		}
 	}
-	@media (max-width: 660px){
-		
-	}
-	@media (max-width: 570px){
 	
-	}
-	@media (max-width: 540px){
 	
-	}
 	@media (max-width: 414px){
-		
+		.menuSites h1 {
+			font-size: 29px;
+		}
 		.site_Title h2{
 			font-size: 70px;
 		}
-
 		.siteText{
 			width: 75%;
 		}
@@ -372,7 +364,7 @@
 	@media (max-width: 375px){
 
 		.menuSites h1{
-			font-size: 26px;
+			font-size: 27px;
 		}
 
 		.site_Title h2{
@@ -388,7 +380,7 @@
 	@media (max-width: 320px){
 
 		.menuSites h1{
-			font-size: 1.3rem;
+			font-size: 22.5px;
 		}
 
 		.site_Title{

@@ -533,6 +533,7 @@ p{
 /*=================archive page menu================*/
 .menuLinks #Aabout{
 	opacity: 0;
+/*	z-index:-100;*/
 }
 .menuLinks #Amap{
 	opacity: 0;
@@ -875,6 +876,17 @@ p{
 }
 
 @media (max-width: 320px){
+	.menubarClose1{
+		height: 4px;
+		width: 80%;
+    	top: 17px;
+
+	}
+	.menubarClose2{
+		height: 4px;
+		width: 80%;
+    	top: 17px;
+	}
 	.menuLinks{
 		left: 40px;
 	}
