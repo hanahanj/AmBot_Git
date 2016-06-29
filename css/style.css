@@ -3,12 +3,17 @@
 		overflow-x:hidden;
 	}
 
-	#Container{
+#Container{
 		position:absolute;
 		width:100%;
-		height:auto;
+		height:100%;
 	}
 
+	#LogoImage2 img{
+		width:80%;
+		padding-left: 10%;
+		padding-top: 5%;
+	}
 
 	/*@font-face {
 		font-family: "Interstate-Bold";
