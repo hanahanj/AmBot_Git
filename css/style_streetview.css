@@ -90,18 +90,6 @@
 		overflow-y:hidden;
 	}
 
-	#LogoImage img{
-		width:80%;
-		padding-left: 10%;
-	}
-
-	#soon{
-		position:relative;
-		text-align: center;
-		width: 80%;
-		padding-left:10%;
-	}
-
 	#titleImage img{
 		width: 100%;
 		height: auto;
@@ -141,7 +129,7 @@
 		bottom: 1%;
 		left:7%;
 		width: 60%;
-		/*z-index: -10;*/
+		z-index: 10;
 		opacity:1;
 	}
 
