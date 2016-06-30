@@ -1,29 +1,4 @@
-/*@font-face {
-	font-family: "Interstate-Bold";
-	src: url('fonts/INTBD.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
 
-@font-face {
-	font-family: "Interstate-CompressedBlack";
-	src: url('fonts/INTBLCM_.ttf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Interstate-Reg";
-	src: url('fonts/INTREG.otf');
-	font-weight: 100;
-	font-style: normal;
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-	}*/
 
 	body{
 		overflow-x:hidden;
@@ -157,7 +132,7 @@
 		padding: 10px;
 		padding-right: 20px;
 		overflow: scroll;
-		background-color:rgba(255, 255, 255, 0.3);
+		background-color:rgba(255, 255, 255, 0.5);
 
 	}
 
