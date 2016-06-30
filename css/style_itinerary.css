@@ -23,194 +23,194 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
-}*/
+  }*/
 
-body{
-  overflow-x:hidden;
-}
-
-
-.desContainer {
-  position:relative;
-  width:100%;
-  height:600px;
-  overflow:hidden;
-  margin-top: 50px
-}
-
-#allContainer {
-  position:absolute;
-  width:100%;
-  left:0px;
-  height:auto;
-  top:75%;
-}
-
-#allContainer_NoMap {
-  position:absolute;
-  width:100%;
-  left:0px;
-  height:auto;
-  top:10%;
-}
+  body{
+    overflow-x:hidden;
+  }
 
 
+  .desContainer {
+    position:relative;
+    width:100%;
+    height:600px;
+    overflow:hidden;
+    margin-top: 50px
+  }
 
-.background img{
-  position:relative;
-  width:100%;
-  height:auto;
-}
+  #allContainer {
+    position:absolute;
+    width:100%;
+    left:0px;
+    height:auto;
+    top:75%;
+  }
 
-
-#titleImage{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow:hidden;
-  overflow-y:hidden;
-
-}
-
-#titleImage img{
-  position:relative;
-  height:auto;
-  width:100%;
-  overflow:hidden;
-
-}
-
-.moreinfo{
-  position: absolute;
-  bottom: 250px;
-  right: -40px;
-  height: auto;
-  z-index: 20;
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-  transform: rotate(90deg);
-
-}
+  #allContainer_NoMap {
+    position:absolute;
+    width:100%;
+    left:0px;
+    height:auto;
+    top:10%;
+  }
 
 
-.streetView {
-  position: absolute;
-  top: 0%;
-  width: 100%;
-  height: 100%;
-  opacity:0;
-  z-index: 0;
+
+  .background img{
+    position:relative;
+    width:100%;
+    height:auto;
+  }
 
 
-}
+  #titleImage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    overflow-y:hidden;
 
-.directions {
-  position: relative;
-  top: 0%;
-  width: 100%;
-  height: 100%;
-  opacity:1;
-}
+  }
 
-.directions:hover{
-  cursor: move; /* fallback if grab cursor is unsupported */
+  #titleImage img{
+    position:relative;
+    height:auto;
+    width:100%;
+    overflow:hidden;
+
+  }
+
+  .moreinfo{
+    position: absolute;
+    bottom: 250px;
+    right: -40px;
+    height: auto;
+    z-index: 20;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+
+  }
+
+
+  .streetView {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    z-index: 0;
+
+
+  }
+
+  .directions {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    opacity:1;
+  }
+
+  .directions:hover{
+    cursor: move; /* fallback if grab cursor is unsupported */
     cursor: grab;
     cursor: -moz-grab;
     cursor: -webkit-grab;
-}
+  }
 
-.directions iframe{
-  position:absolute;
-  width:100%;
-  height:100%;
-}
-
-
-.Title{
-  position: relative;
-  top: 75%;
-  left: 8%;
-  width:70%;
-  z-index: -10;
-  opacity: 1;
-
-}
-
-.Title h1{
-  font-family: "Interstate Bd";
-  font-size: 48px;
-  line-height: 1em;
-  text-align: left;
-
-}
-
-.Title h2{
-  font-size: 75px;
-  line-height: .8em;
-  text-align: left;
-}
-
-.site_Title h4{
-  font-family: "Interstate Bd Cond";
-  text-transform: uppercase;
-  font-size: 32px;
-  font-style: italic;
-  line-height: .8em;
-  margin:0;
-  padding-top: 20px;
-
-}
-
-.itinerary_siteText{
-  padding: 0;
-  position: relative;
-  width: 55%;
-  margin-left: 20%;
-  border-left: none;
-  padding: 10px;
-  opacity: 1;
-
-}
-
-.itinerary_siteText h1{
-  margin-top: 25px;
-  font-size: 36px;
-  text-decoration: underline;
-  font-style: normal;
-  color:#000000;
-}
-
-.itinerary_siteText h1 a:hover{
-  text-decoration: underline;
-  font-style: italic;
-  color:#000000;
-}
+  .directions iframe{
+    position:absolute;
+    width:100%;
+    height:100%;
+  }
 
 
-#leftAlign{
-  text-align: left;
+  .Title{
+    position: relative;
+    top: 75%;
+    left: 8%;
+    width:70%;
+    z-index: -10;
+    opacity: 1;
 
-}
+  }
+
+  .Title h1{
+    font-family: "Interstate Bd";
+    font-size: 48px;
+    line-height: 1em;
+    text-align: left;
+
+  }
+
+  .Title h2{
+    font-size: 75px;
+    line-height: .8em;
+    text-align: left;
+  }
+
+  .site_Title h4{
+    font-family: "Interstate Bd Cond";
+    text-transform: uppercase;
+    font-size: 32px;
+    font-style: italic;
+    line-height: .8em;
+    margin:0;
+    padding-top: 20px;
+
+  }
+
+  .itinerary_siteText{
+    padding: 0;
+    position: relative;
+    width: 55%;
+    margin-left: 20%;
+    border-left: none;
+    padding: 10px;
+    opacity: 1;
+
+  }
+
+  .itinerary_siteText h1{
+    margin-top: 25px;
+    font-size: 36px;
+    text-decoration: underline;
+    font-style: normal;
+    color:#000000;
+  }
+
+  .itinerary_siteText h1 a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color:#000000;
+  }
 
 
-#rightAlign{
-  text-align: right;
-  
-}
+  #leftAlign{
+    text-align: left;
 
-.destinationTitle{
-  /*margin-top: 100px;*/
-  margin-left: 8%;
-}
+  }
 
-.destinationTitle h3{
- font-family: "Interstate Bd Cond";
- text-transform: uppercase;
- /*font-style: italic;*/
- font-size: 50px;
-}
 
-.destinationTitle h4{
+  #rightAlign{
+    text-align: right;
+
+  }
+
+  .destinationTitle{
+    /*margin-top: 100px;*/
+    margin-left: 8%;
+  }
+
+  .destinationTitle h3{
+   font-family: "Interstate Bd Cond";
+   text-transform: uppercase;
+   /*font-style: italic;*/
+   font-size: 50px;
+ }
+
+ .destinationTitle h4{
   font-family: "Interstate Bd Cond";
   text-transform: uppercase;
   text-decoration: underline;
@@ -334,10 +334,10 @@ sup{
 /*Carousel*//*/////////////////////////////*/
 
 .container {
-   position:relative;
-  width:75%;
-  height:100%;
-  display:inline-block;
+ position:relative;
+ width:75%;
+ height:100%;
+ display:inline-block;
 }
 .container div {
   width: auto;
@@ -377,7 +377,135 @@ button {
 
 
 
+@media (max-width: 1280px){
 
+}
+
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 414px){
+  .Title h2{
+    font-size: 60px;
+  }
+  .Title h1{
+    font-size: 30px;
+  }
+
+  .itinerary_siteText {
+    margin-left: 6%;
+    width: 80%;
+  }
+  .itinerary_siteText p{
+    font-size: 16px;
+  }
+  .stopImg {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 22px;
+    margin-left: 9%;
+  }
+  .stopImg .IMGcaption{
+    width: 75%;
+  }
+
+  .stopImg .IMGcaption p{
+    padding-bottom: 10px;
+  }
+  .destinationTitle h3 {
+    font-size: 35px;
+    -webkit-margin-before: 0.7em;
+    -webkit-margin-after: 0.8em;
+  }
+  .destinationTitle h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .stopImg .container div {
+    height: 190px;
+  }
+
+  #leftAlign ol li p{
+    font-size: 13px;
+  }
+
+  .carouselBtns{
+    position: relative;
+    left: 135px;
+  }
+  .menuLinks {
+    left: 56px;
+    top: 34px;
+  }
+
+  #pullquote{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+}
+@media (max-width: 375px){
+  .itinerary_siteText p{
+    font-size: 15.5px;
+  }
+
+  .destinationTitle h3 {
+    font-size: 33px;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+  }
+  .carouselBtns{
+    position: relative;
+    left: 120px;
+  }
+
+  .menuLinks {
+    left: 53px;
+    top: 30px;
+  }
+}
+
+@media (max-width: 320px){
+  .itinerary_siteText p{
+    font-size: 13.7px;
+  }
+  .carouselBtns{
+    left: 100px;
+  }
+  .prev{
+    margin-top: -50px;
+  }
+  .next{
+    margin-top: -50px;
+  }
+
+  #leftAlign ol li{
+    font-size: 10px;
+  }
+  #leftAlign ol li p{
+    font-size: 10px;
+  }
+  .menu{
+    width: 80%;
+  }
+
+  .menuLinks {
+    left: 51px;
+    top: 28px;
+  }
+
+  .destinationTitle h3 {
+    font-size: 33px;
+    -webkit-margin-before: 0.6em;
+    -webkit-margin-after: 0.2em;
+  }
+}
 
 
 
