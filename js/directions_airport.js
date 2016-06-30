@@ -3,7 +3,7 @@ $(document).ready(function(){
 	if (matchMedia) {
 		var mq = window.matchMedia("(min-width: 321px)");
 		mq.addListener(WidthChange);
-		WidthChange(mq);
+	WidthChange(mq);
 	}
 
 	// media query change

@@ -107,7 +107,9 @@ $('.menuFloatVisit').mouseover('click touchstart', function() {
 	$('.streetView').css({"z-index": '-10'}); 
 	$('#titleImage').animate({opacity: '0'}, 800);
 	$('#titleImage').css({"z-index": '-10'}); 
-	// $('.siteText').animate({top: '100%',}, 300);
+	if (screen.width <= 768) {
+		$('.site_Title').css({'display': 'none',}, 30);
+	}
 	// $('.close').animate({opacity: '0'}, 300);  
 
 	$(this).css({"text-decoration":"underline", "font-style": "italic"});
