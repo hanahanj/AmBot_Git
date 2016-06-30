@@ -15,43 +15,6 @@
 		padding-top: 5%;
 	}
 
-	/*@font-face {
-		font-family: "Interstate-Bold";
-		src: url('fonts/INTBD.ttf');
-		font-weight: 100;
-		font-style: normal;
-		-webkit-font-smoothing: antialiased;
-		font-style: normal;
-	}
-
-	@font-face {
-		font-family: "Interstate-CompressedBlack";
-		src: url('fonts/INTBLCM_.ttf');
-		font-weight: 100;
-		font-style: normal;
-		-webkit-font-smoothing: antialiased;
-		font-style: normal;
-	}
-
-	@font-face {
-		font-family: "Interstate-CondensedBold";
-		src: url('fonts/INTBDCN_.ttf');
-		font-weight: 100;
-		font-style: normal;
-		-webkit-font-smoothing: antialiased;
-		font-style: normal;
-	}
-
-	@font-face {
-		font-family: "Interstate-Reg";
-		src: url('fonts/INTREG.otf');
-		font-weight: 100;
-		font-style: normal;
-		-webkit-font-smoothing: antialiased;
-		font-style: normal;
-	}*/
-
-
 	h1{
 		font-family: "Interstate Bla Comp";
 		font-size: 48px;
@@ -123,6 +86,15 @@
 		text-align: right;
 	}
 
+	#editorialNote p{
+		font-family: "Interstate Bd";
+		font-size: 8px;
+		color:#000000;
+
+	}
+
+	}
+
 	.splashDescription{
 		background-color:rgba(255, 255, 255, 1.0);
 		position: fixed;
@@ -134,28 +106,8 @@
 		overflow: scroll;
 	}
 
-	.splashDescription h1{
-		font-family: "Interstate Bd";
-		font-size: 48px;
-		line-height: 1em;
-		text-align: left;
-		color: white;
-	}
+	
 
-	#splashText{
-		position:relative;
-		padding-top: 25px;
-		margin-top: 25px;
-		padding-right: 100px;
-	}
-
-	.splashDescription p{
-		/*font-family: "Interstate-Bold";*/
-		padding-left: 6%;
-		padding-right: 6%;
-		color: #000000;
-		font-size: 18px
-	}
 
 	.splashClose{
 		position:fixed;

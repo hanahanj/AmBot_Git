@@ -47,6 +47,13 @@ $('.homeClose').click('click touchstart', function() {
 		$('#map3').animate({opacity: '0'}, 800); 
 	});
 
+	$('#IT4').mouseover('click touchstart', function() {  
+		$('#map4').animate({opacity: '1'}, 500); 
+	});
+	$('#IT4').mouseleave('click touchstart', function() {  
+		$('#map4').animate({opacity: '0'}, 800); 
+	});
+
 	$('#IT5').mouseover('click touchstart', function() {  
 		$('#map5').animate({opacity: '1'}, 500); 
 	});
