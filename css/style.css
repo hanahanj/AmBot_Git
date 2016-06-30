@@ -86,15 +86,6 @@
 		text-align: right;
 	}
 
-	#editorialNote p{
-		font-family: "Interstate Bd";
-		font-size: 8px;
-		color:#000000;
-
-	}
-
-	}
-
 	.splashDescription{
 		background-color:rgba(255, 255, 255, 1.0);
 		position: fixed;
