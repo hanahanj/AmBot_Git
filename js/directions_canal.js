@@ -13,15 +13,15 @@ $(document).ready(function(){
     	var directionsPanelIn = true;
     	$(".directionButton").click(function(){
     		if (directionsPanelIn == true){
-				$("#directionsPanel").animate({left: '-310px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
-				$(".directionButton #directionClose1").css({transform: 'rotate(60deg)'}, 2000);
-				$(".directionButton #directionClose2").css({transform: 'rotate(-60deg)'}, 2000);
-				directionsPanelIn = false;
-			}
-			else{
 				$("#directionsPanel").animate({left: '25px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
 				$(".directionButton #directionClose1").css({transform: 'rotate(-60deg)'}, 2000);
 				$(".directionButton #directionClose2").css({transform: 'rotate(60deg)'}, 2000);
+				directionsPanelIn = false;
+			}
+			else{
+				$("#directionsPanel").animate({left: '-310px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
+				$(".directionButton #directionClose1").css({transform: 'rotate(60deg)'}, 2000);
+				$(".directionButton #directionClose2").css({transform: 'rotate(-60deg)'}, 2000);
 				directionsPanelIn = true;
 			}
 		});
@@ -30,15 +30,15 @@ $(document).ready(function(){
     	var directionsPanelIn = true;
     	$(".directionButton").click(function(){
     		if (directionsPanelIn == true){
-				$("#directionsPanel").animate({left: '-250px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
-				$(".directionButton #directionClose1").css({transform: 'rotate(60deg)'}, 2000);
-				$(".directionButton #directionClose2").css({transform: 'rotate(-60deg)'}, 2000);
-				directionsPanelIn = false;
-			}
-			else{
 				$("#directionsPanel").animate({left: '25px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
 				$(".directionButton #directionClose1").css({transform: 'rotate(-60deg)'}, 2000);
 				$(".directionButton #directionClose2").css({transform: 'rotate(60deg)'}, 2000);
+				directionsPanelIn = false;
+			}
+			else{
+				$("#directionsPanel").animate({left: '-250px'}, 500); //1st variable indicate height or width; 2nd variable indicates time in millis
+				$(".directionButton #directionClose1").css({transform: 'rotate(60deg)'}, 2000);
+				$(".directionButton #directionClose2").css({transform: 'rotate(-60deg)'}, 2000);
 				directionsPanelIn = true;
 			}
 		});
@@ -46,7 +46,6 @@ $(document).ready(function(){
     }
 }
 });
-
 
 
 function geoTest() {

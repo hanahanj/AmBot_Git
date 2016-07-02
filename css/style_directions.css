@@ -37,7 +37,7 @@ body {
   padding: 0;
   position: absolute;
   top:11%;
-  left: 20px;
+  left: -310px;
   width: 280px;
   height: 73%;
   background: rgba(255,255,255,0.8);
@@ -94,9 +94,9 @@ body {
   top: 26px;
   z-index: 200;
   background-color: #000000;
-  transform: rotate(-60deg);
-  -ms-transform: rotate(-60deg);
-  -webkit-transform: rotate(-60deg);
+  transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
 }
 
 .directionButton #directionClose2{
@@ -107,9 +107,9 @@ body {
   top: 38px;
   z-index: 200;
   background-color: #000000;
-  transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  -webkit-transform: rotate(60deg);
+  transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
 
 }
 
