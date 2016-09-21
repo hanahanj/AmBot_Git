@@ -89,7 +89,7 @@ var fType = getUrlVars()["q"];
 			directionsService, directionsDisplay, 
 			autoSrc, autoDest, pinA, pinB, 
 
-			markerA = new google.maps.MarkerImage('m1.png')		
+			markerA = new google.maps.MarkerImage('m1.png'),		
 			markerB = new google.maps.MarkerImage('m_None.png')
 
 				// Caching the Selectors		
