@@ -50,6 +50,7 @@ $(document).ready(function(){
      	streetViewControl: false,
      	styles: styles,
      	mapTypeControl: true,
+     	 scrollwheel: false, 
      	mapTypeControlOptions: {
      		mapTypeIds: [google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.TERRAIN],
      		style: google.maps.MapTypeControlStyle.DEFAULT,
