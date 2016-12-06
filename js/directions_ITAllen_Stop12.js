@@ -127,6 +127,8 @@ var fType = getUrlVars()["q"];
      	styles: styles,
 
      	 disableDefaultUI: true,
+     	// disables scrollwheel so when you scroll page the map doesnt zoom
+     	 scrollwheel: false, 
 
      	mapTypeId: google.maps.MapTypeId.SATELLITE
      });

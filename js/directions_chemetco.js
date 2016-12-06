@@ -47,29 +47,6 @@ $(document).ready(function(){
 }
 });
 
-function geoTest() {
-
-	if (google.loader.ClientLocation) {
-
-		var latitude = google.loader.ClientLocation.latitude;
-		var longitude = google.loader.ClientLocation.longitude;
-		var city = google.loader.ClientLocation.address.city;
-		var country = google.loader.ClientLocation.address.country;
-		var country_code = google.loader.ClientLocation.address.country_code;
-		var region = google.loader.ClientLocation.address.region;
-
-        //var text = latitude + ' ,' + longitude;
-        var text = city + ' ,' + region;
-
-    } else {
-
-    	var text = '';
-
-    }
-
-    return text;
-}
-
 function getUrlVars() {
 	var vars = {};
 	var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,    
@@ -84,9 +61,7 @@ var fType = getUrlVars()["q"];
 (function(mapDemo, $, undefined) {
 	mapDemo.Directions = (function() {
 		function _Directions() {
-			var map,   
-			directionsService, directionsDisplay, 
-			autoSrc, autoDest, pinA, pinB, 
+			var map, directionsService, directionsDisplay, autoSrc, autoDest, pinA, pinB, 
 
 			markerA = new google.maps.MarkerImage('m1.png')		
 			markerB = new google.maps.MarkerImage('m_None.png')
