@@ -68,8 +68,14 @@
 
 	<div id="bgContainer">
 		<div id = "titleImage">
-			<img src="images/sites/Grizzlies.jpg" >
+			<div class="blur">
+				<img src="images/sites/progressive/Grizzlies_SM.jpg" class="img-small"> <!-- Insert Low-Res Placeholder Here -->
+			</div>
+		<div class="placeholder">
+				<img src="images/sites/progressive/Grizzlies_LG.jpg" class="img-large"> <!-- Insert Hi-Res Image Here -->
+		<div style="padding-bottom: 66.6%;"></div>
 		</div>
+	</div>
 
 		<!-- replace a new iframe link -->
 		<div class="streetView">
@@ -93,5 +99,7 @@
 </div>
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/streetviewToggle.js"></script>
+<script src="js/progressive.js"></script>
+
 </body>
 </html>
