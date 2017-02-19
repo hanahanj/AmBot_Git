@@ -224,6 +224,13 @@ $('#site_eastStLouis').mouseover(function(){
      $('#title_eastStLouis').fadeTo('fast', 0);
      $('#site_eastStLouis img').fadeTo('fast', 1);
  });
+ $('#site_emmertZippel').mouseover(function(){
+     $('#title_emmertZippel').fadeTo('fast', 1);
+     $('#site_emmertZippel img').fadeTo('fast', 0.5);
+ });$('#site_emmertZippel').mouseleave(function(){
+     $('#title_emmertZippel').fadeTo('fast', 0);
+     $('#site_emmertZippel img').fadeTo('fast', 1);
+ });
 $('#site_ferry').mouseover(function(){
      $('#title_ferry').fadeTo('fast', 1);
      $('#site_ferry img').fadeTo('fast', 0.5);
