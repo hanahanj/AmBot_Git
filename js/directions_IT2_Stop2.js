@@ -144,7 +144,7 @@ var fType = getUrlVars()["q"];
      	map: map,
      	icon: imageMark1,
 	// animation: google.maps.Animation.DROP,
-	title: 'Roxana Mound'
+	title: 'Chemetco'
 });
 
 
