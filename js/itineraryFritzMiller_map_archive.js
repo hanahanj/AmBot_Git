@@ -41,7 +41,7 @@ $(document).ready(function(){
      ];
 
      var map_options = {
-     	center: new google.maps.LatLng(38.757004, -90.043843),
+     	center: new google.maps.LatLng(38.689479, -90.036053),
      	mapTypeId: google.maps.MapTypeId.TERRAIN,
      	zoom: 12,
      	panControl: false,
@@ -69,7 +69,7 @@ $(document).ready(function(){
      var markers = [
 	    // Detailed information for each marker, where it is located and where it lineks to
 	    
-	    ['Site 1', 38.757004, -90.043843, 'insert Site'],
+	    ['Site 1', 38.689479, -90.036053, 'insert Site'],
 
 	   
 	    
