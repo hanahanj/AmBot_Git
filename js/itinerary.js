@@ -54,43 +54,62 @@ $('.map').mouseup(function() {
 	$(this).css({"z-index": '100'});  
 });
 
-//////////// Carousel 
 
-var currentIndex = 0,
-items = $('.container div'),
-itemAmt = items.length;
+//////////// New Carousel
 
-function cycleItems() {
-  var item = $('.container div').eq(currentIndex);
-  items.hide();
-  item.css('display','inline-block');
-}
 
-var autoSlide = setInterval(function() {
-  currentIndex += 1;
-  if (currentIndex > itemAmt - 1) {
-    currentIndex = 0;
-  }
-  cycleItems();
-},10000);
 
-$('.next').click(function() {
-  clearInterval(autoSlide);
-  currentIndex += 1;
-  if (currentIndex > itemAmt - 1) {
-    currentIndex = 0;
-  }
-  cycleItems();
-});
+  $('.carousel').slick({ 
+    centerMode:true,
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  arrows:true,
+  
+  });
 
-$('.prev').click(function() {
-  clearInterval(autoSlide);
-  currentIndex -= 1;
-  if (currentIndex < 0) {
-    currentIndex = itemAmt - 1;
-  }
-  cycleItems();
-});
+
+
+
+//////////// Old Carousel 
+
+// var currentIndex = 0,
+// items = $('.carousel div'),
+// itemAmt = items.length;
+
+// function cycleItems() {
+//   var item = $('.carousel div').eq(currentIndex);
+//   items.hide();
+//   item.css('display','inline-block');
+// }
+
+// var autoSlide = setInterval(function() {
+//   currentIndex += 1;
+//   if (currentIndex > itemAmt - 1) {
+//     currentIndex = 0;
+//   }
+//   cycleItems();
+// },10000);
+
+// $('.next').click(function() {
+//   clearInterval(autoSlide);
+//   currentIndex += 1;
+//   if (currentIndex > itemAmt - 1) {
+//     currentIndex = 0;
+//   }
+//   cycleItems();
+// });
+
+// $('.prev').click(function() {
+//   clearInterval(autoSlide);
+//   currentIndex -= 1;
+//   if (currentIndex < 0) {
+//     currentIndex = itemAmt - 1;
+//   }
+//   cycleItems();
+// });
 
 
 
